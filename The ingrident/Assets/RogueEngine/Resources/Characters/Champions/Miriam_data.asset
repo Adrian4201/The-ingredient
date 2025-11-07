@@ -9,38 +9,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
+  m_Script: {fileID: 11500000, guid: 9ac0c3319c62cf04885caa19ba4102e5, type: 3}
   m_Name: Miriam_data
   m_EditorClassIdentifier: 
   id: Miriam
   title: Miriam
-  art_full: {fileID: 0}
+  art_full: {fileID: 21300000, guid: 4355836fc772eb14ca9a3ab3931b0f8e, type: 3}
   art_portrait: {fileID: 0}
   prefab: {fileID: 1062729138743560307, guid: abe079739eebd2745955ce3cf1762191, type: 3}
   hp: 50
-  speed: 5
-  hand: 4
+  speed: 4
+  hand: 5
   energy: 3
-  level_max: 1
   level_up_hp: 0
   level_up_speed: 0
   level_up_hand: 0
   level_up_energy: 0
-  behavior: {fileID: 0}
+  team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
   traits: []
   stats: []
   abilities: []
-  cards:
+  start_cards:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  reward_gold: 0
-  reward_xp: 0
+  start_items: []
+  reward_cards: []
   desc: 
-  spawn_fx: {fileID: 0}
-  death_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
-  death_audio: {fileID: 0}
