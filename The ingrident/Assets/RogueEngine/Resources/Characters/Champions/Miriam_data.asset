@@ -33,6 +33,10 @@ MonoBehaviour:
   cards:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   reward_gold: 0
   reward_xp: 0
   desc: 
