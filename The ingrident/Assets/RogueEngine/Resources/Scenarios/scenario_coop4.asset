@@ -15,9 +15,13 @@ MonoBehaviour:
   id: scenario_coop4
   title: Co-op 4
   desc: 
-  champions: 4
+  champions: 1
   start_gold: 250
   start_xp: 0
+  start_cards: []
+  start_items: []
+  available_champions:
+  - {fileID: 11400000, guid: 558be319544b11e4fb6f0446002629ac, type: 2}
   enemy_hp_percentage: 2
   enemy_power_add: 2
   enemy_armor_add: 0

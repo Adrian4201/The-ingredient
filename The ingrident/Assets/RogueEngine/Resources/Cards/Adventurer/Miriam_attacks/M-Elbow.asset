@@ -22,7 +22,9 @@ MonoBehaviour:
   rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
   mana: 0
   traits: []
-  stats: []
+  stats:
+  - trait: {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
+    value: 5
   abilities:
   - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
   level_max: 3
