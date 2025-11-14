@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352676b4616ff8a45837071a2fc469a4, type: 3}
+  m_Name: MysteryBarrel
+  m_EditorClassIdentifier: 
+  id: MysteryBarrel
+  depth_min: 2
+  depth_max: 99
+  icon: {fileID: 0}
+  text: You come across a Mysterious barrel.
+  choices:
+  - text: Check inside
+    subtext: 
+    effect: {fileID: 11400000, guid: 748fcc2f23019f44fb40440fdd083f4b, type: 2}
+  - text: Refain from investigating.
+    subtext: 
+    effect: {fileID: 11400000, guid: 777e0b881c1878948b602d5cc7afc494, type: 2}

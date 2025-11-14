@@ -15,7 +15,7 @@ MonoBehaviour:
   id: CrimsonCarrion
   title: CrimsonCarrion
   art_full: {fileID: 21300000, guid: 4ad92f40c2308674686d2f9c434b9d09, type: 3}
-  art_portrait: {fileID: 0}
+  art_portrait: {fileID: 21300000, guid: b16f6491da949cb4fb381c9932a1fae7, type: 3}
   prefab: {fileID: 3315427549352430699, guid: 77a016309b8ec1947b781a4db752cb62, type: 3}
   hp: 40
   speed: 3
