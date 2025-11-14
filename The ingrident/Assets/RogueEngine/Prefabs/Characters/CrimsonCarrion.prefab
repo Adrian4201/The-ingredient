@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 2975127404465378842}
   - component: {fileID: 8679725737659872924}
   m_Layer: 0
-  m_Name: Hound
+  m_Name: CrimsonCarrion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -217,13 +217,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3315427549983643363}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9996679, z: -0, w: 0.025771286}
-  m_LocalPosition: {x: 0.17, y: 0.57, z: 0.02}
-  m_LocalScale: {x: 0.9506232, y: 0.992468, z: 0.992468}
+  m_LocalRotation: {x: -0.0000000071867117, y: 0.99992424, z: 0.0000003733935, w: -0.01231545}
+  m_LocalPosition: {x: 0.4, y: 0.99, z: -0.02}
+  m_LocalScale: {x: 1.7364147, y: 1.8128486, z: 1.8128486}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3886660705336385944}
-  m_LocalEulerAnglesHint: {x: 0, y: 177.047, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 181.411, z: 0}
 --- !u!212 &3315427549983643388
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -437,7 +437,7 @@ PrefabInstance:
     - target: {fileID: 3597291173043272226, guid: 116ffb266e823be4b93c803237e08123,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.511
+      value: 2.37
       objectReference: {fileID: 0}
     - target: {fileID: 6167360153232016904, guid: 116ffb266e823be4b93c803237e08123,
         type: 3}
