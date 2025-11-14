@@ -14,6 +14,8 @@ namespace RogueEngine
     {
         public bool ignore_shield;
         public bool shield_only;
+        
+        [Header("Gain money")]
         public int Gain_gold;
 
         public override void DoMapEventEffect(WorldLogic logic, EventEffect evt, Champion champion)
@@ -39,6 +41,11 @@ namespace RogueEngine
         public int GetDamage(AbilityData ability, BattleCharacter caster, Card card)
         {
             return ability.GetValue(caster, card);
+        }
+        public void trade(WorldLogic logic, Champion target)
+        {
+            Player player = logic.WorldData.GetPlayer(target.player_id);
+            player.gold += Gain_gold;
         }
     }
 }

@@ -20,7 +20,7 @@ MonoBehaviour:
   choices:
   - text: Check inside
     subtext: 
-    effect: {fileID: 11400000, guid: 748fcc2f23019f44fb40440fdd083f4b, type: 2}
+    effect: {fileID: 11400000, guid: b8304e56e99f8b04688c26a284495eba, type: 2}
   - text: Refain from investigating.
     subtext: 
     effect: {fileID: 11400000, guid: 777e0b881c1878948b602d5cc7afc494, type: 2}

@@ -21,8 +21,9 @@ MonoBehaviour:
   width_max: 6
   fork_probability: 0.25
   events:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
+  - {fileID: 11400000, guid: 99dffdc55543e3341b0a4d04ea58a2ce, type: 2}
+  - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
   fixed_widths: []
   fixed_events: []
   map_tutorial: {fileID: 0}
