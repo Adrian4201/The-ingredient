@@ -638,6 +638,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -183.90002
       objectReference: {fileID: 0}
+    - target: {fileID: 2244528011944064868, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2283880494823877387, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -753,6 +758,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 3073922849292977232}
+    - target: {fileID: 8836833634350537301, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2037,7 +2047,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: b763dcf6dfb875f4eada8779702479f6, type: 3}
+  m_Sprite: {fileID: -2493015067359764454, guid: 1c828dcdd8405d941942c1ed34f6e3d6,
+    type: 3}
   m_Color: {r: 0.81886786, g: 0.81886786, b: 0.81886786, a: 1}
   m_FlipX: 0
   m_FlipY: 0
