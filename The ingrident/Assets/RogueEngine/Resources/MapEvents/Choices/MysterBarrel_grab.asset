@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: MysterBarrel_grab
   m_EditorClassIdentifier: 
   id: MysterBarrel_grab
-  depth_min: 2
-  depth_max: 99
+  depth_min: 0
+  depth_max: 1
   icon: {fileID: 0}
   target: 15
   spend_cards: []
