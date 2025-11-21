@@ -24,12 +24,13 @@ MonoBehaviour:
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
-  abilities: []
+  abilities:
+  - {fileID: 11400000, guid: 8ae7f6d08b06fb545a85491d32e639be, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 0}
-  text: 
+  text: Deal 1 Damage. Surge.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}

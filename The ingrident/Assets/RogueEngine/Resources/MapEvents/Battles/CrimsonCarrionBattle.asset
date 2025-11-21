@@ -21,9 +21,8 @@ MonoBehaviour:
   enemies:
   - {fileID: 0}
   - {fileID: 11400000, guid: 01803a162b329b74e9bc798da9f815cb, type: 2}
-  - {fileID: 11400000, guid: 01803a162b329b74e9bc798da9f815cb, type: 2}
   extra_enemies: []
-  reward_gold: 0
+  reward_gold: 2
   reward_xp: 0
   reward_cards: 1
   card_rarity: {fileID: 0}
