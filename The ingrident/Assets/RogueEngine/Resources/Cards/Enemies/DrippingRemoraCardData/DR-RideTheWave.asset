@@ -10,26 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
-  m_Name: M-Knee
+  m_Name: DR-RideTheWave
   m_EditorClassIdentifier: 
-  id: M-Knee
-  title: M Knee
+  id: DR-RideTheWave
+  title: 
   art_icon: {fileID: 0}
-  art_full: {fileID: 21300000, guid: 92d0d359788133b4a91ea66346baf2d9, type: 3}
-  card_type: 30
+  art_full: {fileID: 21300000, guid: 021cfe4ab3735db439ebc5f743249d12, type: 3}
+  card_type: 0
   item_type: 0
-  team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
-  rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
+  team: {fileID: 11400000, guid: ed6dfd9dc7797584994eaf1fba66535f, type: 2}
+  rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}
   mana: 1
-  traits: []
+  traits:
+  - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
   - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
-  level_max: 3
+  - {fileID: 11400000, guid: c693e6f742067874cb7c19002d5d972c, type: 2}
+  level_max: 1
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 0}
-  text: Deal 2 Damage
+  text: Deal 2 Damage, Gain 1 Fury.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}

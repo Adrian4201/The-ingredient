@@ -34,8 +34,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6345857f12d114845aaa4f00ab3b4ec4, type: 2}
   - {fileID: 11400000, guid: 5165874c78a5e94498aa5527410dd2ab, type: 2}
   - {fileID: 11400000, guid: c877f6b642d781f43b50ff4a6c09a2b0, type: 2}
-  - {fileID: 11400000, guid: 97357b2131830ed43a0b2fa976001f95, type: 2}
-  - {fileID: 11400000, guid: 4f00f18950ee6ee46811ed64d9b4e98c, type: 2}
+  - {fileID: 11400000, guid: 54867c493b0a06b4186f608f97b06520, type: 2}
+  - {fileID: 11400000, guid: 87e7b994ca6c37845a331482613530e5, type: 2}
   start_items: []
   reward_cards:
   - {fileID: 11400000, guid: 7bc636fc5705f6143ac7676532f19540, type: 2}
