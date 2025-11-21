@@ -20,7 +20,7 @@ MonoBehaviour:
   item_type: 0
   team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
   rarity: {fileID: 11400000, guid: 15eaa2a0fbd97f149b3aa87387c160d1, type: 2}
-  mana: 0
+  mana: 1
   traits: []
   stats: []
   abilities:
@@ -29,7 +29,7 @@ MonoBehaviour:
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 0}
-  text: 
+  text: Deal 3 Damage
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
