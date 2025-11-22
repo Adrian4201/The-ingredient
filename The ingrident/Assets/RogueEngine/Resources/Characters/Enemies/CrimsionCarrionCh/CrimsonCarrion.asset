@@ -20,7 +20,7 @@ MonoBehaviour:
   hp: 40
   speed: 3
   hand: 1
-  energy: 0
+  energy: 2
   level_max: 1
   level_up_hp: 0
   level_up_speed: 0

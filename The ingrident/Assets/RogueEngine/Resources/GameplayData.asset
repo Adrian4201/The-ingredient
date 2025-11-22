@@ -24,5 +24,5 @@ MonoBehaviour:
   progress_unlock_items: 1
   test_scenario: {fileID: 11400000, guid: fb3c5b7ee92e06943828ff0fc2bad470, type: 2}
   test_champion: {fileID: 11400000, guid: 37f1233195d7acf47ae69fbc5abe7664, type: 2}
-  test_battle: {fileID: 11400000, guid: 0d1e65b3c87f99444b1308e1fb408477, type: 2}
+  test_battle: {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
   test_disable_intent: 0
