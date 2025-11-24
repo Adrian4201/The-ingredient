@@ -20,7 +20,7 @@ MonoBehaviour:
   hp: 40
   speed: 3
   hand: 1
-  energy: 2
+  energy: 1
   level_max: 1
   level_up_hp: 0
   level_up_speed: 0
@@ -30,7 +30,11 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities: []
-  cards: []
+  cards:
+  - {fileID: 11400000, guid: 7583d5127097d8e48987d112b9da3217, type: 2}
+  - {fileID: 11400000, guid: fc9bec08776235c419b7b5b736839913, type: 2}
+  - {fileID: 11400000, guid: 24f2e2bd864e6cf4599b6a757b6edad6, type: 2}
+  - {fileID: 11400000, guid: 13af09ccd68ce594aa72ac35d0908681, type: 2}
   reward_gold: 0
   reward_xp: 0
   desc: 
