@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/RogueEngine/Scenes/Menu/LoginMenu.unity
     guid: 8cbdb492db4e09042a4393591c0007e5
   - enabled: 1
