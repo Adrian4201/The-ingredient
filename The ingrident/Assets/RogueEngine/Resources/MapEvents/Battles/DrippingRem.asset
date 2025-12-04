@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fe5248cf38bc354b9c3425704bc1174, type: 3}
-  m_Name: ArmImpBattle
+  m_Name: DrippingRem
   m_EditorClassIdentifier: 
-  id: ArmImpBattle
+  id: DrippingRem
   depth_min: 1
   depth_max: 12
   icon: {fileID: 21300000, guid: f5eee583b7d623a4ab6610ce82352d67, type: 3}
   scene: 
   enemies_level: 1
   enemies:
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 87805ca0c11904b4da4176e2f1bf6044, type: 2}
+  - {fileID: 11400000, guid: 12b7fda096eb86249b57e1e1e1b0be59, type: 2}
   extra_enemies: []
   reward_gold: 0
   reward_xp: 0
