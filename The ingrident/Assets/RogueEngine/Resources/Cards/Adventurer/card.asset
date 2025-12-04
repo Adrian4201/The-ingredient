@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
   m_Name: card
   m_EditorClassIdentifier: 
-  id: 
-  title: 
+  id: CardTemp
+  title: EmptyCard
   art_icon: {fileID: 0}
   art_full: {fileID: 0}
   card_type: 20
   item_type: 0
-  team: {fileID: 0}
-  rarity: {fileID: 0}
+  team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
+  rarity: {fileID: 11400000, guid: 80387c89b69729144b8397050270c574, type: 2}
   mana: 0
   traits:
   - {fileID: 11400000, guid: 17ea253e5ca2e81409b0944ff29bfed9, type: 2}
   stats: []
   abilities:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 8ae7f6d08b06fb545a85491d32e639be, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
