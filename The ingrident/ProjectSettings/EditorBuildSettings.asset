@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/RogueEngine/Scenes/Menu/LoginMenu.unity
     guid: 8cbdb492db4e09042a4393591c0007e5
-  - enabled: 1
+  - enabled: 0
     path: Assets/RogueEngine/Scenes/Menu/Menu.unity
     guid: 4566b59cd2acb7347b68ebb689bbe171
+  - enabled: 1
+    path: Assets/RogueEngine/Scenes/Game/Cutscene.unity
+    guid: 4b22021d6d93f894db4f6275e3abfa39
   - enabled: 1
     path: Assets/RogueEngine/Scenes/Game/GameSetup.unity
     guid: 3b2ce7b782dbdea47ad24e4f7e52d451
@@ -26,5 +29,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/City.unity
     guid: 2c6b4d76985e3b346b389d6f6a46c69f
+  - enabled: 1
+    path: Assets/RogueEngine/Scenes/Game/Cutscene2.unity
+    guid: 4c27e8396a93b7647914c03e5a3d9333
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

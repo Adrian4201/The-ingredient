@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace RogueEngine
 {
-    [CreateAssetMenu(fileName = "Battle", menuName = "TcgEngine/MapEvent/Cutscene", order = 10)]
+    [CreateAssetMenu(fileName = "Event", menuName = "TcgEngine/MapEvent/Cutscene", order = 10)]
     public class EventCutscene : EventData
     {
         [Header("Cutscene")]
@@ -18,10 +18,10 @@ namespace RogueEngine
         public string Text;
         
         [Header("Continue choice")]
-        public ChoiceElement[] continues;
+        public ChoiceElements[] continues;
         public override bool AreEventsConditionMet(World world, Champion champion)
         {
-            foreach (ChoiceElement choice in continues) 
+            foreach (ChoiceElements choice in continues) 
             {
                 if(choice.effect.AreEventsConditionMet(world, champion))
                 
@@ -52,7 +52,7 @@ namespace RogueEngine
 
     }
     [System.Serializable]
-    public class ChoiceElemts
+    public class ChoiceElements
     {
         public string text;
         public string subtext;

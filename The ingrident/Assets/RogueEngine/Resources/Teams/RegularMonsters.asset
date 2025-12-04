@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70dc9fcaed7d5274a8381edb4e206a92, type: 3}
-  m_Name: NetworkData
+  m_Script: {fileID: 11500000, guid: 55e41d6c5fb036a40bc0a37bfe1f52ac, type: 3}
+  m_Name: RegularMonsters
   m_EditorClassIdentifier: 
-  url: server.tcgengine.com
-  port: 8778
-  server_type: 10
-  solo_type: 10
+  id: RegularMonsters
+  title: Ingridens
+  icon: {fileID: 21300000, guid: 13d0e2022114fe94084fe64ef6ea6193, type: 3}
+  color: {r: 0.94716984, g: 0.17692411, b: 0.17692411, a: 0}
