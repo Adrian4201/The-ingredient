@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M-Foot
   m_EditorClassIdentifier: 
   id: M-Foot
-  title: M Foot
+  title: Kick
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: 10c38937cab93fd4cb9222b3bf8370a2, type: 3}
   card_type: 30
@@ -24,7 +24,7 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 8bf714879aee16440a2113e3f4b9e30f, type: 2}
+  - {fileID: 11400000, guid: ab5e0a1eeb06d7042b0bdcbc0898a3eb, type: 2}
   level_max: 3
   upgrade_mana: 0
   cost: 100
