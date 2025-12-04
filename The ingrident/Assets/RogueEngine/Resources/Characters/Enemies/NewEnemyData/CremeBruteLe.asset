@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
+  m_Name: CremeBruteLe
+  m_EditorClassIdentifier: 
+  id: CremeBruteLe
+  title: Creme Brute'Le
+  art_full: {fileID: -852729181760253708, guid: 46c0dae2254de5040b800a76241620dc,
+    type: 3}
+  art_portrait: {fileID: -852729181760253708, guid: 46c0dae2254de5040b800a76241620dc,
+    type: 3}
+  prefab: {fileID: 3315427549352430699, guid: 5d0df756c43daf045a4f18d4b937017b, type: 3}
+  hp: 26
+  speed: 1
+  hand: 1
+  energy: 1
+  level_max: 1
+  level_up_hp: 0
+  level_up_speed: 0
+  level_up_hand: 0
+  level_up_energy: 0
+  behavior: {fileID: 11400000, guid: 8d1ff12afa7a643478446471511e24ab, type: 2}
+  traits: []
+  stats: []
+  abilities: []
+  cards:
+  - {fileID: 11400000, guid: bb97e8369ff7e744ab175342dc40ebdd, type: 2}
+  - {fileID: 11400000, guid: 5603465656117aa4baff31d3080c2423, type: 2}
+  - {fileID: 11400000, guid: 4f2429b1b4116664cbd7b3cce455a23b, type: 2}
+  - {fileID: 11400000, guid: ba5e30732a1e22143b8ebf7b41df2dfa, type: 2}
+  reward_gold: 8
+  reward_xp: 0
+  desc: 
+  spawn_fx: {fileID: 0}
+  death_fx: {fileID: 0}
+  spawn_audio: {fileID: 0}
+  death_audio: {fileID: 0}

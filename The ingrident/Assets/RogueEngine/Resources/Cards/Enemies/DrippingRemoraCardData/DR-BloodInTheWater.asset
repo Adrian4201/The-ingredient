@@ -30,7 +30,7 @@ MonoBehaviour:
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 0}
-  text: Deal 3 Damage. If your opponent is below 50% health, Surge.
+  text: 'Deal 3 Damage. '
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}

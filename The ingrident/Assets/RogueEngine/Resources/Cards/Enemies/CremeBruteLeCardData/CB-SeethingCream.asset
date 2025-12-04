@@ -10,27 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
-  m_Name: CC-Batter
+  m_Name: CB-SeethingCream
   m_EditorClassIdentifier: 
-  id: CC-Batter
-  title: Batter
+  id: CB-SeethingCream
+  title: Seething Cream
   art_icon: {fileID: 0}
-  art_full: {fileID: 21300000, guid: 4f59a3ded66569845a27c0a82fe81d64, type: 3}
-  card_type: 30
+  art_full: {fileID: 3366809449108869956, guid: aada940288230b84e9e5e7ff35ee868c,
+    type: 3}
+  card_type: 0
   item_type: 0
-  team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
+  team: {fileID: 11400000, guid: ed6dfd9dc7797584994eaf1fba66535f, type: 2}
   rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}
   mana: 1
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 4bc795e832aa26c409d47745aec515ba, type: 2}
+  - {fileID: 11400000, guid: ab5e0a1eeb06d7042b0bdcbc0898a3eb, type: 2}
+  - {fileID: 11400000, guid: 8f1f19ff286399b478185d65275bdff7, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 4 Damage
+  text: 'Deal 3 Damage, both characters gain 1 Fury. '
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}

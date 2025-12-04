@@ -16,7 +16,7 @@ MonoBehaviour:
   effect: 31
   duration: 10
   is_negative: 1
-  title: Fearful
+  title: Stale
   icon: {fileID: 21300000, guid: 6687e37b7b1869a4da2eb000fb3cd790, type: 3}
   desc: Deals 50% less damage.
   status_fx: {fileID: 0}

@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
-  m_Name: gain_fearful_all
+  m_Name: gain_attack1all
   m_EditorClassIdentifier: 
-  id: gain_fearful_all
+  id: gain_attack1_all
   trigger: 10
   conditions_trigger: []
   target: 7
@@ -20,14 +20,14 @@ MonoBehaviour:
   filters_target: []
   effects: []
   status:
-  - {fileID: 11400000, guid: 770ee36d5431df442a594af12b84209b, type: 2}
-  value: 2
-  upgrade_value: 1
+  - {fileID: 11400000, guid: d3964126ba48db7429ea20b15affd553, type: 2}
+  value: 1
+  upgrade_value: 0
   status_bonus: 0
   chain_abilities: []
   board_fx: {fileID: 0}
   caster_fx: {fileID: 0}
-  target_fx: {fileID: 7052257666040929376, guid: 652afd06281fa8e499bac51b38b531d7,
+  target_fx: {fileID: 7052257666040929376, guid: caadb540421ddca4ba84bb173024079b,
     type: 3}
   projectile_fx: {fileID: 0}
   cast_audio: {fileID: 0}
