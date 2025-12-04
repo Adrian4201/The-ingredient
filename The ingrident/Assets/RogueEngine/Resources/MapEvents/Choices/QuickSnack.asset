@@ -10,18 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 352676b4616ff8a45837071a2fc469a4, type: 3}
-  m_Name: MysteryBarrel
+  m_Name: QuickSnack
   m_EditorClassIdentifier: 
-  id: MysteryBarrel
-  depth_min: 2
-  depth_max: 8
+  id: QuickSnack
+  depth_min: 1
+  depth_max: 12
   icon: {fileID: 21300000, guid: 7fb7cf43dfffa9d408fc0f4a32f869d5, type: 3}
-  text: You come across a mysterious barrel, purple ooze drips inside but you see
-    a glimmer of light at the bottom.
+  text: You come across a some leftover bao!
   choices:
-  - text: Check inside
-    subtext: 
-    effect: {fileID: 11400000, guid: b8304e56e99f8b04688c26a284495eba, type: 2}
-  - text: Refain from investigating.
-    subtext: 
-    effect: {fileID: 11400000, guid: 777e0b881c1878948b602d5cc7afc494, type: 2}
+  - text: Take a bite.
+    subtext: Heal 8
+    effect: {fileID: 11400000, guid: 5bd8a21bd7f38b3448bed2ddfc7d8ab4, type: 2}
+  - text: Ask for more.
+    subtext: Spend 4 Gold, Heal 16.
+    effect: {fileID: 11400000, guid: 5de622039aa878e48ab46ef0ab08ae7c, type: 2}

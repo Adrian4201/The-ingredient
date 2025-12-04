@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c02f13508bc7512499fe479934d42e4e, type: 3}
-  m_Name: MysterBarrel_grab
+  m_Name: QuickSnack_More
   m_EditorClassIdentifier: 
-  id: MysterBarrel_grab
+  id: QuickSnack_More
   depth_min: 0
-  depth_max: 1
+  depth_max: 12
   icon: {fileID: 0}
   target: 15
   spend_cards: []
   spend_items: []
   spend_ally: []
-  spend_gold: 0
-  hp_damage: 10
+  spend_gold: 4
+  hp_damage: 0
   gain_cards: []
   gain_items: []
   gain_ally: []
-  gain_gold: 10
+  gain_gold: 0
   gain_xp: 0
-  hp_heal: 0
-  text: Your hand burns, but you come up with a handful of Kaltos!
+  hp_heal: 16
+  text: 'You offer the vendor 4 Kaltos, and get a second bun. '
   chain_event: {fileID: 0}
