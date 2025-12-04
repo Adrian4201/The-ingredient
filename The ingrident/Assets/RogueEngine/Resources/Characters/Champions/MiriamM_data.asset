@@ -39,5 +39,4 @@ MonoBehaviour:
   start_items: []
   reward_cards:
   - {fileID: 11400000, guid: 7bc636fc5705f6143ac7676532f19540, type: 2}
-  - {fileID: 11400000, guid: 9c12594a77ae77640a525efd72555731, type: 2}
   desc: 
