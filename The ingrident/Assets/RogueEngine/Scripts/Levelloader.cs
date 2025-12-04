@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 
@@ -17,7 +18,7 @@ public class Levelloader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             loadNextlevel();
         }
@@ -25,7 +26,7 @@ public class Levelloader : MonoBehaviour
     }
     public void loadNextlevel()
     {
-        StartCoroutine(Loadlevel(SceneManager.GetActiveScene().buildIndex + 2));
+        StartCoroutine(Loadlevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
     IEnumerator Loadlevel(int level)
     {
