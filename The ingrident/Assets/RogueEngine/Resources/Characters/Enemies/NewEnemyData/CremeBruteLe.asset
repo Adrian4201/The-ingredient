@@ -19,7 +19,7 @@ MonoBehaviour:
   art_portrait: {fileID: -852729181760253708, guid: 46c0dae2254de5040b800a76241620dc,
     type: 3}
   prefab: {fileID: 3315427549352430699, guid: 5d0df756c43daf045a4f18d4b937017b, type: 3}
-  hp: 24
+  hp: 26
   speed: 1
   hand: 1
   energy: 1
@@ -32,7 +32,11 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities: []
-  cards: []
+  cards:
+  - {fileID: 11400000, guid: bb97e8369ff7e744ab175342dc40ebdd, type: 2}
+  - {fileID: 11400000, guid: 5603465656117aa4baff31d3080c2423, type: 2}
+  - {fileID: 11400000, guid: 4f2429b1b4116664cbd7b3cce455a23b, type: 2}
+  - {fileID: 11400000, guid: ba5e30732a1e22143b8ebf7b41df2dfa, type: 2}
   reward_gold: 8
   reward_xp: 0
   desc: 
