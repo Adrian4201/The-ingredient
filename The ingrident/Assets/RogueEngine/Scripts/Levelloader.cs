@@ -17,7 +17,7 @@ public class Levelloader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             loadNextlevel();
         }
@@ -25,7 +25,7 @@ public class Levelloader : MonoBehaviour
     }
     public void loadNextlevel()
     {
-        StartCoroutine(Loadlevel(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(Loadlevel(SceneManager.GetActiveScene().buildIndex + 2));
     }
     IEnumerator Loadlevel(int level)
     {
