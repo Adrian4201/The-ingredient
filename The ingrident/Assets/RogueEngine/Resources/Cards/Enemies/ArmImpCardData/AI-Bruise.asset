@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
   m_Name: AI-Bruise
   m_EditorClassIdentifier: 
-  id: AI-ElbowsBlock
-  title: Elbows Block
-  art_icon: {fileID: 5784324266198506822, guid: f1c57fc2c2782364e9dfb3bc083f5bf2,
-    type: 3}
-  art_full: {fileID: 5784324266198506822, guid: f1c57fc2c2782364e9dfb3bc083f5bf2,
-    type: 3}
+  id: AI-Bruise
+  title: Bruise
+  art_icon: {fileID: 697104081859341268, guid: ad5d863f3ecdb934ea2c9c5defa1cfca, type: 3}
+  art_full: {fileID: 697104081859341268, guid: ad5d863f3ecdb934ea2c9c5defa1cfca, type: 3}
   card_type: 0
   item_type: 0
   team: {fileID: 11400000, guid: ed6dfd9dc7797584994eaf1fba66535f, type: 2}

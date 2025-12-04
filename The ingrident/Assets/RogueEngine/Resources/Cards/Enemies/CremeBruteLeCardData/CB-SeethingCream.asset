@@ -10,15 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
-  m_Name: AI-ElbowBlock
+  m_Name: CB-SeethingCream
   m_EditorClassIdentifier: 
-  id: AI-ElbowsBlock
-  title: Elbows Block
-  art_icon: {fileID: 5784324266198506822, guid: f1c57fc2c2782364e9dfb3bc083f5bf2,
-    type: 3}
-  art_full: {fileID: 5784324266198506822, guid: f1c57fc2c2782364e9dfb3bc083f5bf2,
-    type: 3}
-  card_type: 20
+  id: CB-SeethingCream
+  title: Seathing Cream
+  art_icon: {fileID: 0}
+  art_full: {fileID: 0}
+  card_type: 0
   item_type: 0
   team: {fileID: 11400000, guid: ed6dfd9dc7797584994eaf1fba66535f, type: 2}
   rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}
@@ -27,12 +25,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 9bd449d2b65910b49b3796ea88a95e61, type: 2}
+  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
+  - {fileID: 11400000, guid: d08b7db8bf7a49e449420a1ed9e4b571, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Gain 4 Barrier
+  text: Deal 2 Damage, Apply 2 Weak
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
