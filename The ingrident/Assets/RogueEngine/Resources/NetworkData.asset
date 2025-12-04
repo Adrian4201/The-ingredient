@@ -15,4 +15,4 @@ MonoBehaviour:
   url: server.tcgengine.com
   port: 8778
   server_type: 10
-  solo_type: 0
+  solo_type: 10

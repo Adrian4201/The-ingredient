@@ -16,10 +16,7 @@ MonoBehaviour:
   cards_max: 10
   turn_duration: 120
   scenarios:
-  - {fileID: 11400000, guid: e1301e597929d3949ba55175c216e580, type: 2}
-  - {fileID: 11400000, guid: ae774cec61b5d3c45ad5db3a53cdff24, type: 2}
-  - {fileID: 11400000, guid: 5bebb4f044326ce42bb375e15cf6497e, type: 2}
-  - {fileID: 11400000, guid: 7b31781c0401f874a9c0d6a735cb3a0e, type: 2}
+  - {fileID: 11400000, guid: fb3c5b7ee92e06943828ff0fc2bad470, type: 2}
   progress_unlock_cards: 2
   progress_unlock_items: 1
   test_scenario: {fileID: 11400000, guid: fb3c5b7ee92e06943828ff0fc2bad470, type: 2}
