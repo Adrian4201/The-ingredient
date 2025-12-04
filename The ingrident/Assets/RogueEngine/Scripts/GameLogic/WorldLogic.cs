@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+using UnityEngine.SceneManagement;
 namespace RogueEngine.Gameplay
 {
 
@@ -30,6 +30,7 @@ namespace RogueEngine.Gameplay
 
         public WorldLogic(BattleLogic logic, World world) { this.battle_logic = logic; this.world_data = world; }
 
+        Levelloader level;
         public virtual void SetData(World world)
         {
             this.world_data = world;
@@ -169,7 +170,10 @@ namespace RogueEngine.Gameplay
             world_data.completed = victory;
             RefreshWorld();
             onGameEnd?.Invoke();
+         
         }
+        
+     
 
         //-----------------------
 

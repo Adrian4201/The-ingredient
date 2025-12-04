@@ -16,41 +16,40 @@ MonoBehaviour:
   title: City
   map_scene: Map
   battle_scene: City
-  depth: 8
+  depth: 6
   width_min: 2
   width_max: 3
   fork_probability: 0.25
   events:
-  - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
   - {fileID: 11400000, guid: 99dffdc55543e3341b0a4d04ea58a2ce, type: 2}
   - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
   - {fileID: 11400000, guid: e0ab89de62a10694a8b29d68c31e9481, type: 2}
+  - {fileID: 11400000, guid: 9343d4cf371c3c4449ffe60fbc7f8f80, type: 2}
+  - {fileID: 11400000, guid: 4df37bd6b6c95854686ec2bedf8cd6d9, type: 2}
   fixed_widths:
-  - depth: 0
-    width: 1
   - depth: 1
     width: 1
   - depth: 2
-    width: 2
-  - depth: 3
-    width: 2
+    width: 1
+  - depth: 2
+    width: 1
   - depth: 4
     width: 3
   - depth: 5
     width: 1
   - depth: 6
     width: 1
-  - depth: 7
-    width: 1
-  - depth: 8
-    width: 1
+  - depth: 6
+    width: 2
+  - depth: 6
+    width: 6
   fixed_events:
-  - depth: 0
+  - depth: 1
     index_min: 0
-    index_max: 0
+    index_max: 1
     evt: {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
-  - depth: 8
+  - depth: 6
     index_min: 0
-    index_max: 0
-    evt: {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
+    index_max: 1
+    evt: {fileID: 11400000, guid: 8fe6fb6e40a5e7d46ab0ac099b0c577b, type: 2}
   map_tutorial: {fileID: 0}

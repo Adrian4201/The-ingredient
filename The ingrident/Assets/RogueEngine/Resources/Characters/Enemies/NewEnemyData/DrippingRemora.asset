@@ -19,7 +19,7 @@ MonoBehaviour:
   art_portrait: {fileID: -6903544751802844033, guid: 5efb0065fbae54e4ebd4efb41c6d2cdc,
     type: 3}
   prefab: {fileID: 3315427549352430699, guid: f32375f2ad1d91b4b96d4807e274591c, type: 3}
-  hp: 14
+  hp: 12
   speed: 1
   hand: 1
   energy: 1

@@ -20,6 +20,7 @@ MonoBehaviour:
   enemies_level: 1
   enemies:
   - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 11400000, guid: 87805ca0c11904b4da4176e2f1bf6044, type: 2}
   extra_enemies: []
   reward_gold: 0
