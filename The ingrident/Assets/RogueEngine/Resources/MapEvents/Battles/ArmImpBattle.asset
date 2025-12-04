@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4fe5248cf38bc354b9c3425704bc1174, type: 3}
-  m_Name: CrimsonCarrionBattle
+  m_Name: ArmImpBattle
   m_EditorClassIdentifier: 
-  id: CrimsonCarrionBattle
+  id: ArmImpBattle
   depth_min: 1
   depth_max: 12
   icon: {fileID: 21300000, guid: f5eee583b7d623a4ab6610ce82352d67, type: 3}
