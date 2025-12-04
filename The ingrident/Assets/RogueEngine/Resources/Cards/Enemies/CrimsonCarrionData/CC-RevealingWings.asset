@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CC-RevealingWings
   m_EditorClassIdentifier: 
   id: CC-RevealingWings
-  title: CC-RevealingWings
+  title: Revealing Wings
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: 956de99ee4946ac4f9b62ae673f69d8c, type: 3}
   card_type: 30
@@ -26,11 +26,11 @@ MonoBehaviour:
   stats: []
   abilities:
   - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
-  - {fileID: 11400000, guid: 09aeae3fcf0d7834ba48dce4042c0ef0, type: 2}
+  - {fileID: 11400000, guid: ec3e682fe27f5f1448c38487f1f97c4b, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
-  intent: {fileID: 0}
+  intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
   text: Deal 2 Damage, Add 1 Expose
   upg_text: 
   spawn_fx: {fileID: 0}

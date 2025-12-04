@@ -16,7 +16,7 @@ MonoBehaviour:
   effect: 32
   duration: 10
   is_negative: 1
-  title: Vulnerable
+  title: Expose
   icon: {fileID: 21300000, guid: 37de81586ad9ed840a5797098c5bd54e, type: 3}
   desc: Receives 50% more damage.
   status_fx: {fileID: 0}

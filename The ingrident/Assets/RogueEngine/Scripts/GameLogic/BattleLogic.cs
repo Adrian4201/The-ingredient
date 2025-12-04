@@ -889,7 +889,10 @@ namespace RogueEngine.Gameplay
                 factor_self -= 0.5f;
 
             if (target.HasStatus(StatusEffect.Vulnerable))
+            {
+                Debug.Log("VULNERABLE FOUND on " + target.character_id + " for " + value + " dmg.");
                 factor_other += 0.5f;
+            }
             if (target.HasStatus(StatusEffect.Evasive))
                 factor_other -= 0.5f;
 
