@@ -26,11 +26,12 @@ MonoBehaviour:
   stats: []
   abilities:
   - {fileID: 11400000, guid: 8ae7f6d08b06fb545a85491d32e639be, type: 2}
+  - {fileID: 11400000, guid: 655baebc5e383544ebb4fbe439b6e690, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 1 Damage. Surge.
+  text: Deal 1 Damage. Apply 1 Stale.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
