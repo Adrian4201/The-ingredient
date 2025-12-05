@@ -22,4 +22,4 @@ MonoBehaviour:
   continues:
   - text: Continue
     subtext: 
-    effect: {fileID: 0}
+    effect: {fileID: 11400000, guid: 777e0b881c1878948b602d5cc7afc494, type: 2}
