@@ -30,7 +30,7 @@ MonoBehaviour:
   stats: []
   abilities: []
   start_cards:
-  - {fileID: 11400000, guid: cc7796e1712004542a8b1c06017e31d3, type: 2}
+  - {fileID: 11400000, guid: 7faac1ff512f8144aaae365a901731de, type: 2}
   - {fileID: 11400000, guid: 6345857f12d114845aaa4f00ab3b4ec4, type: 2}
   - {fileID: 11400000, guid: 5165874c78a5e94498aa5527410dd2ab, type: 2}
   - {fileID: 11400000, guid: c877f6b642d781f43b50ff4a6c09a2b0, type: 2}
