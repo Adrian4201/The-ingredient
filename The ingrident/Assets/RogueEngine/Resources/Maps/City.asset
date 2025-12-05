@@ -43,7 +43,7 @@ MonoBehaviour:
   - depth: 6
     width: 6
   fixed_events:
-  - depth: 2
+  - depth: 1
     index_min: 0
     index_max: 1
     evt: {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
