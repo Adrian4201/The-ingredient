@@ -497,8 +497,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99988735
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.015012396
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 61.323906
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 116
+      value: 115.96092
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -1.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582334442735989257, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
+        type: 3}
+      propertyPath: card_angle
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582334442735989257, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
+        type: 3}
+      propertyPath: card_spacing
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582334442735989257, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
+        type: 3}
+      propertyPath: card_offset_y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3582334443217354800, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}

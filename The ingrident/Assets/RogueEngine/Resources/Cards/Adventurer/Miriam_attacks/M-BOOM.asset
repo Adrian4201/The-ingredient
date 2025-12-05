@@ -35,7 +35,9 @@ MonoBehaviour:
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 0}
-  text: Deal 4 Damage, Heal 1
+  text: 'Hittem with da bomb
+
+'
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
