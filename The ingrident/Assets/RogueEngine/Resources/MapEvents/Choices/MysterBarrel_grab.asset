@@ -21,12 +21,12 @@ MonoBehaviour:
   spend_items: []
   spend_ally: []
   spend_gold: 0
-  hp_damage: 10
+  hp_damage: 5
   gain_cards: []
   gain_items: []
   gain_ally: []
-  gain_gold: 10
+  gain_gold: 5
   gain_xp: 0
   hp_heal: 0
-  text: Your hand burns, but you come up with a handful of Kaltos!
+  text: 'Your hand burns, but you come up with a handful of Kaltos! '
   chain_event: {fileID: 0}

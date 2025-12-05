@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using RogueEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using TMPro; // 🔹 add this
 
 namespace RogueEngine.UI
 {
@@ -12,7 +13,9 @@ namespace RogueEngine.UI
     public class CardUIHoverExtra : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         public GameObject hover_area;
-        public Text hover_text;
+
+        // 🔹 change from Text to TMP_Text
+        public TMP_Text hover_text;
 
         private CardUI card_ui;
         private bool focus;
@@ -30,7 +33,7 @@ namespace RogueEngine.UI
             {
                 if (focus != hover_area.activeSelf)
                     hover_area.SetActive(focus);
-                if (focus)
+                if (focus && hover_text != null)
                     hover_text.text = card.GetTips();
             }
         }
@@ -64,6 +67,5 @@ namespace RogueEngine.UI
         {
             focus = false;
         }
-
     }
 }

@@ -15,7 +15,7 @@ MonoBehaviour:
   id: target_fearful1
   trigger: 10
   conditions_trigger: []
-  target: 20
+  target: 7
   conditions_target:
   - {fileID: 11400000, guid: 41c58513071a53b4e9066a58c439760f, type: 2}
   - {fileID: 11400000, guid: d2f9d6b736bdb1044904ed93f710b5ed, type: 2}

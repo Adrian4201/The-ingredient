@@ -16,7 +16,7 @@ MonoBehaviour:
   title: Bruise
   art_icon: {fileID: 697104081859341268, guid: ad5d863f3ecdb934ea2c9c5defa1cfca, type: 3}
   art_full: {fileID: 697104081859341268, guid: ad5d863f3ecdb934ea2c9c5defa1cfca, type: 3}
-  card_type: 0
+  card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
   rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}

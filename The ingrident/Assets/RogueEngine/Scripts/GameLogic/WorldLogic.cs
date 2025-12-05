@@ -26,6 +26,9 @@ namespace RogueEngine.Gameplay
         private BattleLogic battle_logic;
         private World world_data;
 
+
+        private int rewardRandomIndex = 0;
+
         public Queue<EventQueueItem> event_queue = new Queue<EventQueueItem>();
 
         public WorldLogic(BattleLogic logic, World world) { this.battle_logic = logic; this.world_data = world; }
@@ -93,6 +96,10 @@ namespace RogueEngine.Gameplay
 
             Debug.Log("Start Scenario: " + world_data.scenario_id);
             world_data.seed = seed;
+
+            // Reset reward RNG index for this run
+            rewardRandomIndex = 0;
+
             world_data.state = WorldState.Map;
             world_data.event_id = "";
 
@@ -862,7 +869,29 @@ namespace RogueEngine.Gameplay
 
         public virtual List<CardData> GetRandomCardsByProbability(List<CardData> cards, int nb, int seed_offset = 0)
         {
-            System.Random rand = new System.Random(world_data.GetLocationSeed(13851 + seed_offset));
+            // Base seed comes from the world + location, then we offset it per reward roll
+            int baseSeed = world_data.GetLocationSeed(13851 + seed_offset);
+
+            // Mix in the per-run reward index so each call is different but still deterministic
+            int combinedSeed = baseSeed ^ rewardRandomIndex;   // XOR is simple and stable
+            System.Random rand = new System.Random(combinedSeed);
+
+            // ------------------------------
+            // DEBUG: Print all possible reward cards
+            // ------------------------------
+            Debug.Log($"[REWARD DEBUG] Reward roll index = {rewardRandomIndex}");
+            Debug.Log($"[REWARD DEBUG] Base Seed = {baseSeed}, Combined Seed = {combinedSeed}");
+            Debug.Log($"[REWARD DEBUG] Total possible cards = {cards.Count}");
+
+            foreach (CardData c in cards)
+            {
+                Debug.Log($"[REWARD DEBUG] Card Option: {c.id} | Rarity Probability = {c.rarity.probability}");
+            }
+            // ------------------------------
+
+            // Advance index for next time we roll rewards
+            rewardRandomIndex++;
+
             List<CardData> ocards = new List<CardData>();
             int tries = 0;
             int tries_total = cards.Count;

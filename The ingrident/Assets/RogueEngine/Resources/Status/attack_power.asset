@@ -16,8 +16,8 @@ MonoBehaviour:
   effect: 10
   duration: 0
   is_negative: 0
-  title: Attack Power
+  title: Fury
   icon: {fileID: 21300000, guid: 8dd22fb9dc424eb48a3cdd637d4ff9be, type: 3}
-  desc: All regular attacks deal more damage.
+  desc: All regular attacks deal X more damage.
   status_fx: {fileID: 0}
   animation: 

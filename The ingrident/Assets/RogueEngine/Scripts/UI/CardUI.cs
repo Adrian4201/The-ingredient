@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using RogueEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
+using TMPro; // 🔹 add this
 
 namespace RogueEngine.UI
 {
@@ -20,12 +21,14 @@ namespace RogueEngine.UI
         public Image rarity_icon;
         public Image level_icon;
         public Image cost_icon;
-        public Text cost;
 
-        public Text card_title;
-        public Text card_lvl;
-        public Text card_text;
-        public Text card_traits;
+        // 🔹 change from Text to TMP_Text
+        public TMP_Text cost;
+
+        public TMP_Text card_title;
+        public TMP_Text card_lvl;
+        public TMP_Text card_text;
+        public TMP_Text card_traits;
 
         public TraitUI[] stats;
 
@@ -77,10 +80,10 @@ namespace RogueEngine.UI
             this.card = card;
             this.level = level;
 
-            if(card_image != null)
+            if (card_image != null)
                 card_image.sprite = card.GetFullArt();
             if (card_title != null)
-                card_title.text = card.GetTitle().ToUpper();
+                card_title.text = card.GetTitle();
             if (card_text != null)
                 card_text.text = card.GetText(level);
             if (card_traits != null)
@@ -158,7 +161,7 @@ namespace RogueEngine.UI
 
         public Sprite GetLevelIcon(int level)
         {
-            int index = Mathf.Clamp(level - 1, 0, level_icons.Length-1);
+            int index = Mathf.Clamp(level - 1, 0, level_icons.Length - 1);
             if (level_icons.Length > 0)
                 return level_icons[index];
             return null;

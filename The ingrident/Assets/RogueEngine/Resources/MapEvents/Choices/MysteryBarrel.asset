@@ -20,7 +20,7 @@ MonoBehaviour:
     a glimmer of light at the bottom.
   choices:
   - text: Check inside
-    subtext: 
+    subtext: (Gain 5 Kaltos, Take 5 Damage)
     effect: {fileID: 11400000, guid: b8304e56e99f8b04688c26a284495eba, type: 2}
   - text: Refain from investigating.
     subtext: 

@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
-  m_Name: attack_vulnerable2
+  m_Name: attack_vulnerableIFLOW
   m_EditorClassIdentifier: 
-  id: attack_vulnerable2
+  id: attack_vulnerable2_ifLOW
   trigger: 10
-  conditions_trigger: []
-  target: 20
+  conditions_trigger:
+  - {fileID: 11400000, guid: 9a1b55444ebc51f4aa853724f6b8c897, type: 2}
+  target: 7
   conditions_target:
   - {fileID: 11400000, guid: d2f9d6b736bdb1044904ed93f710b5ed, type: 2}
   - {fileID: 11400000, guid: 41c58513071a53b4e9066a58c439760f, type: 2}
