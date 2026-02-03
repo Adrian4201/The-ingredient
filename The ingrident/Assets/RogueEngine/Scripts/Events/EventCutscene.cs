@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
 using RogueEngine.Gameplay;
 using RogueEngine.UI;
 using UnityEngine;
@@ -10,53 +11,54 @@ namespace RogueEngine
     public class EventCutscene : EventData
     {
         [Header("Cutscene")]
-        public Sprite SpriteRenderer;
+        public GameObject cutscene;
 
         //optional text
         [Header("Text")]
         [TextArea(5, 8)]
         public string Text;
+
+        public Countinue[] Continue_C;
+ 
         
-        [Header("Continue choice")]
-        public ChoiceElements[] continues;
         public override bool AreEventsConditionMet(World world, Champion champion)
         {
-            foreach (ChoiceElements choice in continues) 
+            foreach(Countinue Con in Continue_C)
             {
-                if(choice.effect.AreEventsConditionMet(world, champion))
-                
-                    return true; 
+                Debug.Log("Working");
+                if (Con.Effect.AreEventsConditionMet(world,champion))
+                return true;
             }
-               return false;
-
+            return false;
         }
-        //wait till player uses the continue button techniaclly choices
         public override void DoEvent(WorldLogic logic, Champion triggerer)
         {
-            logic.WorldData.state = WorldState.EventChoice;
-          
+            logic.WorldData.state = WorldState.Cutscene;
+            if(cutscene)
+            {
+                Instantiate(cutscene);
+            }
         }
-        public override string GetText()
+        public  string CutsceneText()
         {
             return Text;
         }
-        public static new EventChoice Get(string id)
+        public static new EventCutscene Get(string id)
         {
             foreach (EventData evt in GetAll())
             {
-                if (evt.id == id && evt is EventChoice)
-                    return evt as EventChoice;
+                if (evt.id == id && evt is EventCutscene)
+                    return evt as EventCutscene;
             }
             return null;
         }
 
+       
     }
     [System.Serializable]
-    public class ChoiceElements
+    public class Countinue
     {
         public string text;
-        public string subtext;
-        public EventData effect;
+        public EventData Effect;
     }
-
 }
