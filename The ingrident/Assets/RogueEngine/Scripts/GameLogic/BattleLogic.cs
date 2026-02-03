@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Profiling;
@@ -395,10 +396,19 @@ namespace RogueEngine.Gameplay
             battle_data.phase = BattlePhase.EndTurn;
 
             BattleCharacter character = battle_data.GetActiveCharacter();
-            RemoveFromInitiativeCurrent(character);
+
+            DiscardHand(character);
+
+            if (character.HasStatus(StatusEffect.Surge))
+            {
+                character.RemoveStatus(StatusEffect.Surge);
+            }
+            else
+            {
+                RemoveFromInitiativeCurrent(character);
+            }
 
             DrawEnemyHand(character);
-            DiscardHand(character);
 
             //Remove once status
             character.RemoveOnceStatus();
@@ -805,9 +815,12 @@ namespace RogueEngine.Gameplay
             CardData icard = card.CardData;
             BattleCharacter player = battle_data.GetCharacter(card.owner_uid);
 
-            if(icard.HasAbility(AbilityTrigger.OnDiscard))
+            foreach (AbilityData iability in card.GetAbilities())
             {
-                TriggerAbility(icard.GetAbility(AbilityTrigger.OnDiscard), player, card);
+                if (iability && iability.trigger == AbilityTrigger.OnDiscard)
+                {
+                    ResolveAbility(iability, player, card);
+                }
             }
 
             //Remove card from board and add to discard
