@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RogueEngine.UI;
+using System;
 using System.Collections.Generic;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
@@ -613,6 +614,11 @@ namespace RogueEngine.Gameplay
 
                 resolve_queue.AddCard(card, AfterPlayCardResolved);
                 resolve_queue.ResolveAll(0.3f);
+
+                if(owner.is_champion)
+                {
+                    BattleUI.Get().OnClickNextTurn();
+                }
             }
         }
 
