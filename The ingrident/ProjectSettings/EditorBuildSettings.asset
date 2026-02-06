@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RogueEngine/Scenes/Game/Cutscene2.unity
     guid: 4c27e8396a93b7647914c03e5a3d9333
+  - enabled: 1
+    path: Assets/RogueEngine/Scenes/Menu/TitleScreen.unity
+    guid: 801d7e2e48e14cf428f5d31e9a3cebfa
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
