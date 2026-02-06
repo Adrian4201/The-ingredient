@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AI-Bruise
   m_EditorClassIdentifier: 
   id: AI-Bruise
+  cardColor: 2
   title: Bruise
   art_icon: {fileID: 697104081859341268, guid: ad5d863f3ecdb934ea2c9c5defa1cfca, type: 3}
   art_full: {fileID: 697104081859341268, guid: ad5d863f3ecdb934ea2c9c5defa1cfca, type: 3}
