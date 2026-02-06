@@ -20,8 +20,6 @@ MonoBehaviour:
   sell_mult: 1
   cards:
   - {fileID: 11400000, guid: cc7796e1712004542a8b1c06017e31d3, type: 2}
-  - {fileID: 11400000, guid: cc7796e1712004542a8b1c06017e31d3, type: 2}
-  - {fileID: 11400000, guid: cc7796e1712004542a8b1c06017e31d3, type: 2}
   items:
   - {fileID: 11400000, guid: 38cdc857c508c4b41945ad309bfe21fb, type: 2}
   - {fileID: 11400000, guid: 1cf0e88b3cd95d14891fe0ac5da50f0b, type: 2}
