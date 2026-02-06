@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Net;
 using RogueEngine.Gameplay;
 using RogueEngine.UI;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RogueEngine
 {
@@ -12,18 +14,19 @@ namespace RogueEngine
     {
         [Header("Cutscene")]
         public GameObject cutscene;
+        private Button cont;
 
         //optional text
         [Header("Text")]
         [TextArea(5, 8)]
         public string Text;
 
-        public Countinue[] Continue_C;
+        public Continue[] Continue_C;
  
         
         public override bool AreEventsConditionMet(World world, Champion champion)
         {
-            foreach(Countinue Con in Continue_C)
+            foreach(Continue Con in Continue_C)
             {
                 Debug.Log("Working");
                 if (Con.Effect.AreEventsConditionMet(world,champion))
@@ -36,10 +39,18 @@ namespace RogueEngine
             logic.WorldData.state = WorldState.Cutscene;
             if(cutscene)
             {
-                Instantiate(cutscene);
+                GameObject cutsceneObject = Instantiate(cutscene);
+
+                cont = GameObject.Find("ContinueButton").GetComponent<Button>();
+
+                cont.onClick.AddListener(() =>
+                {
+                    logic.CompleteAction(0);
+                    Destroy(cutsceneObject);
+                });
             }
         }
-        public  string CutsceneText()
+        public override string GetText()
         {
             return Text;
         }
@@ -56,7 +67,7 @@ namespace RogueEngine
        
     }
     [System.Serializable]
-    public class Countinue
+    public class Continue
     {
         public string text;
         public EventData Effect;
