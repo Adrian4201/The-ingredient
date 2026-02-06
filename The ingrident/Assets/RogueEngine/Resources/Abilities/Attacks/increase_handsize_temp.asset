@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
+  m_Name: increase_handsize_temp
+  m_EditorClassIdentifier: 
+  id: increase_handsize_temp
+  trigger: 10
+  conditions_trigger: []
+  target: 4
+  conditions_target: []
+  filters_target: []
+  effects:
+  - {fileID: 11400000, guid: 634e61ff51cb9364baa217b5bfe9013f, type: 2}
+  status: []
+  value: 2
+  upgrade_value: 1
+  status_bonus: 10
+  chain_abilities: []
+  board_fx: {fileID: 0}
+  caster_fx: {fileID: 0}
+  target_fx: {fileID: 6612423673777650383, guid: 57b51606b8f1873478e7c7e479617d93,
+    type: 3}
+  projectile_fx: {fileID: 0}
+  cast_audio: {fileID: 0}
+  target_audio: {fileID: 0}
+  caster_anim: 
+  target_anim: 
+  title: 
+  desc: 

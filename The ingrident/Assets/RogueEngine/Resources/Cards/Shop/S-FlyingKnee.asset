@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: S-FlyingKnee
   m_EditorClassIdentifier: 
   id: S-FlyingKnee
-  cardColor: 0
-  title: Searing Blast
+  cardColor: 4
+  title: Flying Knee
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: 10c38937cab93fd4cb9222b3bf8370a2, type: 3}
   card_type: 20
@@ -25,13 +25,13 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 6813e398038531f4dac278b605960dee, type: 2}
-  - {fileID: 11400000, guid: 6d93cf04593fdfa49950b176b3e0e3ee, type: 2}
+  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
+  - {fileID: 11400000, guid: c5790443bdb37864fa16faaae68726a7, type: 2}
   level_max: 3
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 0}
-  text: Deal 8 Damage, Take 4 Damage After Attacking
+  text: Next turn, draw 2 extra cards.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
