@@ -222,8 +222,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0, b: 0, a: 1}
-      maxColor: {r: 1, g: 0.25, b: 0.39358222, a: 1}
+      minColor: {r: 0.053962253, g: 0.19999999, b: 0.11113676, a: 1}
+      maxColor: {r: 0, g: 0.12452829, b: 0.026780281, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5125,8 +5125,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0, b: 0, a: 1}
-      maxColor: {r: 1, g: 0.25, b: 0.39358222, a: 1}
+      minColor: {r: 0, g: 1, b: 0.24557209, a: 1}
+      maxColor: {r: 0.17440358, g: 0.8037735, b: 0.2783324, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10029,7 +10029,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.13679248, b: 0.13679248, a: 0.9019608}
+      maxColor: {r: 0.12941177, g: 0.2901961, b: 0.11372549, a: 0.9019608}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -14942,7 +14942,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.13679248, b: 0.13679248, a: 0.9019608}
+      maxColor: {r: 0.12941177, g: 0.2901961, b: 0.11372549, a: 0.9019608}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -19855,7 +19855,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.13679248, b: 0.13679248, a: 0.9019608}
+      maxColor: {r: 0.12888357, g: 0.2905661, b: 0.11348523, a: 0.9019608}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -24557,7 +24557,7 @@ GameObject:
   - component: {fileID: 6612423673777650378}
   - component: {fileID: 6612423673777650377}
   m_Layer: 0
-  m_Name: SlashFX
+  m_Name: SelfSlashFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29606,8 +29606,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 1, g: 0, b: 0, a: 1}
-      maxColor: {r: 1, g: 0.25, b: 0.39358222, a: 1}
+      minColor: {r: 0.7084015, g: 0.7584905, b: 0.7145513, a: 1}
+      maxColor: {r: 0.7680812, g: 0.87169814, b: 0.8113421, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
