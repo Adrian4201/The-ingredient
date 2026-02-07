@@ -14,7 +14,9 @@ namespace RogueEngine
     {
         [Header("Cutscene")]
         public GameObject cutscene;
-        private Button cont;
+        private GameObject continueObject;
+        private Button continueButton;
+        private CanvasGroup continueCG;
 
         //optional text
         [Header("Text")]
@@ -41,12 +43,19 @@ namespace RogueEngine
             {
                 GameObject cutsceneObject = Instantiate(cutscene);
 
-                cont = GameObject.Find("ContinueButton").GetComponent<Button>();
+                continueObject = GameObject.Find("ContinueButton");
 
-                cont.onClick.AddListener(() =>
+                continueButton = continueObject.GetComponent<Button>();
+                continueCG = continueButton.GetComponent<CanvasGroup>();
+                continueCG.alpha = 1;
+                continueCG.interactable = true;
+
+                continueButton.onClick.AddListener(() =>
                 {
                     logic.CompleteAction(0);
                     Destroy(cutsceneObject);
+                    continueCG.alpha = 0;
+                    continueCG.interactable = false;
                 });
             }
         }
