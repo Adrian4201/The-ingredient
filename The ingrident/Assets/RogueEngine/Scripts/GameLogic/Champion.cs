@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,6 +38,8 @@ namespace RogueEngine
         public List<ChampionItem> inventory = new List<ChampionItem>();
         public List<CharacterAlly> allies = new List<CharacterAlly>();
 
+        private Dictionary<CardColor, int> cardColorLimits = new Dictionary<CardColor, int>();
+
         [System.NonSerialized] private ChampionData data = null;
         [System.NonSerialized] private int hash = 0;
 
@@ -60,6 +63,15 @@ namespace RogueEngine
         public void AddCard(CardData icard, int level = 1)
         {
             ChampionCard card = new ChampionCard(icard, level);
+            CardColor cardColor = card.CardData.cardColor;
+
+            if (HasMaxCardsOfColor(cardColor))
+            {
+                RemoveCard(cardColor);
+            }
+            
+            Debug.Log("Added: " + card.CardData.name);
+
             cards.Add(card);
         }
 
@@ -96,6 +108,19 @@ namespace RogueEngine
             }
         }
 
+        public void RemoveCard(CardColor color)
+        {
+            for (int i = cards.Count - 1; i >= 0; i--)
+            {
+                if (cards[i].CardData.cardColor == color)
+                {
+                    Debug.Log("Removed: " + cards[i].CardData.name);
+                    cards.RemoveAt(i);
+                    return;
+                }
+            }
+        }
+
         public ChampionCard GetCard(CardData card)
         {
             for (int i = cards.Count - 1; i >= 0; i--)
@@ -112,6 +137,18 @@ namespace RogueEngine
             {
                 if (cards[i].uid == uid)
                     return cards[i];
+            }
+            return null;
+        }
+
+        public ChampionCard GetCard(CardColor color)
+        {
+            for (int i = cards.Count - 1; i >= 0; i--)
+            {
+                if (cards[i].CardData.cardColor == color)
+                {
+                    return cards[i];
+                }
             }
             return null;
         }
@@ -221,6 +258,26 @@ namespace RogueEngine
             return count;
         }
 
+        public int GetCardsByColor(CardColor color)
+        {
+            int result = 0;
+
+            foreach(ChampionCard card in cards)
+            {
+                if(card.CardData.cardColor == color)
+                {
+                    result++;
+                }
+            }
+
+            return result;
+        }
+
+        public bool HasMaxCardsOfColor(CardColor color)
+        {
+            return GetCardsByColor(color) >= cardColorLimits[color];
+        }
+
         //---------------
 
         public List<ChampionCard> GetDeck()
@@ -289,6 +346,12 @@ namespace RogueEngine
             character.speed = champion.speed;
             character.hand = champion.hand;
             character.energy = champion.energy;
+
+            foreach(CardColor c in Enum.GetValues(typeof(CardColor)))
+            {
+                character.cardColorLimits.Add(c, 1);
+            }
+            
             return character;
         }
     }
