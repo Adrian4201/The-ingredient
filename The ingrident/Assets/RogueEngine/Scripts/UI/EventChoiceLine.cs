@@ -12,7 +12,7 @@ namespace RogueEngine.UI
         public Text text;
         public Text subtext;
         public Image highlight;
-
+        
         public UnityAction<EventChoiceLine> onClick;
 
         private EventData evt;
@@ -56,6 +56,5 @@ namespace RogueEngine.UI
         {
             return evt;
         }
-
     }
 }

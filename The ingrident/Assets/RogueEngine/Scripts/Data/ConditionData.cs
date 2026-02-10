@@ -57,7 +57,7 @@ namespace RogueEngine
             return condition;
         }
 
-        public bool CompareInt(int ival1, ConditionOperatorInt oper, int ival2)
+        private bool CompareInt(int ival1, ConditionOperatorInt oper, int ival2)
         {
             if (oper == ConditionOperatorInt.Equal)
             {
@@ -85,6 +85,28 @@ namespace RogueEngine
             }
             return false;
         }
+
+        public bool CompareInt(float ival1, ConditionOperatorInt oper, float ival2, float ival3 = 0)
+        {
+            if(oper != ConditionOperatorInt.LessThanPercent && oper != ConditionOperatorInt.GreaterThanPercent && oper != ConditionOperatorInt.EqualPercent)
+                return CompareInt((int)ival1, oper, (int)ival2);
+
+            float percent = 100 * (ival1 / ival3);
+
+            if(oper == ConditionOperatorInt.LessThanPercent)
+            {
+                return percent < ival2;
+            }
+            if(oper == ConditionOperatorInt.GreaterThanPercent)
+            {
+                return percent > ival2;
+            }
+            if(oper == ConditionOperatorInt.EqualPercent)
+            {
+                return percent == ival2;
+            }
+            return false;
+        }
     }
 
     public enum ConditionOperatorInt
@@ -95,6 +117,9 @@ namespace RogueEngine
         LessEqual,
         Greater,
         Less,
+        LessThanPercent,
+        GreaterThanPercent,
+        EqualPercent,
     }
 
     public enum ConditionOperatorBool

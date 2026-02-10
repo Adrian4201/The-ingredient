@@ -56,7 +56,7 @@ namespace RogueEngine
         {
             if (type == EffectStatType.HP)
             {
-                return CompareInt(target.hp, oper, value);
+                return CompareInt(target.GetHP(), oper, value, target.GetHPMax());
             }
 
             if (type == EffectStatType.Mana)
@@ -69,6 +69,12 @@ namespace RogueEngine
                 return CompareInt(target.shield, oper, value);
             }
 
+            return false;
+        }
+
+        public override bool IsTriggerConditionMet(Battle data, AbilityData ability, BattleCharacter character, Card card)
+        {
+            Debug.Log(character.hp);
             return false;
         }
     }

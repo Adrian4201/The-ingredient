@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: DiscardAttack
   m_EditorClassIdentifier: 
   id: DiscardAttack
+  cardColor: 0
   title: 
   art_icon: {fileID: 0}
   art_full: {fileID: 0}
@@ -26,6 +27,7 @@ MonoBehaviour:
   abilities:
   - {fileID: 11400000, guid: cb49d1ce7dab96c4b880d1922be0ba0c, type: 2}
   - {fileID: 11400000, guid: bf3144c0978958f40a0e323f8ca0484b, type: 2}
+  - {fileID: 11400000, guid: 345c988be9310574380934d9bbc0f321, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
