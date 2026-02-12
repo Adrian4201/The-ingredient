@@ -188,12 +188,21 @@ namespace RogueEngine.UI
             GameClient.Get().MapEventContinue();
         }
 
+        public void OnClickHeal()
+        {
+            World world = GameClient.Get().GetWorld();
+            Champion champion = world.GetChampion(champion_uid);
+
+            champion.ChampionData.hp += 5;
+        }
+
         public override void Show(bool instant = false)
         {
             selected_slot = null;
             selected_item = null;
             base.Show(instant);
         }
+
 
         public override bool ShouldShow()
         {
