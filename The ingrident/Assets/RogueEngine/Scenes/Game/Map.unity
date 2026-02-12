@@ -2154,6 +2154,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3156671622166626661, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
+      propertyPath: cards_ui.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156671622166626661, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: item_slots.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156671622166626661, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
       propertyPath: 'cards_ui.Array.data[3]'
       value: 
       objectReference: {fileID: 0}
