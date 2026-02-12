@@ -188,12 +188,20 @@ namespace RogueEngine.UI
             GameClient.Get().MapEventContinue();
         }
 
+        //When heal icon clicked, heals player hp
         public void OnClickHeal()
         {
+            Debug.Log( "Health button clicked");
             World world = GameClient.Get().GetWorld();
             Champion champion = world.GetChampion(champion_uid);
 
-            champion.ChampionData.hp += 5;
+
+            // add 5 health
+            champion.damage -= 5;
+            champion.damage = Mathf.Max(champion.damage, 0);
+
+            //if already healed cant heal
+            //costs money?
         }
 
         public override void Show(bool instant = false)
