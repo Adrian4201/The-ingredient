@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: neverending_strikes
   m_EditorClassIdentifier: 
   id: neverending_strikes
+  cardColor: 0
   title: Neverending Strikes
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: 917787c9fa8b3e243a821b4e9f8f4143, type: 3}
@@ -28,7 +29,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 75d017f2c6bacfa4d9830d77e23af58c, type: 2}
   level_max: 2
   upgrade_mana: -1
-  cost: 200
+  cost: 2
   intent: {fileID: 0}
   text: Whenever you play an attack card, draw a card.
   upg_text: 
@@ -36,5 +37,4 @@ MonoBehaviour:
   spawn_audio: {fileID: 0}
   caster_anim: action
   target_anim: 
-  show_collection: 1
   availability: 10

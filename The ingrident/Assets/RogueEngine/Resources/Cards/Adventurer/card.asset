@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: card
   m_EditorClassIdentifier: 
   id: CardTemp
+  cardColor: 0
   title: EmptyCard
   art_icon: {fileID: 0}
   art_full: {fileID: 0}
@@ -28,7 +29,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8ae7f6d08b06fb545a85491d32e639be, type: 2}
   level_max: 1
   upgrade_mana: 0
-  cost: 100
+  cost: 1
   intent: {fileID: 0}
   text: 
   upg_text: 
