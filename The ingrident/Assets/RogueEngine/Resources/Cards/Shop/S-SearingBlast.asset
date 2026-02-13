@@ -16,22 +16,24 @@ MonoBehaviour:
   cardColor: 0
   title: Searing Blast
   art_icon: {fileID: 0}
-  art_full: {fileID: 21300000, guid: 10c38937cab93fd4cb9222b3bf8370a2, type: 3}
+  art_full: {fileID: 21300000, guid: 3f5e834143d869b4d98dafe08a8fc066, type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
   rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
   mana: 1
-  traits: []
+  traits:
+  - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 6813e398038531f4dac278b605960dee, type: 2}
-  - {fileID: 11400000, guid: 6d93cf04593fdfa49950b176b3e0e3ee, type: 2}
+  - {fileID: 11400000, guid: aa57e4b709acc9842a87e39aad3f0dd7, type: 2}
+  - {fileID: 11400000, guid: c76aa8e0fc4e9d444a6426e093fc6313, type: 2}
+  - {fileID: 11400000, guid: c76aa8e0fc4e9d444a6426e093fc6313, type: 2}
   level_max: 3
   upgrade_mana: 0
-  cost: 100
+  cost: 8
   intent: {fileID: 0}
-  text: Deal 8 Damage, Take 4 Damage After Attacking
+  text: 'Deal 8 Damage, Take 4 damage. '
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
