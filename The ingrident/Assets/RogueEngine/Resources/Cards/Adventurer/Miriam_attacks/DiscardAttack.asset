@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DiscardAttack
   m_EditorClassIdentifier: 
   id: DiscardAttack
-  cardColor: 0
+  cardColor: 1
   title: 
   art_icon: {fileID: 0}
   art_full: {fileID: 0}

@@ -23,12 +23,13 @@ namespace RogueEngine
 
     public enum CardColor
     {
-        Red = 0,                //Face
-        Orange = 1,             //Hand
-        Yellow = 2,             //Arm
-        Blue = 3,               //Foot
-        Purple = 4,             //Knee
-        Green = 5               //Chest
+        None = 0,
+        Red = 1,                //Face
+        Orange = 2,             //Hand
+        Yellow = 3,             //Arm
+        Blue = 4,               //Foot
+        Purple = 5,             //Knee
+        Green = 6               //Chest
     }
 
     /// <summary>
