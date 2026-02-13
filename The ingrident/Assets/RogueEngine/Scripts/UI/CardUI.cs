@@ -24,11 +24,12 @@ namespace RogueEngine.UI
 
         // 🔹 change from Text to TMP_Text
         public TMP_Text cost;
-
+        public TMP_Text Damage_text;
         public TMP_Text card_title;
         public TMP_Text card_lvl;
         public TMP_Text card_text;
         public TMP_Text card_traits;
+
 
         public TraitUI[] stats;
 
@@ -92,11 +93,14 @@ namespace RogueEngine.UI
                 card_lvl.text = "LVL " + level.ToString();
             if (card_lvl != null)
                 card_lvl.enabled = level > 1;
+            if (Damage_text != null)
+                Damage_text.text = card.GetDamage().ToString();
 
             if (cost != null)
                 cost.text = card.GetMana(level).ToString();
             if (cost != null && card.IsDynamicManaCost())
                 cost.text = "X";
+            
 
             if (team_icon != null)
             {
@@ -151,6 +155,8 @@ namespace RogueEngine.UI
                 card_title.color = new Color(card_title.color.r, card_title.color.g, card_title.color.b, opacity);
             if (card_text != null)
                 card_text.color = new Color(card_text.color.r, card_text.color.g, card_text.color.b, opacity);
+            if(Damage_text != null)
+                Damage_text.color = new Color(Damage_text.color.r, Damage_text.color.g, Damage_text.color.b,opacity);
         }
 
         public void Hide()

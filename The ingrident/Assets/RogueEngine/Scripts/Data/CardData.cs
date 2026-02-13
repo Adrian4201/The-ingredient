@@ -41,6 +41,7 @@ namespace RogueEngine
         public TeamData team;
         public RarityData rarity;
         public int mana;
+        public int damage;
 
         [Header("Traits")]
         public TraitData[] traits;
@@ -169,6 +170,11 @@ namespace RogueEngine
         public int GetMana(int level)
         {
             return mana + (level - 1) * upgrade_mana;
+        }
+        public int GetDamage()
+        {
+            Debug.Log(damage);
+            return damage;
         }
 
         public string GetPlayTypeId()
