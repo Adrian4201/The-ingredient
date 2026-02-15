@@ -1,5 +1,7 @@
-﻿using System;
+﻿using RogueEngine.UI;
+using System;
 using System.Collections.Generic;
+using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Profiling;
@@ -395,7 +397,17 @@ namespace RogueEngine.Gameplay
             battle_data.phase = BattlePhase.EndTurn;
 
             BattleCharacter character = battle_data.GetActiveCharacter();
-            RemoveFromInitiativeCurrent(character);
+
+            DiscardHand(character);
+
+            if (character.HasStatus(StatusEffect.Surge))
+            {
+                character.RemoveStatus(StatusEffect.Surge);
+            }
+            else
+            {
+                RemoveFromInitiativeCurrent(character);
+            }
 
             DrawEnemyHand(character);
 
@@ -602,6 +614,11 @@ namespace RogueEngine.Gameplay
 
                 resolve_queue.AddCard(card, AfterPlayCardResolved);
                 resolve_queue.ResolveAll(0.3f);
+
+                if(owner.is_champion)
+                {
+                    BattleUI.Get().OnClickNextTurn();
+                }
             }
         }
 
@@ -664,17 +681,6 @@ namespace RogueEngine.Gameplay
         {
             if (character.IsEnemy())
                 return; //Enemies dont draw
-
-            //Discard hand
-            for (int i = character.cards_hand.Count - 1; i >= 0; i--)
-            {
-                bool keep = character.cards_hand[i].HasStatus(StatusEffect.Keep);
-                character.cards_hand[i].RemoveStatus(StatusEffect.Keep);
-                if (!keep)
-                {
-                    DiscardCard(character.cards_hand[i]);
-                }
-            }
 
             //ReCards draw
             DrawCard(character, character.GetHand() + character.delayed_hand);
@@ -815,6 +821,14 @@ namespace RogueEngine.Gameplay
             CardData icard = card.CardData;
             BattleCharacter player = battle_data.GetCharacter(card.owner_uid);
 
+            foreach (AbilityData iability in card.GetAbilities())
+            {
+                if (iability && iability.trigger == AbilityTrigger.OnDiscard)
+                {
+                    ResolveAbility(iability, player, card);
+                }
+            }
+
             //Remove card from board and add to discard
             player.RemoveCardFromAllGroups(card);
             player.cards_discard.Add(card);
@@ -823,6 +837,23 @@ namespace RogueEngine.Gameplay
 
             cards_to_clear.Add(card); //Will be Clear() in the next UpdateOngoing, so that simultaneous damage effects work
             onCardDiscarded?.Invoke(card);
+        }
+
+        public virtual void DiscardHand(BattleCharacter character)
+        {
+            if (character.IsEnemy())
+                return; //Enemies dont discard (at least in here)
+
+            //Discard hand
+            for (int i = character.cards_hand.Count - 1; i >= 0; i--)
+            {
+                bool keep = character.cards_hand[i].HasStatus(StatusEffect.Keep);
+                character.cards_hand[i].RemoveStatus(StatusEffect.Keep);
+                if (!keep)
+                {
+                    DiscardCard(character.cards_hand[i]);
+                }
+            }
         }
         
         //Change owner of a card

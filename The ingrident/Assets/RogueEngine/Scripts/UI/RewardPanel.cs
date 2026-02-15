@@ -20,8 +20,12 @@ namespace RogueEngine.UI
         public Button new_item_btn;
         public UIPanel new_item_panel;
 
+        public UIPanel replace_card_panel;
+
         public RewardCard[] reward_cards;
         public BoxUI[] reward_items;
+        public RewardCard old_card;
+        public RewardCard new_card;
 
         private Champion champion;
         private CardData selected_card = null;
@@ -128,7 +132,24 @@ namespace RogueEngine.UI
                 return;
 
             selected_card = rcard.GetCard();
-            GameClient.Get().MapSelectCardReward(champion, selected_card);
+
+            if(!champion.HasMaxCardsOfColor(selected_card.cardColor))
+            {
+                GameClient.Get().MapSelectCardReward(champion, selected_card);
+            }
+            else
+            {
+                Debug.Log("You already have a card of that color!");
+                ReplaceCard(rcard);
+            }
+        }
+
+        private void ReplaceCard(RewardCard rcard)
+        {
+            replace_card_panel.Show();
+
+            old_card.Set(champion.GetCard(selected_card.cardColor).CardData);
+            new_card.Set(rcard.GetCard());
         }
 
         private void OnClickCardRight(RewardCard card)
@@ -154,6 +175,13 @@ namespace RogueEngine.UI
         {
             GameClient.Get().MapEventContinue(champion);
             Hide();
+        }
+
+        //Careful with this one I don't fully understand it!
+        public void SelectCardReward()
+        {
+            GameClient.Get().MapSelectCardReward(champion, selected_card);
+            replace_card_panel.Hide();
         }
 
         public override void Hide(bool instant = false)

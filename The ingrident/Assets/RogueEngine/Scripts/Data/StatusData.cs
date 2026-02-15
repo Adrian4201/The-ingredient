@@ -21,7 +21,7 @@ namespace RogueEngine
         Sleep = 22,          //Cant do any actions until attacked
 
         Courageous = 30,    //Deal 50% more damage
-        Fearful =31,        //Deal 50% less damage
+        Fearful = 31,        //Deal 50% less damage
         Vulnerable = 32,          //Receive 50% more damage
         Evasive = 33,       //Receive 50% less damage
 
@@ -33,6 +33,8 @@ namespace RogueEngine
         Thorn = 55,         //When attacked, deal damage to attacker
 
         Keep = 60,         //Card isn't discarded from hand at end of turn
+
+        Surge = 70,        //Take another turn
 
     }
 

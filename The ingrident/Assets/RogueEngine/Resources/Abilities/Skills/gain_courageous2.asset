@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: gain_courageous2
   trigger: 10
-  conditions_trigger: []
+  conditions_trigger:
+  - {fileID: 11400000, guid: bdd844bbb161dfa4bbeaed358aee12c5, type: 2}
   target: 4
   conditions_target: []
   filters_target: []
@@ -29,6 +30,7 @@ MonoBehaviour:
   caster_fx: {fileID: 0}
   target_fx: {fileID: 7052257666040929376, guid: df4c6ef07447f2d4f963ecea6d5bac36,
     type: 3}
+  projectile_fx: {fileID: 0}
   cast_audio: {fileID: 0}
   target_audio: {fileID: 0}
   caster_anim: 

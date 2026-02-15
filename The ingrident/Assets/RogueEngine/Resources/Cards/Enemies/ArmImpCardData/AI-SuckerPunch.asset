@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: AI-SuckerPunch
   m_EditorClassIdentifier: 
   id: AI-SuckerPunch
+  cardColor: 1
   title: Sucker Punch
   art_icon: {fileID: 0}
   art_full: {fileID: -3610164253545340443, guid: fb5fe62938ac52e4f94078e6bf2e1756,

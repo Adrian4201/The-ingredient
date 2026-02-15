@@ -21,14 +21,17 @@ MonoBehaviour:
   effects: []
   status:
   - {fileID: 11400000, guid: b82018b14b917d244a2206856da5e465, type: 2}
-  value: 1
+  value: 5
   upgrade_value: 0
-  bonus_value: 0
+  status_bonus: 0
   chain_abilities: []
   board_fx: {fileID: 0}
   caster_fx: {fileID: 0}
   target_fx: {fileID: 0}
+  projectile_fx: {fileID: 0}
   cast_audio: {fileID: 0}
   target_audio: {fileID: 0}
+  caster_anim: 
+  target_anim: 
   title: 
   desc: 

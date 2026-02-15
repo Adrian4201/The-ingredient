@@ -21,6 +21,17 @@ namespace RogueEngine
         ItemPassive = 26,       //In your inventory, and gives ongoing bonus during battles
     }
 
+    public enum CardColor
+    {
+        None = 0,
+        Red = 1,                //Face
+        Orange = 2,             //Hand
+        Yellow = 3,             //Arm
+        Blue = 4,               //Foot
+        Purple = 5,             //Knee
+        Green = 6               //Chest
+    }
+
     /// <summary>
     /// Defines all card data
     /// </summary>
@@ -29,6 +40,7 @@ namespace RogueEngine
     public class CardData : ScriptableObject
     {
         public string id;
+        public CardColor cardColor;
 
         [Header("Display")]
         public string title;
@@ -103,6 +115,11 @@ namespace RogueEngine
         public string GetTitle()
         {
             return title;
+        }
+
+        public CardColor GetCardColor()
+        {
+            return cardColor;
         }
 
         public string GetText(int level = 1, int value_size = 42)

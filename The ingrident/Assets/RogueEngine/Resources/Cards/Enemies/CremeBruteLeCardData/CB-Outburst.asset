@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: CB-Outburst
   m_EditorClassIdentifier: 
   id: CB-Outburst
+  cardColor: 1
   title: Outburst
   art_icon: {fileID: -3560619660322050940, guid: 887e592a85d465c4f9bf73d1d4f33f48,
     type: 3}
