@@ -14,6 +14,7 @@ namespace RogueEngine
         [Header("Card is of type")]
         public ItemType has_type;
         public CardType has_play_type;
+        public CardColor has_color;
         public TeamData has_team;
         public TraitData has_trait;
 
@@ -45,11 +46,13 @@ namespace RogueEngine
 
         private bool IsTrait(Card card)
         {
+            Debug.Log("laal " + card.CardData.cardColor + " " + has_color);
             bool is_type = card.CardData.item_type == has_type || has_type == ItemType.None;
             bool is_play_type = card.CardData.card_type == has_play_type || has_play_type == CardType.None;
             bool is_team = card.CardData.team == has_team || has_team == null;
             bool is_trait = card.HasTrait(has_trait) || has_trait == null;
-            return (is_type && is_play_type && is_team && is_trait);
+            bool is_color = card.CardData.cardColor == has_color || has_color == CardColor.None;
+            return (is_type && is_play_type && is_team && is_trait && is_color);
         }
 
         private bool IsTrait(BattleCharacter card)

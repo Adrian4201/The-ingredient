@@ -763,6 +763,7 @@ namespace RogueEngine
         Setup = 2,
 
         Map = 10,
+        Cutscene = 11,
         Battle = 20,
         EventChoice = 30,
         EventText = 32,

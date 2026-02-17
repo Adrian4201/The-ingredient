@@ -19,6 +19,7 @@ namespace RogueEngine.UI
         public Text username_txt;
         public AvatarUI avatar;
         public GameObject loader;
+        public UIPanel ui_panel;
 
         [Header("UI")]
         public Text version_text;
@@ -50,6 +51,8 @@ namespace RogueEngine.UI
                 AfterLogin();
             else
                 RefreshLogin();
+
+            ui_panel.Show();
         }
 
         private async void RefreshLogin()
@@ -78,7 +81,7 @@ namespace RogueEngine.UI
                 return;
 
             AvatarData avatard = AvatarData.Get(udata.avatar);
-            avatar.SetAvatar(avatard);
+            //avatar.SetAvatar(avatard);
         }
 
         void Update()

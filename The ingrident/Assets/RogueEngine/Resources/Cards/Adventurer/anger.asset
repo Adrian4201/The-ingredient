@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: anger
   m_EditorClassIdentifier: 
   id: anger
+  cardColor: 0
   title: Anger
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: 14ce392e4b7fe5649a39b0cb685cfbd4, type: 3}
@@ -29,7 +30,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 43e0594c00be6b844be861951d896de1, type: 2}
   level_max: 2
   upgrade_mana: 0
-  cost: 100
+  cost: 1
   intent: {fileID: 0}
   text: Lose all your shield and gain <value1> mana.
   upg_text: 
@@ -37,5 +38,4 @@ MonoBehaviour:
   spawn_audio: {fileID: 0}
   caster_anim: action
   target_anim: 
-  show_collection: 1
   availability: 10

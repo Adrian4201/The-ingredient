@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ready_battle
   m_EditorClassIdentifier: 
   id: ready_battle
+  cardColor: 0
   title: Ready for Battle
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: c5d1a9cd43ad55f41bd5c62d9b9a708d, type: 3}
@@ -30,7 +31,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 721ced891a1871849aed75c757fed9a2, type: 2}
   level_max: 2
   upgrade_mana: -1
-  cost: 200
+  cost: 2
   intent: {fileID: 0}
   text: 'Gain <value> shield.
 
@@ -40,5 +41,4 @@ MonoBehaviour:
   spawn_audio: {fileID: 0}
   caster_anim: action
   target_anim: 
-  show_collection: 1
   availability: 10

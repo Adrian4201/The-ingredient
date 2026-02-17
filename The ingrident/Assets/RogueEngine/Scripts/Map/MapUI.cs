@@ -156,6 +156,7 @@ namespace RogueEngine.UI
             world.Save();
         }
 
+
         public bool IsPanelOpen()
         {
             return ChampionPanel.Get().IsVisible() || DeckPanel.Get().IsVisible() || RewardPanel.Get().IsVisible();

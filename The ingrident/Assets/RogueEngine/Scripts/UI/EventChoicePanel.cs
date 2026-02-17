@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using RogueEngine.Client;
+using UnityEngine;
 
 namespace RogueEngine.UI
 {
@@ -10,6 +11,7 @@ namespace RogueEngine.UI
     {
         public Text text;
         public EventChoiceLine[] lines;
+        public GameObject continueButton;
 
         private bool skip_choice;
 
@@ -55,6 +57,7 @@ namespace RogueEngine.UI
                     index++;
                 }
             }
+
         }
 
         public override void RefreshPanel()
@@ -103,6 +106,7 @@ namespace RogueEngine.UI
             }
         }
 
+        
         public static EventChoicePanel Get()
         {
             return instance;

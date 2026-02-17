@@ -27,6 +27,7 @@ namespace RogueEngine.UI
         private CardData selected_item;
         private CardData selected_card;
         private BoxUI selected_slot;
+        private bool healClicked;
 
         private static ShopPanel instance;
 
@@ -188,12 +189,42 @@ namespace RogueEngine.UI
             GameClient.Get().MapEventContinue();
         }
 
+        //When heal icon clicked, heals player hp
+        //5 money for 10 healing
+        public void OnClickHeal()
+        {
+            
+            Debug.Log( "Health button clicked");
+            World world = GameClient.Get().GetWorld();
+            Champion champion = world.GetChampion(champion_uid);
+            Player aplayer = GameClient.Get().GetPlayer();
+            int gold = aplayer.gold;
+            
+
+            if (gold >=5)
+            {
+                // add health
+                champion.damage -= 10;
+                champion.damage = Mathf.Max(champion.damage, 0);
+                healClicked = true;
+                aplayer.gold -= 5;
+            } else
+            {
+                Debug.Log("haha brokie");
+            }
+            
+
+            //if already healed cant heal
+            //costs money?
+        }
+
         public override void Show(bool instant = false)
         {
             selected_slot = null;
             selected_item = null;
             base.Show(instant);
         }
+
 
         public override bool ShouldShow()
         {

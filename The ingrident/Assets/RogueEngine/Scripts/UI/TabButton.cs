@@ -38,8 +38,8 @@ namespace RogueEngine.UI
             if (button != null)
                 button.onClick.AddListener(OnClick);
 
-            if (active && ui_panel != null)
-                ui_panel.Show();
+            //if (active && ui_panel != null)
+            //    ui_panel.Show();
         }
 
         void Update()

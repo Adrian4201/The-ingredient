@@ -44,7 +44,10 @@ namespace RogueEngine
         {
             SceneManager.LoadScene("Map");
         }
-
+        public static void GoToTitle()
+        {
+            SceneManager.LoadScene("TitleScreen");
+        }
         public static string GetCurrentScene()
         {
             return SceneManager.GetActiveScene().name;
