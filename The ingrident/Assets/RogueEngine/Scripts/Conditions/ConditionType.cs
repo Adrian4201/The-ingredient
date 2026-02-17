@@ -46,7 +46,6 @@ namespace RogueEngine
 
         private bool IsTrait(Card card)
         {
-            Debug.Log("laal " + card.CardData.cardColor + " " + has_color);
             bool is_type = card.CardData.item_type == has_type || has_type == ItemType.None;
             bool is_play_type = card.CardData.card_type == has_play_type || has_play_type == CardType.None;
             bool is_team = card.CardData.team == has_team || has_team == null;
