@@ -22,10 +22,11 @@ MonoBehaviour:
   fork_probability: 0.25
   events:
   - {fileID: 11400000, guid: 99dffdc55543e3341b0a4d04ea58a2ce, type: 2}
-  - {fileID: 11400000, guid: b2aaa7ac48574614a892f5b7761ac731, type: 2}
+  - {fileID: 11400000, guid: e0ab89de62a10694a8b29d68c31e9481, type: 2}
   - {fileID: 11400000, guid: 9343d4cf371c3c4449ffe60fbc7f8f80, type: 2}
   - {fileID: 11400000, guid: 4df37bd6b6c95854686ec2bedf8cd6d9, type: 2}
-  - {fileID: 11400000, guid: b2aaa7ac48574614a892f5b7761ac731, type: 2}
+  - {fileID: 11400000, guid: 4df37bd6b6c95854686ec2bedf8cd6d9, type: 2}
+  - {fileID: 11400000, guid: 9343d4cf371c3c4449ffe60fbc7f8f80, type: 2}
   fixed_widths:
   - depth: 1
     width: 1

@@ -10,28 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
-  m_Name: CC-RevealingWings
+  m_Name: CC-TalonSlash
   m_EditorClassIdentifier: 
-  id: CC-RevealingWings
-  title: Revealing Wings
+  id: CC-TalonSlash
+  cardColor: 3
+  title: Talon Slash
   art_icon: {fileID: 0}
-  art_full: {fileID: 21300000, guid: 956de99ee4946ac4f9b62ae673f69d8c, type: 3}
+  art_full: {fileID: 21300000, guid: ddc6684bf7db6284d803b000c7e8fa5e, type: 3}
   card_type: 30
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
-  rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}
+  rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
   mana: 1
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
-  - {fileID: 11400000, guid: ec3e682fe27f5f1448c38487f1f97c4b, type: 2}
+  - {fileID: 11400000, guid: 4bc795e832aa26c409d47745aec515ba, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 2 Damage, Add 1 Expose
+  text: Deal 4 Damage
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}

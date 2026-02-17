@@ -31,8 +31,8 @@ MonoBehaviour:
   level_max: 1
   upgrade_mana: 0
   cost: 100
-  intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 1 Damage. Apply 1 Stale.
+  intent: {fileID: 11400000, guid: 13d4b9bedfb500c479fdea0ba98de1a7, type: 2}
+  text: Deal 1 Damage. Surge.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
