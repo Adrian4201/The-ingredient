@@ -1,10 +1,13 @@
-﻿using RogueEngine.UI;
+﻿using RogueEngine.Client;
+using RogueEngine.UI;
 using System;
 using System.Collections.Generic;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Profiling;
+using UnityEngine.TextCore.Text;
+using static UnityEngine.GraphicsBuffer;
 
 namespace RogueEngine.Gameplay
 {
@@ -826,6 +829,9 @@ namespace RogueEngine.Gameplay
                 if (iability && iability.trigger == AbilityTrigger.OnDiscard)
                 {
                     ResolveAbility(iability, player, card);
+                    
+                    //BattleCharacter target = battle_data.GetSlotCharacter(battle_data.play_target);
+                    //FXTool.DoSnapFX(iability.caster_fx, target);
                 }
             }
 
