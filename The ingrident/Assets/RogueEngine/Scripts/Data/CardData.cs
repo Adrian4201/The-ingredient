@@ -188,9 +188,9 @@ namespace RogueEngine
         {
             return mana + (level - 1) * upgrade_mana;
         }
+
         public int GetDamage()
         {
-            Debug.Log(damage);
             return damage;
         }
 

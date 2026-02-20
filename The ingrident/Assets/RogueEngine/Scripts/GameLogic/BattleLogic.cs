@@ -826,6 +826,7 @@ namespace RogueEngine.Gameplay
                 if (iability && iability.trigger == AbilityTrigger.OnDiscard)
                 {
                     ResolveAbility(iability, player, card);
+
                 }
             }
 
