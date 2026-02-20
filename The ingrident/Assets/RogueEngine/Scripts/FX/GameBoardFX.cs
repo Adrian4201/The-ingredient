@@ -95,6 +95,5 @@ namespace RogueEngine.FX
                 dice.value = value;
             }
         }
-
     }
 }

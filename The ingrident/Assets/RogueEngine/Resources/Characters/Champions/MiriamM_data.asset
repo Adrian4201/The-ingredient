@@ -19,7 +19,7 @@ MonoBehaviour:
   prefab: {fileID: 4831116586470567743, guid: f450df4d86e2e224ca87e10af3bebf43, type: 3}
   hp: 30
   speed: 10
-  hand: 2
+  hand: 4
   energy: 1
   level_up_hp: 8
   level_up_speed: 0.5

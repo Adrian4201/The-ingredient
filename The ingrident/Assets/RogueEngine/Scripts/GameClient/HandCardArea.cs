@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using RogueEngine.Client;
 using RogueEngine.UI;
+using UnityEditor.Experimental.GraphView;
 
 namespace RogueEngine.Client
 {
@@ -73,8 +74,17 @@ namespace RogueEngine.Client
             float count_half = cards.Count / 2f;
             foreach (HandCard card in cards)
             {
-                card.deck_position = new Vector2((index - count_half) * card_spacing, (index - count_half) * (index - count_half) * -card_offset_y);
-                card.deck_angle = (index - count_half) * -card_angle;
+                if(cards.Count % 2 == 0)
+                {
+                    card.deck_position = new Vector3((index % 2 == 0 ? -0.5f * (index + 1): 0.5f * index) * card_spacing, (index - count_half) * (index - count_half) * -card_offset_y, 5);
+                    card.deck_angle = (index % 2 == 0 ? -0.5f * (index + 1) : 0.5f * index) * -card_angle;
+                }
+                else
+                {
+                    card.deck_position = new Vector2((index - count_half) * card_spacing, (index - count_half) * (index - count_half) * -card_offset_y);
+                    card.deck_angle = (index - count_half) * -card_angle;
+                }
+
                 index++;
             }
 
