@@ -728,6 +728,7 @@ namespace RogueEngine
         OnPlayOther = 12,  //When playeds
 
         OnDiscard = 13, //When discarded s
+        OnDiscardPlayed = 14, // When Discarded i
 
         StartOfTurn = 20,       //Every turn
         EndOfTurn = 22,         //Every turn

@@ -1,10 +1,11 @@
-﻿using RogueEngine.UI;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using RogueEngine.UI;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Profiling;
+using static UnityEngine.UI.GridLayoutGroup;
 
 namespace RogueEngine.Gameplay
 {
@@ -829,6 +830,8 @@ namespace RogueEngine.Gameplay
 
                 }
             }
+
+            TriggerCharacterAbilityType(AbilityTrigger.OnDiscardPlayed, player, card);
 
             //Remove card from board and add to discard
             player.RemoveCardFromAllGroups(card);
