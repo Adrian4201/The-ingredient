@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CC-RevealingWings
   m_EditorClassIdentifier: 
   id: CC-RevealingWings
-  cardColor: 2
+  cardColor: 3
   title: Revealing Wings
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: 956de99ee4946ac4f9b62ae673f69d8c, type: 3}
