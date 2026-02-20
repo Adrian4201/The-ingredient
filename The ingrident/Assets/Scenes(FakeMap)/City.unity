@@ -508,12 +508,12 @@ PrefabInstance:
     - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 61.323914
+      value: 61.323853
       objectReference: {fileID: 0}
     - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 115.96092
+      value: 115.96094
       objectReference: {fileID: 0}
     - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 724254571}
   - component: {fileID: 724254570}
   m_Layer: 5
-  m_Name: tempCardStack_0
+  m_Name: Discard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -716,7 +716,7 @@ SpriteRenderer:
   m_SortingLayerID: -1167717967
   m_SortingLayer: 1
   m_SortingOrder: 3
-  m_Sprite: {fileID: 5069486311709115693, guid: c591cdde1271e604a929d6ad3335d535,
+  m_Sprite: {fileID: 5183475365963944229, guid: c2f669c2fbced8f4e8f714ee07186146,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -737,8 +737,8 @@ Transform:
   m_GameObject: {fileID: 724254569}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.79, y: -3.23, z: 0}
-  m_LocalScale: {x: 0.10032039, y: 0.10032039, z: 0.10032039}
+  m_LocalPosition: {x: -8, y: -2.75, z: 0}
+  m_LocalScale: {x: 1.75, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2397,79 +2397,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 20.48, y: 11.8, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1001 &1729160870
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.34407
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.1997935
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2473267342834427356, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5829269589805718235, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8266205682835462675, guid: 2b6247dc456251449bc19427a747a0af,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayCardFX
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 2b6247dc456251449bc19427a747a0af, type: 3}
 --- !u!1 &1957732805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2915,4 +2842,3 @@ SceneRoots:
   - {fileID: 1957732806}
   - {fileID: 1364178989}
   - {fileID: 724254571}
-  - {fileID: 1729160870}

@@ -52,13 +52,19 @@ namespace RogueEngine.FX
                 CardData icard = CardData.Get(card.card_id);
                 if (icard.card_type == CardType.Skill)
                 {
+                    Battle battle = GameClient.Get().GetBattle();
+                    BattleCharacter character = battle.GetCharacter(card.owner_uid);
+
                     GameObject prefab = AssetData.Get().play_card_fx;
                     Vector3 pos = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), 0f);
                     GameObject obj = FXTool.DoFX(prefab, pos);
                     CardUI ui = obj.GetComponentInChildren<CardUI>();
+                    
+                    if(character.is_champion)
+                    {
+                        obj.GetComponent<PlayCardFX>().SetPlayer();
+                    }
 
-                    Battle battle = GameClient.Get().GetBattle();
-                    BattleCharacter character = battle.GetCharacter(card.owner_uid);
                     ui.SetCard(character, card);
 
                     AudioClip spawn_audio = icard.spawn_audio != null ? icard.spawn_audio : AssetData.Get().character_spawn_audio;
