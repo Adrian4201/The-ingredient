@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   has_type: 0
   has_play_type: 0
-  has_color: 1
+  has_color: 0100000005000000
   has_team: {fileID: 0}
   has_trait: {fileID: 0}
   oper: 0
