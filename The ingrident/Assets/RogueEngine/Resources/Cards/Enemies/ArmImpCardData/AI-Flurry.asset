@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AI-Flurry
   m_EditorClassIdentifier: 
   id: AI-Flurry
-  cardColor: 1
+  cardColor: 2
   title: Flurry
   art_icon: {fileID: 7412129938136431663, guid: e8cb53937a94af849a6d8a7897cbb685,
     type: 3}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AI-ElbowBlock
   m_EditorClassIdentifier: 
   id: AI-ElbowsBlock
-  cardColor: 2
+  cardColor: 3
   title: Elbows Block
   art_icon: {fileID: 5784324266198506822, guid: f1c57fc2c2782364e9dfb3bc083f5bf2,
     type: 3}

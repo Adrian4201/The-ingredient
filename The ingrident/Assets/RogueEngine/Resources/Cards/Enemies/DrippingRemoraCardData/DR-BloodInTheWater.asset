@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: DR-BloodInTheWater
   m_EditorClassIdentifier: 
   id: DR-BloodInTheWater
-  cardColor: 0
-  title: Bloodscent
+  cardColor: 1
+  title: Blood In The Water
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: ec53a33743e53584498ed6de4527f0cd, type: 3}
   card_type: 20
@@ -28,11 +28,12 @@ MonoBehaviour:
   stats: []
   abilities:
   - {fileID: 11400000, guid: ab5e0a1eeb06d7042b0bdcbc0898a3eb, type: 2}
+  - {fileID: 11400000, guid: 8e430ee851c0bfd4e9bd433318dc4ba1, type: 2}
   level_max: 1
   upgrade_mana: 0
-  cost: 100
+  cost: 5
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: 'Deal 3 Damage. '
+  text: 'Deal 3 Damage. If the opponent is below 50% HP, Surge. '
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
