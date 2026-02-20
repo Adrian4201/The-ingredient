@@ -16,7 +16,6 @@ namespace RogueEngine.UI
         public Image icon;
         public Text value;
         public Image selected;
-        public Image frame;
 
         public UnityAction<BoxUI> onClick;
         public UnityAction<BoxUI> onClickRight;
@@ -229,8 +228,6 @@ namespace RogueEngine.UI
         public void SetClickable(bool clickable)
         {
             this.clickable = clickable;
-            if (frame != null)
-                frame.color = clickable ? Color.white : Color.gray;
         }
 
         public void Show()
