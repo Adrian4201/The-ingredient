@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CB-Fluffy
   m_EditorClassIdentifier: 
   id: CB-Fluffy
-  cardColor: 2
+  cardColor: 3
   title: Fluffy
   art_icon: {fileID: -4695101559464337773, guid: 4ccac18339da21f4baa234cb0ce60823,
     type: 3}

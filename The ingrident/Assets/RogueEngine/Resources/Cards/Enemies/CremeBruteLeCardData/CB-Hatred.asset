@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CB-Hatred
   m_EditorClassIdentifier: 
   id: CB-Hatred
-  cardColor: 5
+  cardColor: 6
   title: Hatred
   art_icon: {fileID: -726269001068769071, guid: 27152e57efdd65441b7d0fc3b350b975,
     type: 3}
