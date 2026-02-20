@@ -13,17 +13,18 @@ MonoBehaviour:
   m_Name: CB-Outburst
   m_EditorClassIdentifier: 
   id: CB-Outburst
-  cardColor: 1
+  cardColor: 2
   title: Outburst
   art_icon: {fileID: -3560619660322050940, guid: 887e592a85d465c4f9bf73d1d4f33f48,
     type: 3}
   art_full: {fileID: -3560619660322050940, guid: 887e592a85d465c4f9bf73d1d4f33f48,
     type: 3}
-  card_type: 0
+  card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
-  rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}
+  rarity: {fileID: 11400000, guid: eb545324fafffea4a8f71b4cfb4820b5, type: 2}
   mana: 1
+  damage: 4
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
