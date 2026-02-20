@@ -9,12 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d028860b966ab8f44908a62e25280a39, type: 3}
-  m_Name: is_red
+  m_Script: {fileID: 11500000, guid: 5567fab726837e542a517fb5b4079949, type: 3}
+  m_Name: CBL-Rarity
   m_EditorClassIdentifier: 
-  has_type: 0
-  has_play_type: 0
-  has_color: 01000000
-  has_team: {fileID: 0}
-  has_trait: {fileID: 0}
-  oper: 0
+  id: CBL
+  title: Creme Brute'Lee
+  icon: {fileID: 21300000, guid: 4ad92f40c2308674686d2f9c434b9d09, type: 3}
+  probability: 3

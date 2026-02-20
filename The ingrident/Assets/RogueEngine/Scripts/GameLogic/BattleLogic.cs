@@ -2,6 +2,7 @@
 using RogueEngine.UI;
 using System;
 using System.Collections.Generic;
+using RogueEngine.UI;
 using Unity.Services.Lobbies.Models;
 using UnityEngine;
 using UnityEngine.Events;
@@ -829,11 +830,10 @@ namespace RogueEngine.Gameplay
                 if (iability && iability.trigger == AbilityTrigger.OnDiscard)
                 {
                     ResolveAbility(iability, player, card);
-                    
-                    //BattleCharacter target = battle_data.GetSlotCharacter(battle_data.play_target);
-                    //FXTool.DoSnapFX(iability.caster_fx, target);
                 }
             }
+
+            TriggerCharacterAbilityType(AbilityTrigger.OnDiscardPlayed, player, card);
 
             //Remove card from board and add to discard
             player.RemoveCardFromAllGroups(card);

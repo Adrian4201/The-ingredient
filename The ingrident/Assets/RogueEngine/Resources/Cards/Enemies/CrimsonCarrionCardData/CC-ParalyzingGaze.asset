@@ -10,27 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
-  m_Name: CC-TalonSlash
+  m_Name: CC-ParalyzingGaze
   m_EditorClassIdentifier: 
-  id: CC-TalonSlash
-  title: Talon Slash
+  id: CC-ParalyingGaze
+  cardColor: 1
+  title: Paralying Gaze
   art_icon: {fileID: 0}
-  art_full: {fileID: 21300000, guid: ddc6684bf7db6284d803b000c7e8fa5e, type: 3}
-  card_type: 30
+  art_full: {fileID: 21300000, guid: 87556dbf7d3b17843b7e9129dc442a00, type: 3}
+  card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
-  rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
+  rarity: {fileID: 11400000, guid: 08676ac53e6556d4fa10d4ba839bfec2, type: 2}
   mana: 1
+  damage: 1
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 4bc795e832aa26c409d47745aec515ba, type: 2}
+  - {fileID: 11400000, guid: 8ae7f6d08b06fb545a85491d32e639be, type: 2}
+  - {fileID: 11400000, guid: bd8487c2c6226b14ba08a0c0913f2b10, type: 2}
+  - {fileID: 11400000, guid: 655baebc5e383544ebb4fbe439b6e690, type: 2}
   level_max: 1
   upgrade_mana: 0
-  cost: 100
+  cost: 1
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 4 Damage
+  text: Deal 1 Damage. Surge. Apply 2 Stale.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
