@@ -48,7 +48,7 @@ namespace RogueEngine
 
         public static int GetID(int d, int i)
         {
-            return d *100 + i;
+            return d * 100 + i;
         }
     }
 }

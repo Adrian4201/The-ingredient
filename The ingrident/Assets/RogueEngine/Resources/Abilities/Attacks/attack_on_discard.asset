@@ -28,7 +28,8 @@ MonoBehaviour:
   chain_abilities: []
   board_fx: {fileID: 0}
   caster_fx: {fileID: 0}
-  target_fx: {fileID: 0}
+  target_fx: {fileID: 6612423673777650383, guid: 57b51606b8f1873478e7c7e479617d93,
+    type: 3}
   projectile_fx: {fileID: 0}
   cast_audio: {fileID: 0}
   target_audio: {fileID: 0}
