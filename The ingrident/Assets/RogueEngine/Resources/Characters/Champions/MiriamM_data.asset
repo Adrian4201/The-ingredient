@@ -38,9 +38,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7faac1ff512f8144aaae365a901731de, type: 2}
   start_items:
   - {fileID: 11400000, guid: 41bc47694f239144cbd95672250e2c86, type: 2}
-  - {fileID: 11400000, guid: b63122bcae6eb41419d873d3bc7584cf, type: 2}
-  - {fileID: 11400000, guid: eaddb1e85cf012d4ebdb47dae85c34e5, type: 2}
-  - {fileID: 11400000, guid: b113a80c63852844a8ecefdf8dab25d6, type: 2}
   reward_cards:
   - {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
   desc: 
