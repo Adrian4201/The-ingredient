@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
-  m_Name: Lightfoot_latte
+  m_Name: Sluggin'_Punch
   m_EditorClassIdentifier: 
-  id: Lightfoot_latte
+  id: Sluggin'_Punch
   cardColor: 0
-  title: Lightfoot_latte
+  title: Sluggin'_Punch
   art_icon: {fileID: 0}
   art_full: {fileID: 0}
   card_type: 0
   item_type: 26
   team: {fileID: 11400000, guid: 5c917eefa746ca24193d4308f5418128, type: 2}
-  rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}
+  rarity: {fileID: 11400000, guid: 80387c89b69729144b8397050270c574, type: 2}
   mana: 0
   damage: 0
   traits: []
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 6384bde21cfca0143ac1de572e2a1bcc, type: 2}
+  - {fileID: 11400000, guid: 8b8f9c241fc10c044ba04072753e8699, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
