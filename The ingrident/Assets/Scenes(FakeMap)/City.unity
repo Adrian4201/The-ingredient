@@ -548,7 +548,7 @@ PrefabInstance:
     - target: {fileID: 3582334442735989257, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}
       propertyPath: card_offset_y
-      value: 0
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3582334443217354800, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}
