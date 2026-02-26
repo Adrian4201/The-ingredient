@@ -413,10 +413,10 @@ namespace RogueEngine.Gameplay
                 RemoveFromInitiativeCurrent(character);
             }
 
-            DrawEnemyHand(character);
-
             //Remove once status
             character.RemoveOnceStatus();
+
+            DrawEnemyHand(character);
 
             foreach (Card card in character.cards_hand)
                 card.RemoveOnceStatus();
@@ -927,14 +927,20 @@ namespace RogueEngine.Gameplay
 
             if (target.HasStatus(StatusEffect.Vulnerable))
             {
-                Debug.Log("VULNERABLE FOUND on " + target.character_id + " for " + value + " dmg.");
+                //Debug.Log("VULNERABLE FOUND on " + target.character_id + " for " + value + " dmg.");
                 factor_other += 0.5f;
             }
             if (target.HasStatus(StatusEffect.Evasive))
                 factor_other -= 0.5f;
 
+            if (target.HasStatus(StatusEffect.DefenceDown))
+            {
+                value += target.GetStatusValue(StatusEffect.DefenceDown);
+            }
+
             //Deal Damage
             int damage = Mathf.RoundToInt(value * factor_self * factor_other);
+
             DamageCharacter(target, damage, ignore_shield);
 
             //Deal Damage Back

@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56b5ff935f8b7194ea353bb38598d96e, type: 3}
-  m_Name: greater90
+  m_Script: {fileID: 11500000, guid: cb27dd10a12765141b24b6af189717af, type: 3}
+  m_Name: add_surge_self
   m_EditorClassIdentifier: 
-  type: 10
-  oper: 7
-  value: 90
+  add_status: {fileID: 11400000, guid: 64f588e8ad94c714284a6e4f0f10611b, type: 2}
