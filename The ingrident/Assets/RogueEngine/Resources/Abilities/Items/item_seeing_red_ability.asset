@@ -22,7 +22,7 @@ MonoBehaviour:
   effects: []
   status:
   - {fileID: 11400000, guid: d3964126ba48db7429ea20b15affd553, type: 2}
-  - {fileID: 11400000, guid: 60dce2de44058cc43bfacb1be9b7c35a, type: 2}
+  - {fileID: 11400000, guid: 2d1f2930c6b1dfd4294cb5a34fdce38d, type: 2}
   value: 1
   upgrade_value: 0
   status_bonus: 0

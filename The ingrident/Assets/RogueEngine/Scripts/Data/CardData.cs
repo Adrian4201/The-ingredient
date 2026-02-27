@@ -27,9 +27,9 @@ namespace RogueEngine
         Red = 1,                //Face
         Orange = 2,             //Hand
         Yellow = 3,             //Arm
-        Blue = 4,               //Foot
-        Purple = 5,             //Knee
-        Green = 6               //Chest
+        Green = 4,               //Foot
+        Blue = 5,             //Knee
+        Purple = 6               //Chest
     }
 
     /// <summary>
