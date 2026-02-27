@@ -81,7 +81,9 @@ namespace RogueEngine.UI
             }
 
             for (int i = index; i < items.Length; i++)
-                items[i].Hide();
+            {
+                //items[i].Hide();
+            }
         }
 
         private void OnClickItem(BoxUI ui)

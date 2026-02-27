@@ -378,7 +378,7 @@ namespace RogueEngine.Gameplay
 
             BattleCharacter character = battle_data.GetActiveCharacter();
             bool can_play = character.CanPlayTurn(); //Check before reducing status
-            character.ReduceStatusValues();
+            character.ReduceStatusValues(false);
             UpdateOngoing();
 
             battle_data.phase = BattlePhase.Main;
@@ -401,6 +401,8 @@ namespace RogueEngine.Gameplay
             battle_data.phase = BattlePhase.EndTurn;
 
             BattleCharacter character = battle_data.GetActiveCharacter();
+
+            character.ReduceStatusValues(true);
 
             DiscardHand(character);
 
