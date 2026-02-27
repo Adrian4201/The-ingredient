@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: c591cdde1271e604a929d6ad3335d535
+guid: ec429db20fafabb478e7301aeff9026a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5069486311709115693
-    second: tempCardStack_0
+      213: 8380975221231663414
+    second: feet_0
+  - first:
+      213: 2186869086614673543
+    second: feet_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +103,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tempCardStack_0
+      name: feet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1620
-        height: 2268
+        x: 413
+        y: 54
+        width: 450
+        height: 323
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d258023f0fe6a5640800000000000000
-      internalID: 5069486311709115693
+      spriteID: 6393dd43f843f4470800000000000000
+      internalID: 8380975221231663414
       vertices: []
       indices: 
       edges: []
@@ -125,7 +128,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9ac2b0493d464a043b01f0b54bd2906c
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +138,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      tempCardStack_0: 5069486311709115693
+      feet_0: 8380975221231663414
+      feet_1: 2186869086614673543
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
