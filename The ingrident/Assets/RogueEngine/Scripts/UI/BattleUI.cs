@@ -19,6 +19,7 @@ namespace RogueEngine.UI
         public Canvas panel_canvas;
         public Canvas top_canvas;
         public UIPanel menu_panel;
+        public MapPanel Map_panel;
         public Text quit_btn;
 
         public Text mana_txt;

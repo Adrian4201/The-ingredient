@@ -27,3 +27,4 @@ MonoBehaviour:
   enemy_armor_add: 0
   maps:
   - {fileID: 11400000, guid: 90d2ddc452719f34ab028efa46d6e608, type: 2}
+  - {fileID: 11400000, guid: ca9dbc0699b6cdf498cfe02c37c5d35f, type: 2}

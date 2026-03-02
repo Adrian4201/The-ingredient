@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb23f9f8701bc14d839f9f3f681b26c, type: 3}
+  m_Name: Nightclub
+  m_EditorClassIdentifier: 
+  id: Nightclub
+  title: NightClub_fight
+  map_scene: Map
+  battle_scene: NightClub
+  depth: 7
+  width_min: 2
+  width_max: 3
+  fork_probability: 0
+  events:
+  - {fileID: 11400000, guid: 4df37bd6b6c95854686ec2bedf8cd6d9, type: 2}
+  - {fileID: 11400000, guid: 4df37bd6b6c95854686ec2bedf8cd6d9, type: 2}
+  - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
+  - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
+  - {fileID: 11400000, guid: 9343d4cf371c3c4449ffe60fbc7f8f80, type: 2}
+  - {fileID: 11400000, guid: 8fe6fb6e40a5e7d46ab0ac099b0c577b, type: 2}
+  fixed_widths: []
+  fixed_events: []
+  map_tutorial: {fileID: 0}
