@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M-Foot
   m_EditorClassIdentifier: 
   id: M-Foot
-  cardColor: 4
+  cardColor: 5
   title: Kick
   art_icon: {fileID: 0}
   art_full: {fileID: 6710998402494914007, guid: f3166046ed84a934681f325120947fd6,

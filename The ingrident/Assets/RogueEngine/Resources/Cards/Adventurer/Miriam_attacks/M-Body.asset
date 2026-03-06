@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M-Body
   m_EditorClassIdentifier: 
   id: M-Body
-  cardColor: 6
+  cardColor: 4
   title: Tackle
   art_icon: {fileID: 0}
   art_full: {fileID: -6370376397484559733, guid: a6e8d8bd6fd0a5947ad2956c4f8e441e,

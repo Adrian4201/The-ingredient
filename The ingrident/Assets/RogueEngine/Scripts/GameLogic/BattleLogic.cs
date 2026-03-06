@@ -623,6 +623,7 @@ namespace RogueEngine.Gameplay
 
                 if(owner.is_champion)
                 {
+                    BodyHUD.FillColors(owner);
                     BattleUI.Get().OnClickNextTurn();
                 }
             }
@@ -692,6 +693,7 @@ namespace RogueEngine.Gameplay
             DrawCard(character, character.GetHand() + character.delayed_hand);
             character.delayed_hand = 0;
 
+            BodyHUD.FillColors(character);
         }
 
         public virtual void DrawCard(BattleCharacter character, int nb = 1)
@@ -862,6 +864,8 @@ namespace RogueEngine.Gameplay
                     DiscardCard(character.cards_hand[i]);
                 }
             }
+
+            BodyHUD.FillColors(character);
         }
         
         //Change owner of a card
