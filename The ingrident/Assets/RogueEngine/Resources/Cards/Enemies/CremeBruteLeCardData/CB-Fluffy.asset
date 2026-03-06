@@ -15,7 +15,7 @@ MonoBehaviour:
   id: CB-Fluffy
   cardColor: 3
   title: Fluffy
-  art_icon: {fileID: -4695101559464337773, guid: 4ccac18339da21f4baa234cb0ce60823,
+  art_icon: {fileID: -1580089034096503796, guid: 6a7c104ba5c18f24794d4f3dcbf1dd9d,
     type: 3}
   art_full: {fileID: -4695101559464337773, guid: 4ccac18339da21f4baa234cb0ce60823,
     type: 3}

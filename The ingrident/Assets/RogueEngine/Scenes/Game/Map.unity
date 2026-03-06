@@ -1863,7 +1863,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1886132194
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2080,8 +2080,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.26842, y: 9.97}
-  m_SizeDelta: {x: 899.99, y: 1059.71}
+  m_AnchoredPosition: {x: -1.25, y: 19.32298}
+  m_SizeDelta: {x: 1771.49, y: 962.04}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1954499201
 MonoBehaviour:
@@ -2103,7 +2103,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3913598126505058229, guid: 55393f428f0a4c34295f1ab301b07abc,
+  m_Sprite: {fileID: -170997085618382976, guid: 04ff0aed218fa474b98b556bfe394ef6,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -2184,7 +2184,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   start_audio: {fileID: 0}
-  game_music: []
+  game_music:
+  - {fileID: 8300000, guid: 920515de5bcc5254cb2b39c46805e13b, type: 3}
   game_ambience: []
 --- !u!4 &2112220645
 Transform:
