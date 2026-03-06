@@ -19,6 +19,7 @@ namespace RogueEngine.UI
         public UnityAction<ChampionUI> onClickLvlUp;
 
         private Champion champion;
+        
 
         void Start()
         {
