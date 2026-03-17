@@ -14,6 +14,7 @@ namespace RogueEngine
         HandBonus = 8,      //Hand size bonus
 
         AttackPower = 10,     //Damage bonus for all cards
+        DefenceDown = 11,    //Take flat extra damage
         MagicPower = 12,     //Damage bonus for all cards
         Armor = 15,         //Shield per turn
 

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edf116efdfa73646a6de43812f81a4a, type: 3}
+  m_Name: defence_down
+  m_EditorClassIdentifier: 
+  id: defence_down
+  effect: 11
+  duration: 0
+  is_negative: 0
+  title: Broken
+  icon: {fileID: 21300000, guid: c891669082b6d9e46b07bb72197caf18, type: 3}
+  desc: You take X more damage from attacks
+  status_fx: {fileID: 0}
+  animation: 

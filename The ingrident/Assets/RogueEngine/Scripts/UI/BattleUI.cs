@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using RogueEngine.Client;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.InputSystem;
-using RogueEngine.Client;
-using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 namespace RogueEngine.UI
 {
@@ -19,7 +20,9 @@ namespace RogueEngine.UI
         public Canvas panel_canvas;
         public Canvas top_canvas;
         public UIPanel menu_panel;
+        public MapPanel Map_panel;
         public Text quit_btn;
+        public ChampionUI[] champions_ui;
 
         public Text mana_txt;
         public Button end_turn_button;
@@ -38,6 +41,11 @@ namespace RogueEngine.UI
         {
             _instance = this;
             mana_txt.text = "";
+
+            for (int i = 0; i < champions_ui.Length; i++)
+                champions_ui[i].Hide();
+
+          
         }
 
         private void Start()
@@ -134,11 +142,26 @@ namespace RogueEngine.UI
                     }
                 }
             }
-
-            //Hide
+            ///Hide
             if (!yourturn)
             {
                 SelectorPanel.HideAll();
+            }
+            World world = GameClient.Get().GetWorld();
+            Player aplayer = GameClient.Get().GetPlayer();
+            int index = 0;
+            foreach (Player player in world.players)
+            {
+                foreach (Champion cchampion in world.champions)
+                {
+                    if (cchampion.player_id == player.player_id && index < champions_ui.Length)
+                    {
+                        champions_ui[index].hp_bar.value = world.battle.GetCharacter(cchampion.uid).GetHP();
+                        champions_ui[index].hp_bar.value_max = world.battle.GetCharacter(cchampion.uid).GetHPMax();
+                        champions_ui[index].gameObject.SetActive(true);
+                        index++;
+                    }
+                }
             }
 
         }

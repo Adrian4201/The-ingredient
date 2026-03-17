@@ -25,7 +25,7 @@ public class PlayCardFX : MonoBehaviour
 
     private IEnumerator StartMoving()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         move = true;
     }
 

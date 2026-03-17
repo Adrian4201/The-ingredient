@@ -16,11 +16,12 @@ MonoBehaviour:
   cardColor: 5
   title: Talon Slash
   art_icon: {fileID: 0}
-  art_full: {fileID: 21300000, guid: ddc6684bf7db6284d803b000c7e8fa5e, type: 3}
+  art_full: {fileID: 7460579054919502928, guid: 39e3c7b8da755bf4db750f6da1723375,
+    type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
-  rarity: {fileID: 11400000, guid: 08676ac53e6556d4fa10d4ba839bfec2, type: 2}
+  rarity: {fileID: 11400000, guid: 80387c89b69729144b8397050270c574, type: 2}
   mana: 1
   damage: 4
   traits:

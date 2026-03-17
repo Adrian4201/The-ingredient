@@ -29,7 +29,7 @@ namespace RogueEngine.UI
             fill.fillAmount = ratio;
 
             if(txt != null)
-                txt.text = value + " / " + value_max;
+                txt.text = value + "/" + value_max;
         }
     }
 }

@@ -104,14 +104,14 @@ namespace RogueEngine.UI
         {
             HandCard hcard = HandCard.GetFocus();
             CardUIHover hover_ui = CardUIHover.GetFocus();
-            BoxUI hover_slot = BoxUI.GetHoverCard();
+            //BoxUI hover_slot = BoxUI.GetHoverCard();
             //Card histcard = TurnHistoryLine.GetHoverCard();
 
             Card pcard = hcard?.GetCard();
             if (pcard == null && hover_ui != null)
                 pcard = hover_ui.GetCard();
-            if (pcard == null && hover_slot != null)
-                pcard = hover_slot.GetCard();
+            //if (pcard == null && hover_slot != null)
+            //    pcard = hover_slot.GetCard();
             return pcard;
         }
 

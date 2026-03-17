@@ -16,7 +16,8 @@ MonoBehaviour:
   cardColor: 6
   title: Ride the Wave
   art_icon: {fileID: 0}
-  art_full: {fileID: 21300000, guid: 021cfe4ab3735db439ebc5f743249d12, type: 3}
+  art_full: {fileID: 8160670465365165448, guid: f6509aa54892bb5458175926584beec6,
+    type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}

@@ -15,7 +15,7 @@ MonoBehaviour:
   id: QuickSnack
   depth_min: 1
   depth_max: 12
-  icon: {fileID: 21300000, guid: 7fb7cf43dfffa9d408fc0f4a32f869d5, type: 3}
+  icon: {fileID: -1243891630147768351, guid: fbfb192cd7dfe0e4eb7fe112ecc7d972, type: 3}
   text: You come across a some leftover bao!
   choices:
   - text: Take a bite.

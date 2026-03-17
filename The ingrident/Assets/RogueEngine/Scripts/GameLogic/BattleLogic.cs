@@ -378,7 +378,7 @@ namespace RogueEngine.Gameplay
 
             BattleCharacter character = battle_data.GetActiveCharacter();
             bool can_play = character.CanPlayTurn(); //Check before reducing status
-            character.ReduceStatusValues();
+            character.ReduceStatusValues(false);
             UpdateOngoing();
 
             battle_data.phase = BattlePhase.Main;
@@ -402,6 +402,8 @@ namespace RogueEngine.Gameplay
 
             BattleCharacter character = battle_data.GetActiveCharacter();
 
+            character.ReduceStatusValues(true);
+
             DiscardHand(character);
 
             if (character.HasStatus(StatusEffect.Surge))
@@ -413,10 +415,10 @@ namespace RogueEngine.Gameplay
                 RemoveFromInitiativeCurrent(character);
             }
 
-            DrawEnemyHand(character);
-
             //Remove once status
             character.RemoveOnceStatus();
+
+            DrawEnemyHand(character);
 
             foreach (Card card in character.cards_hand)
                 card.RemoveOnceStatus();
@@ -621,6 +623,7 @@ namespace RogueEngine.Gameplay
 
                 if(owner.is_champion)
                 {
+                    BodyHUD.FillColors(owner);
                     BattleUI.Get().OnClickNextTurn();
                 }
             }
@@ -690,6 +693,7 @@ namespace RogueEngine.Gameplay
             DrawCard(character, character.GetHand() + character.delayed_hand);
             character.delayed_hand = 0;
 
+            BodyHUD.FillColors(character);
         }
 
         public virtual void DrawCard(BattleCharacter character, int nb = 1)
@@ -860,6 +864,8 @@ namespace RogueEngine.Gameplay
                     DiscardCard(character.cards_hand[i]);
                 }
             }
+
+            BodyHUD.FillColors(character);
         }
         
         //Change owner of a card
@@ -927,14 +933,20 @@ namespace RogueEngine.Gameplay
 
             if (target.HasStatus(StatusEffect.Vulnerable))
             {
-                Debug.Log("VULNERABLE FOUND on " + target.character_id + " for " + value + " dmg.");
+                //Debug.Log("VULNERABLE FOUND on " + target.character_id + " for " + value + " dmg.");
                 factor_other += 0.5f;
             }
             if (target.HasStatus(StatusEffect.Evasive))
                 factor_other -= 0.5f;
 
+            if (target.HasStatus(StatusEffect.DefenceDown))
+            {
+                value += target.GetStatusValue(StatusEffect.DefenceDown);
+            }
+
             //Deal Damage
             int damage = Mathf.RoundToInt(value * factor_self * factor_other);
+
             DamageCharacter(target, damage, ignore_shield);
 
             //Deal Damage Back

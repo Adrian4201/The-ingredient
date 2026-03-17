@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace RogueEngine
@@ -56,6 +57,8 @@ namespace RogueEngine
         public List<string> abilities_ongoing = new List<string>();
 
         public List<ActionHistory> history_list = new List<ActionHistory>();  //History of actions performed by the player
+
+        private StatusEffect[] endStatuses = { StatusEffect.Courageous };
 
         [System.NonSerialized] private CharacterData edata = null;
         [System.NonSerialized] private ChampionData cdata = null;
@@ -499,12 +502,14 @@ namespace RogueEngine
             return value;
         }
 
-        public virtual void ReduceStatusValues()
+        public virtual void ReduceStatusValues(bool removeSpecial)
         {
             for (int i = status.Count - 1; i >= 0; i--)
             {
                 if (status[i].StatusData.duration == StatusDuration.AutoReduce)
                 {
+                    if (removeSpecial != endStatuses.Contains(status[i].StatusData.effect)) continue;
+
                     status[i].value -= 1;
                     if (status[i].value <= 0)
                         status.RemoveAt(i);
