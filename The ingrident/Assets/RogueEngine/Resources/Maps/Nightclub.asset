@@ -27,6 +27,30 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
   - {fileID: 11400000, guid: 9343d4cf371c3c4449ffe60fbc7f8f80, type: 2}
   - {fileID: 11400000, guid: 8fe6fb6e40a5e7d46ab0ac099b0c577b, type: 2}
-  fixed_widths: []
+  fixed_widths:
+  - depth: 0
+    width: 1
+  - depth: 1
+    width: 1
+  - depth: 2
+    width: 1
+  - depth: 3
+    width: 1
+  - depth: 4
+    width: 1
+  - depth: 5
+    width: 1
+  - depth: 6
+    width: 1
+  - depth: 7
+    width: 1
+  - depth: 8
+    width: 1
+  - depth: 9
+    width: 1
+  - depth: 10
+    width: 1
+  - depth: 11
+    width: 1
   fixed_events: []
   map_tutorial: {fileID: 0}
