@@ -30,7 +30,6 @@ RectTransform:
   m_Children:
   - {fileID: 3769338821078048997}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -42,6 +41,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 135660992253889989}
     m_Modifications:
     - target: {fileID: 3868195550748869321, guid: 90f1aa482afcc9c4f87470c4d4557bc4,
@@ -164,7 +164,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardUI
       objectReference: {fileID: 0}
+    - target: {fileID: 5460336411350321008, guid: 90f1aa482afcc9c4f87470c4d4557bc4,
+        type: 3}
+      propertyPath: damage_text
+      value: 
+      objectReference: {fileID: 5504968334348834497}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90f1aa482afcc9c4f87470c4d4557bc4, type: 3}
 --- !u!224 &3769338821078048997 stripped
 RectTransform:
@@ -172,3 +180,15 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 135660991635546668}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5504968334348834497 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5585701023595541741, guid: 90f1aa482afcc9c4f87470c4d4557bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 135660991635546668}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
