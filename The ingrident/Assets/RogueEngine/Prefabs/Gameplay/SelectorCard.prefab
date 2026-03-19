@@ -189,6 +189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardUI
       objectReference: {fileID: 0}
+    - target: {fileID: 5460336411350321008, guid: 90f1aa482afcc9c4f87470c4d4557bc4,
+        type: 3}
+      propertyPath: damage_text
+      value: 
+      objectReference: {fileID: 3146994166701547836}
     - target: {fileID: 6253182797653099009, guid: 90f1aa482afcc9c4f87470c4d4557bc4,
         type: 3}
       propertyPath: m_Sprite
@@ -199,6 +204,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90f1aa482afcc9c4f87470c4d4557bc4, type: 3}
+--- !u!114 &3146994166701547836 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5585701023595541741, guid: 90f1aa482afcc9c4f87470c4d4557bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 7361199535806895569}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3309926857874379425 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5460336411350321008, guid: 90f1aa482afcc9c4f87470c4d4557bc4,

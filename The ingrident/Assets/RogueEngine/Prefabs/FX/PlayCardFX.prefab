@@ -272,6 +272,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CardUI
       objectReference: {fileID: 0}
+    - target: {fileID: 5460336411350321008, guid: 90f1aa482afcc9c4f87470c4d4557bc4,
+        type: 3}
+      propertyPath: damage_text
+      value: 
+      objectReference: {fileID: 4802028540199266418}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -283,3 +288,15 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1089975560461868191}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4802028540199266418 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5585701023595541741, guid: 90f1aa482afcc9c4f87470c4d4557bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1089975560461868191}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

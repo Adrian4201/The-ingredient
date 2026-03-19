@@ -19,12 +19,6 @@ public class BodyHUD : MonoBehaviour
         bodyOutlineParts = bodyOutline.GetComponentsInChildren<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public static void FillColors(BattleCharacter character)
     {
         for(int i = 0; i < 6; i++)
@@ -33,21 +27,18 @@ public class BodyHUD : MonoBehaviour
             {
                 bodyOutlineParts[i].color = new Color(0, 0, 0, 0);
                 bodyFillParts[i].color = Color.gray;
-                Debug.Log("Discard pile: " + colors[i]);
             }
 
             if (character.cards_hand.Any(item => item.CardData.cardColor == cardColors[i]))
             {
                 bodyOutlineParts[i].color = colors[i];
                 bodyFillParts[i].color = colors[i] / 1.5f;
-                Debug.Log("Hand: " + colors[i]);
             }
 
             if (character.cards_deck.Any(item => item.CardData.cardColor == cardColors[i]))
             {
                 bodyOutlineParts[i].color = new Color(0, 0, 0, 0);
                 bodyFillParts[i].color = colors[i];
-                Debug.Log("Deck: " + colors[i]);
             }
         }
     }

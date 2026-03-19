@@ -186,6 +186,7 @@ namespace RogueEngine.UI
 
         public void OnClickQuit()
         {
+            Debug.Log("Exited shop");
             GameClient.Get().MapEventContinue();
         }
 

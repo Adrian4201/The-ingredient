@@ -40,7 +40,7 @@ namespace RogueEngine.UI
 
         private void Start()
         {
-            BlackPanel.Get().Show(true);
+            //BlackPanel.Get().Show(true);
             AudioTool.Get().PlayMusic("music", music);
             AudioTool.Get().PlaySFX("ambience", ambience, 0.5f, true, true);
 
@@ -90,8 +90,8 @@ namespace RogueEngine.UI
             if (loader.activeSelf != matchmaking)
                 loader.SetActive(matchmaking);
             bool loading = LobbyClient.Get().IsLoading();
-            if(MenuLoadPanel.Get().IsVisible() != loading)
-                MenuLoadPanel.Get().SetVisible(loading);
+            //if(MenuLoadPanel.Get().IsVisible() != loading)
+            //    MenuLoadPanel.Get().SetVisible(loading);
         }
 
         public void CreateGame(GameType type)
@@ -198,7 +198,7 @@ namespace RogueEngine.UI
             BlackPanel.Get().Show();
             AudioTool.Get().FadeOutMusic("music");
             yield return new WaitForSeconds(1f);
-            SceneNav.GoToSetup();
+            SceneNav.GoToMap();
         }
 
         public void OnClickLogout()

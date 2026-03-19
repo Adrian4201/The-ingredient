@@ -416,6 +416,27 @@ namespace RogueEngine
             return availability == CardAvailability.Unlockable && udata != null && !udata.IsCardUnlocked(this);
         }
 
+        public Color GetColor()
+        {
+            switch (cardColor)
+            {
+                case CardColor.Red:
+                    return new Color(1, 0, 0);
+                case CardColor.Orange:
+                    return new Color(1, 0.38431f, 0);
+                case CardColor.Yellow:
+                    return new Color(1, 0.86667f, 0);
+                case CardColor.Green:
+                    return new Color(0, 0.60784f, 0.062745f);
+                case CardColor.Blue:
+                    return new Color(0, 0.24706f, 0.70588f);
+                case CardColor.Purple:
+                    return new Color(0.64314f, 0, 0.92157f);
+                default:
+                    return Color.black;
+            }
+        }
+
         public static CardData Get(string id)
         {
             if (id == null)

@@ -24,12 +24,11 @@ namespace RogueEngine.UI
 
         // 🔹 change from Text to TMP_Text
         public TMP_Text cost;
-        public TMP_Text Damage_text;
+        public TMP_Text damage_text;
         public TMP_Text card_title;
         public TMP_Text card_lvl;
         public TMP_Text card_text;
         public TMP_Text card_traits;
-
 
         public TraitUI[] stats;
 
@@ -41,6 +40,7 @@ namespace RogueEngine.UI
         private CardData card;
         private string uid;
         private int level;
+        private Color color;
 
         void Awake()
         {
@@ -80,6 +80,7 @@ namespace RogueEngine.UI
 
             this.card = card;
             this.level = level;
+            color = card.GetColor();
 
             if (card_image != null)
                 card_image.sprite = card.GetFullArt();
@@ -93,8 +94,11 @@ namespace RogueEngine.UI
                 card_lvl.text = "LVL " + level.ToString();
             if (card_lvl != null)
                 card_lvl.enabled = level > 1;
-            if (Damage_text != null)
-                Damage_text.text = card.GetDamage().ToString();
+            if (damage_text != null)
+            {
+                damage_text.text = card.GetDamage().ToString();
+                damage_text.color = color;
+            }
 
             if (cost != null)
                 cost.text = card.GetMana(level).ToString();
@@ -155,8 +159,8 @@ namespace RogueEngine.UI
                 card_title.color = new Color(card_title.color.r, card_title.color.g, card_title.color.b, opacity);
             if (card_text != null)
                 card_text.color = new Color(card_text.color.r, card_text.color.g, card_text.color.b, opacity);
-            if(Damage_text != null)
-                Damage_text.color = new Color(Damage_text.color.r, Damage_text.color.g, Damage_text.color.b,opacity);
+            if(damage_text != null)
+                damage_text.color = new Color(damage_text.color.r, damage_text.color.g, damage_text.color.b, opacity);
         }
 
         public void Hide()
