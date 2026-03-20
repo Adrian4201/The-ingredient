@@ -1538,6 +1538,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4932172915244317789, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 379
+      objectReference: {fileID: 0}
+    - target: {fileID: 4932172915244317789, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -103
       objectReference: {fileID: 0}
@@ -3244,6 +3249,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ChampionUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 9210125160715118752, guid: b4f6ff26ca1aae949b6bd426e091296d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9210125160715118752, guid: b4f6ff26ca1aae949b6bd426e091296d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -69
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

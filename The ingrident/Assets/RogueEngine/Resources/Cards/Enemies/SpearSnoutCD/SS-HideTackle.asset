@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: SS-HideTackle
   cardColor: 4
-  title: Hired Protection
+  title: Hide Tackle
   art_icon: {fileID: 6881638713309005317, guid: a5c1a7dbe54fb6445ae2c154bee7f435,
     type: 3}
   art_full: {fileID: 6881638713309005317, guid: a5c1a7dbe54fb6445ae2c154bee7f435,
@@ -29,13 +29,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 3424d4aa9acdfe04f9b67ad17bed4383, type: 2}
-  - {fileID: 11400000, guid: 8ae7f6d08b06fb545a85491d32e639be, type: 2}
+  - {fileID: 11400000, guid: 0598bc9a2ad80194b848b02eeecb41ce, type: 2}
+  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 3
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Gain 3 Shield, Deal 1 Damage.
+  text: Deal 2 Damage, Gain 2 Barrier.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}

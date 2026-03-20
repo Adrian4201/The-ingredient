@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CC-TalonSlash
   m_EditorClassIdentifier: 
   id: CC-TalonSlash
-  cardColor: 3
+  cardColor: 5
   title: Talon Slash
   art_icon: {fileID: 0}
   art_full: {fileID: 7460579054919502928, guid: 39e3c7b8da755bf4db750f6da1723375,
