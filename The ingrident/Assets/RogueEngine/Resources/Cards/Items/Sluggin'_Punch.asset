@@ -29,7 +29,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8b8f9c241fc10c044ba04072753e8699, type: 2}
   level_max: 1
   upgrade_mana: 0
-  cost: 100
+  cost: 10
   intent: {fileID: 0}
   text: 
   upg_text: 

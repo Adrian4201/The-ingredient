@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 38a565339f664d6409f081b63ca9715e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1930522117976832468
+    second: spearsnout_0
+  - first:
+      213: -5336981958869689231
+    second: spearsnout_1
+  - first:
+      213: -3936072560565210876
+    second: spearsnout_2
+  - first:
+      213: 103293681496050073
+    second: spearsnout_3
+  - first:
+      213: 1002597408925975663
+    second: spearsnout_4
+  - first:
+      213: -8898781988441481979
+    second: spearsnout_5
+  - first:
+      213: 1055076537241992997
+    second: spearsnout_6
+  - first:
+      213: 1044327604512775715
+    second: spearsnout_7
+  - first:
+      213: 8520166019542507113
+    second: spearsnout_8
+  - first:
+      213: -3030212415833899453
+    second: spearsnout_9
+  - first:
+      213: 6416686145884641544
+    second: spearsnout_10
+  - first:
+      213: -3526719638647205392
+    second: spearsnout_11
+  - first:
+      213: 8427826472109506347
+    second: spearsnout_12
+  - first:
+      213: -8807129583006447801
+    second: spearsnout_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spearsnout_0
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 3746
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26c4feac586535e0800000000000000
+      internalID: -1930522117976832468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_1
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 3777
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c57e85f2b3fe5b0800000000000000
+      internalID: -5336981958869689231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_2
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 3761
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40139514cd24069c0800000000000000
+      internalID: -3936072560565210876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_3
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1254
+        width: 4660
+        height: 2506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9994d195e09fe6100800000000000000
+      internalID: 103293681496050073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_4
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 3752
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6482cb0801f9ed00800000000000000
+      internalID: 1002597408925975663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_5
+      rect:
+        serializedVersion: 2
+        x: 4867
+        y: 2976
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d1d45edec218480800000000000000
+      internalID: -8898781988441481979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_6
+      rect:
+        serializedVersion: 2
+        x: 4883
+        y: 2936
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f7825458264ae00800000000000000
+      internalID: 1055076537241992997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_7
+      rect:
+        serializedVersion: 2
+        x: 4898
+        y: 2899
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e5e185c623e7e00800000000000000
+      internalID: 1044327604512775715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_8
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 2937
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e5f2e5ad5bd3670800000000000000
+      internalID: 8520166019542507113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_9
+      rect:
+        serializedVersion: 2
+        x: 4557
+        y: 1256
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34efd30dcd582f5d0800000000000000
+      internalID: -3030212415833899453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_10
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 1220
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809df987d06ac0950800000000000000
+      internalID: 6416686145884641544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_11
+      rect:
+        serializedVersion: 2
+        x: 4615
+        y: 1222
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f11a0c8c239e0fc0800000000000000
+      internalID: -3526719638647205392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_12
+      rect:
+        serializedVersion: 2
+        x: 4633
+        y: 1214
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f78ba1687a5f470800000000000000
+      internalID: 8427826472109506347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearsnout_13
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 1216
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74701127e4ac6c580800000000000000
+      internalID: -8807129583006447801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spearsnout_0: -1930522117976832468
+      spearsnout_1: -5336981958869689231
+      spearsnout_10: 6416686145884641544
+      spearsnout_11: -3526719638647205392
+      spearsnout_12: 8427826472109506347
+      spearsnout_13: -8807129583006447801
+      spearsnout_2: -3936072560565210876
+      spearsnout_3: 103293681496050073
+      spearsnout_4: 1002597408925975663
+      spearsnout_5: -8898781988441481979
+      spearsnout_6: 1055076537241992997
+      spearsnout_7: 1044327604512775715
+      spearsnout_8: 8520166019542507113
+      spearsnout_9: -3030212415833899453
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

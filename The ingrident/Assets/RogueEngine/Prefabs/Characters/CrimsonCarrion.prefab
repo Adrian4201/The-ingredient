@@ -439,10 +439,50 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 2.37
       objectReference: {fileID: 0}
+    - target: {fileID: 4379898357094487008, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379898357094487008, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379898357094487008, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4379898357094487008, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6167360153232016904, guid: 116ffb266e823be4b93c803237e08123,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855491322717124464, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6855491322717124464, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6925324454865381153, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 28.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424516456575484220, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 957e83188adb4ab468b14cfc675932c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5187797576341451373
+    second: AsparagoonsSprite_0
+  - first:
+      213: -2776234064603848483
+    second: AsparagoonsSprite_1
+  - first:
+      213: -99855280371785039
+    second: AsparagoonsSprite_2
+  - first:
+      213: 3321541256756132879
+    second: AsparagoonsSprite_3
+  - first:
+      213: 8499962841689680753
+    second: AsparagoonsSprite_4
+  - first:
+      213: -8733866851803903533
+    second: AsparagoonsSprite_5
+  - first:
+      213: -6895640978285408540
+    second: AsparagoonsSprite_6
+  - first:
+      213: -33017541224419745
+    second: AsparagoonsSprite_7
+  - first:
+      213: -2449258661116034032
+    second: AsparagoonsSprite_8
+  - first:
+      213: -956137324692819364
+    second: AsparagoonsSprite_9
+  - first:
+      213: 8426678057973462702
+    second: AsparagoonsSprite_10
+  - first:
+      213: -7482524892728854531
+    second: AsparagoonsSprite_11
+  - first:
+      213: 7527690787911063964
+    second: AsparagoonsSprite_12
+  - first:
+      213: 1904459156926892717
+    second: AsparagoonsSprite_13
+  - first:
+      213: -2958157768844658155
+    second: AsparagoonsSprite_14
+  - first:
+      213: 839557608959663853
+    second: AsparagoonsSprite_15
+  - first:
+      213: 9160659124674574923
+    second: AsparagoonsSprite_16
+  - first:
+      213: -3856908206403059141
+    second: AsparagoonsSprite_17
+  - first:
+      213: -408792196302018567
+    second: AsparagoonsSprite_18
+  - first:
+      213: 8246129922259595506
+    second: AsparagoonsSprite_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AsparagoonsSprite_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 35
+        width: 258
+        height: 1077
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d0987279d3108b0800000000000000
+      internalID: -5187797576341451373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1098
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0e2fdc3d5d879d0800000000000000
+      internalID: -2776234064603848483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1072
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b22e7cc62e3d9ef0800000000000000
+      internalID: -99855280371785039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 44
+        width: 258
+        height: 1092
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cf0cbbc2c781e20800000000000000
+      internalID: 3321541256756132879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 37
+        width: 303
+        height: 1078
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17beee67b2fe5f570800000000000000
+      internalID: 8499962841689680753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_5
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1111
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d94bae4f521bc680800000000000000
+      internalID: -8733866851803903533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_6
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1083
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eecbae9013cd40a0800000000000000
+      internalID: -6895640978285408540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_7
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1100
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e26ff98b2ba8ff0800000000000000
+      internalID: -33017541224419745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_8
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1074
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0144125793c720ed0800000000000000
+      internalID: -2449258661116034032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_9
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1067
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5231354b2e1bb2f0800000000000000
+      internalID: -956137324692819364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_10
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 1040
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6361a1c0391f470800000000000000
+      internalID: 8426678057973462702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1015
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7f0e1114bb82890800000000000000
+      internalID: -7482524892728854531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_12
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 952
+        width: 21
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c995b6063eab77860800000000000000
+      internalID: 7527690787911063964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_13
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 936
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa0ed1538ffd6a10800000000000000
+      internalID: 1904459156926892717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_14
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 928
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ab376ae2382f6d0800000000000000
+      internalID: -2958157768844658155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_15
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 920
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee548a7235b6ab00800000000000000
+      internalID: 839557608959663853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_16
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 911
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a3baa40f2312f70800000000000000
+      internalID: 9160659124674574923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_17
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 896
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b328e0acb62897ac0800000000000000
+      internalID: -3856908206403059141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_18
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 889
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f76770d9ada35af0800000000000000
+      internalID: -408792196302018567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AsparagoonsSprite_19
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 292
+        width: 30
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f0b0047973207270800000000000000
+      internalID: 8246129922259595506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AsparagoonsSprite_0: -5187797576341451373
+      AsparagoonsSprite_1: -2776234064603848483
+      AsparagoonsSprite_10: 8426678057973462702
+      AsparagoonsSprite_11: -7482524892728854531
+      AsparagoonsSprite_12: 7527690787911063964
+      AsparagoonsSprite_13: 1904459156926892717
+      AsparagoonsSprite_14: -2958157768844658155
+      AsparagoonsSprite_15: 839557608959663853
+      AsparagoonsSprite_16: 9160659124674574923
+      AsparagoonsSprite_17: -3856908206403059141
+      AsparagoonsSprite_18: -408792196302018567
+      AsparagoonsSprite_19: 8246129922259595506
+      AsparagoonsSprite_2: -99855280371785039
+      AsparagoonsSprite_3: 3321541256756132879
+      AsparagoonsSprite_4: 8499962841689680753
+      AsparagoonsSprite_5: -8733866851803903533
+      AsparagoonsSprite_6: -6895640978285408540
+      AsparagoonsSprite_7: -33017541224419745
+      AsparagoonsSprite_8: -2449258661116034032
+      AsparagoonsSprite_9: -956137324692819364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

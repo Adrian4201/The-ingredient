@@ -21,12 +21,9 @@ MonoBehaviour:
   width_max: 3
   fork_probability: 0
   events:
-  - {fileID: 11400000, guid: 4df37bd6b6c95854686ec2bedf8cd6d9, type: 2}
-  - {fileID: 11400000, guid: 4df37bd6b6c95854686ec2bedf8cd6d9, type: 2}
-  - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
-  - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
-  - {fileID: 11400000, guid: 9343d4cf371c3c4449ffe60fbc7f8f80, type: 2}
-  - {fileID: 11400000, guid: 8fe6fb6e40a5e7d46ab0ac099b0c577b, type: 2}
+  - {fileID: 11400000, guid: b63552a7af35fdd4490f259e438ae4e8, type: 2}
+  - {fileID: 11400000, guid: 09aa94a505feaba42ac4d63fcfa9c179, type: 2}
+  - {fileID: 11400000, guid: aa01b4775cd197749afd940acb12712d, type: 2}
   fixed_widths: []
   fixed_events: []
   map_tutorial: {fileID: 0}
