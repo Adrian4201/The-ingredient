@@ -344,7 +344,7 @@ namespace RogueEngine.Gameplay
                 onMoved?.Invoke(champion, loc);
 
                 // Heal 3 HP between events for the moving champion
-                champion.damage = Mathf.Max(0, champion.damage - 3);
+                champion.damage = Mathf.Max(0, champion.damage - 5);
 
                 TriggerMapEvent(champion, loc);
             }

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CB-SeethingCream
   m_EditorClassIdentifier: 
   id: CB-SeethingCream
-  cardColor: 6
+  cardColor: 4
   title: Seething Cream
   art_icon: {fileID: 0}
   art_full: {fileID: 4800117805521335152, guid: c257b02471de68f44a0cc9fb91f4d448,

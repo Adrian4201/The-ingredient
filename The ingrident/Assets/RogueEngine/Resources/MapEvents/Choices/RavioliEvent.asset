@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352676b4616ff8a45837071a2fc469a4, type: 3}
+  m_Name: RavioliEvent
+  m_EditorClassIdentifier: 
+  id: Ravioli
+  depth_min: 2
+  depth_max: 8
+  icon: {fileID: -1243891630147768351, guid: fbfb192cd7dfe0e4eb7fe112ecc7d972, type: 3}
+  text: "A waitress with a head of spikes for hair walks up to you. \n\n\"Ravioli?\"
+    She asks. "
+  choices:
+  - text: Yes please.
+    subtext: (Gain Resentful Ravioli, Lose 5 Kaltos)
+    effect: {fileID: 11400000, guid: a9d8d23f1665aa34a9d0083959ae30b6, type: 2}
+  - text: No thanks.
+    subtext: 
+    effect: {fileID: 11400000, guid: 443877d22e2bab449adced4ded764adf, type: 2}

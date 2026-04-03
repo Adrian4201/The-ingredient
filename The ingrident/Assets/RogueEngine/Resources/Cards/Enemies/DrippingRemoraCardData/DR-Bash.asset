@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DR-Bash
   m_EditorClassIdentifier: 
   id: DR-Bash
-  cardColor: 5
+  cardColor: 4
   title: Bash
   art_icon: {fileID: -4245223599292887834, guid: fa1f0922af65c5045b9adbd84511e0f5,
     type: 3}

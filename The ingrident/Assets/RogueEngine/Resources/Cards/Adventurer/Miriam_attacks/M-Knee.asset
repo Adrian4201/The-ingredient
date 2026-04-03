@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: M-Knee
   m_EditorClassIdentifier: 
   id: M-Knee
-  cardColor: 5
+  cardColor: 6
   title: Knee
   art_icon: {fileID: 0}
   art_full: {fileID: 3308401717831069945, guid: db023bbe78dd85e4c82927afdd5d2906,

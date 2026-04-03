@@ -16,7 +16,7 @@ MonoBehaviour:
   effect: 33
   duration: 10
   is_negative: 0
-  title: Evasive
+  title: Poise
   icon: {fileID: 21300000, guid: 3d815830862a44a4c97357533009c8d8, type: 3}
   desc: Receives 50% less damage.
   status_fx: {fileID: 0}

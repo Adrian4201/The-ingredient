@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DR-Gnash
   m_EditorClassIdentifier: 
   id: DR-Gnash
-  cardColor: 0
+  cardColor: 1
   title: Gnash
   art_icon: {fileID: 0}
   art_full: {fileID: 6530181121335132657, guid: 5b1610a77da8c2642aa18036760125f0,

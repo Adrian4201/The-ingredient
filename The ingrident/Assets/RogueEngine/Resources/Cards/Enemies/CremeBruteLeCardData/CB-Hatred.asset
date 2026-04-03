@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CB-Hatred
   m_EditorClassIdentifier: 
   id: CB-Hatred
-  cardColor: 6
+  cardColor: 3
   title: Hatred
   art_icon: {fileID: 7055799448858002142, guid: 5e3dabe530c6c374095bd670c3151006,
     type: 3}
@@ -29,7 +29,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 15b6f8fc9589cdd4bb6de84aaa6f6b44, type: 2}
+  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
+  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
+  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100

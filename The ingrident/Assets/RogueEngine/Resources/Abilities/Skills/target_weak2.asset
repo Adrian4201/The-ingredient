@@ -22,7 +22,7 @@ MonoBehaviour:
   filters_target: []
   effects: []
   status:
-  - {fileID: 11400000, guid: 60dce2de44058cc43bfacb1be9b7c35a, type: 2}
+  - {fileID: 11400000, guid: 770ee36d5431df442a594af12b84209b, type: 2}
   value: 2
   upgrade_value: 1
   status_bonus: 0
@@ -31,6 +31,7 @@ MonoBehaviour:
   caster_fx: {fileID: 0}
   target_fx: {fileID: 7052257666040929376, guid: 652afd06281fa8e499bac51b38b531d7,
     type: 3}
+  projectile_fx: {fileID: 0}
   cast_audio: {fileID: 0}
   target_audio: {fileID: 0}
   caster_anim: 
