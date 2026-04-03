@@ -387,6 +387,18 @@ namespace RogueEngine
                 {
                     status.value += value;
                 }
+
+                if(HasStatus(StatusEffect.Courageous) && HasStatus(StatusEffect.Fearful))
+                {
+                    ReduceStatus(StatusEffect.Fearful, 1);
+                    ReduceStatus(StatusEffect.Courageous, 1);
+                }
+
+                if (HasStatus(StatusEffect.Vulnerable) && HasStatus(StatusEffect.Evasive))
+                {
+                    ReduceStatus(StatusEffect.Vulnerable, 1);
+                    ReduceStatus(StatusEffect.Evasive, 1);
+                }
             }
         }
 
