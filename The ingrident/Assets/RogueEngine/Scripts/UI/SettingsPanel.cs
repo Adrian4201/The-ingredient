@@ -11,14 +11,14 @@ namespace RogueEngine.UI
         public SliderDrag master_vol;
         public SliderDrag music_vol;
         public SliderDrag sfx_vol;
-        public SliderDrag quality;
+        //public SliderDrag quality;
         public SliderDrag resolution;
         public Toggle windowed;
 
         public Text master_vol_txt;
         public Text music_vol_txt;
         public Text sfx_vol_txt;
-        public Text quality_txt;
+        //public Text quality_txt;
         public Text resolution_txt;
 
         public static HashSet<string> reso_hash = new HashSet<string>();
@@ -44,19 +44,19 @@ namespace RogueEngine.UI
             music_vol.maxValue = 100;
             sfx_vol.minValue = 0;
             sfx_vol.maxValue = 100;
-            quality.minValue = 0;
+            //quality.minValue = 0;
             resolution.minValue = 0;
 
             master_vol.onValueChanged += RefreshText;
             music_vol.onValueChanged += RefreshText;
             sfx_vol.onValueChanged += RefreshText;
-            quality.onValueChanged += RefreshText;
+            //quality.onValueChanged += RefreshText;
             resolution.onValueChanged += RefreshText;
 
             master_vol.onEndDrag += OnChangeAudio;
             music_vol.onEndDrag += OnChangeAudio;
             sfx_vol.onEndDrag += OnChangeAudio;
-            quality.onEndDrag += OnChangeQuality;
+            //quality.onEndDrag += OnChangeQuality;
             resolution.onEndDrag += OnChangeResolution;
             windowed.onValueChanged.AddListener(OnChangeWindowed);
 
@@ -70,7 +70,7 @@ namespace RogueEngine.UI
                 }
             }
 
-            quality.maxValue = QualitySettings.names.Length - 1;
+            //quality.maxValue = QualitySettings.names.Length - 1;
             resolution.maxValue = resolutions.Count - 1;
 
             foreach (TabButton btn in TabButton.GetAll(tab_group))
@@ -84,11 +84,11 @@ namespace RogueEngine.UI
             music_vol.value = AudioTool.Get().music_vol * 100f;
             sfx_vol.value = AudioTool.Get().sfx_vol * 100f;
 
-            int quality_value = QualitySettings.GetQualityLevel();
+            //int quality_value = QualitySettings.GetQualityLevel();
             int reso_value = GetResolutionIndex();
             bool windowed_value = !Screen.fullScreen;
 
-            quality.value = quality_value;
+            //quality.value = quality_value;
             resolution.value = reso_value;
             windowed.isOn = windowed_value;
             refreshing = false;
@@ -98,12 +98,12 @@ namespace RogueEngine.UI
 
         private void RefreshText()
         {
-            master_vol_txt.text = master_vol.value.ToString();
-            music_vol_txt.text = music_vol.value.ToString();
-            sfx_vol_txt.text = sfx_vol.value.ToString();
+            master_vol_txt.text = string.Format("{0:0}", master_vol.value);
+            music_vol_txt.text = string.Format("{0:0}", music_vol.value);
+            sfx_vol_txt.text = string.Format("{0:0}", sfx_vol.value);
 
-            int quality_value = Mathf.RoundToInt(quality.value);
-            quality_txt.text = QualitySettings.names[quality_value];
+            //int quality_value = Mathf.RoundToInt(quality.value);
+            //quality_txt.text = QualitySettings.names[quality_value];
             resolution_txt.text = "";
 
             int reso_value = Mathf.RoundToInt(resolution.value);
@@ -128,6 +128,7 @@ namespace RogueEngine.UI
             }
         }
 
+        /*
         private void OnChangeQuality()
         {
             if (!refreshing)
@@ -137,6 +138,7 @@ namespace RogueEngine.UI
                 RefreshText();
             }
         }
+        */
 
         private void OnChangeResolution()
         {
