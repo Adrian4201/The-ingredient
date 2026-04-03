@@ -244,6 +244,7 @@ namespace RogueEngine.UI
             menu_panel.Hide();
         }
         //place toggle here
+        
         private IEnumerator QuitRoutine(string scene)
         {
             BlackPanel.Get().Show();
