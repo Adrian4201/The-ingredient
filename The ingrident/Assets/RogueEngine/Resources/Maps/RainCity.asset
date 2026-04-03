@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fb23f9f8701bc14d839f9f3f681b26c, type: 3}
+  m_Name: RainCity
+  m_EditorClassIdentifier: 
+  id: Nightclub
+  title: NightClub_fight
+  map_scene: Map
+  battle_scene: NightClub
+  depth: 5
+  width_min: 1
+  width_max: 3
+  fork_probability: 0.25
+  events:
+  - {fileID: 11400000, guid: aa01b4775cd197749afd940acb12712d, type: 2}
+  - {fileID: 11400000, guid: a39b6f9bbb7d8b842af3c0965d50aa1c, type: 2}
+  - {fileID: 11400000, guid: 09aa94a505feaba42ac4d63fcfa9c179, type: 2}
+  - {fileID: 11400000, guid: b63552a7af35fdd4490f259e438ae4e8, type: 2}
+  fixed_widths:
+  - depth: 1
+    width: 2
+  - depth: 2
+    width: 1
+  - depth: 3
+    width: 2
+  - depth: 4
+    width: 3
+  - depth: 5
+    width: 1
+  fixed_events:
+  - depth: 1
+    index_min: 0
+    index_max: 1
+    evt: {fileID: 11400000, guid: aa01b4775cd197749afd940acb12712d, type: 2}
+  - depth: 1
+    index_min: 0
+    index_max: 2
+    evt: {fileID: 11400000, guid: aa01b4775cd197749afd940acb12712d, type: 2}
+  - depth: 2
+    index_min: 0
+    index_max: 1
+    evt: {fileID: 11400000, guid: b63552a7af35fdd4490f259e438ae4e8, type: 2}
+  - depth: 3
+    index_min: 0
+    index_max: 3
+    evt: {fileID: 11400000, guid: a39b6f9bbb7d8b842af3c0965d50aa1c, type: 2}
+  - depth: 4
+    index_min: 0
+    index_max: 3
+    evt: {fileID: 11400000, guid: 09aa94a505feaba42ac4d63fcfa9c179, type: 2}
+  - depth: 3
+    index_min: 0
+    index_max: 3
+    evt: {fileID: 11400000, guid: a39b6f9bbb7d8b842af3c0965d50aa1c, type: 2}
+  - depth: 4
+    index_min: 0
+    index_max: 3
+    evt: {fileID: 11400000, guid: 09aa94a505feaba42ac4d63fcfa9c179, type: 2}
+  - depth: 4
+    index_min: 0
+    index_max: 3
+    evt: {fileID: 11400000, guid: 09aa94a505feaba42ac4d63fcfa9c179, type: 2}
+  - depth: 4
+    index_min: 0
+    index_max: 3
+    evt: {fileID: 11400000, guid: 09aa94a505feaba42ac4d63fcfa9c179, type: 2}
+  - depth: 5
+    index_min: 0
+    index_max: 1
+    evt: {fileID: 11400000, guid: dded8d48ea5339e478800778d65b9fdc, type: 2}
+  map_tutorial: {fileID: 0}
