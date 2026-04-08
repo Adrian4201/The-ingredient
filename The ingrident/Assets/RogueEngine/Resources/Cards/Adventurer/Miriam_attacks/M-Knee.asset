@@ -27,7 +27,7 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities:
-  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
+  - {fileID: 11400000, guid: 1e581696087f3fd4582b2bc610e17ae3, type: 2}
   - {fileID: 11400000, guid: 074612bc7fe1c7346978b47e255bf3f4, type: 2}
   level_max: 3
   upgrade_mana: 0
