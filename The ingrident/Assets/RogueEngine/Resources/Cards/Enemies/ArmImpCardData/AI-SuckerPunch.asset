@@ -28,7 +28,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 8ae7f6d08b06fb545a85491d32e639be, type: 2}
+  - {fileID: 11400000, guid: ef6dd2a0f60a17d44b5f2d8740851264, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
