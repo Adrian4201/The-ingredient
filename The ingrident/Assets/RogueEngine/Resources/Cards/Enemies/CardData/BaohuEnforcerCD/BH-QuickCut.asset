@@ -22,7 +22,7 @@ MonoBehaviour:
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
-  rarity: {fileID: 11400000, guid: dfc1be5ddd02ceb499584a4abe294c5f, type: 2}
+  rarity: {fileID: 11400000, guid: 8993522e5cc7c824184a9aa2d2ac5b6f, type: 2}
   mana: 1
   damage: 4
   traits:
