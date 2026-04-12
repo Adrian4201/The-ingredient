@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
-  m_Name: SlamwichData
+  m_Name: SpearSnoutED
   m_EditorClassIdentifier: 
-  id: Slamwich
-  title: Asparagoons
-  art_full: {fileID: 2372208985456779730, guid: b4f4617e9418356439bbfbe16f3893d3,
+  id: SpearSnoutData
+  title: SpearSnout
+  art_full: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e, type: 3}
+  art_portrait: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e,
     type: 3}
-  art_portrait: {fileID: 2372208985456779730, guid: b4f4617e9418356439bbfbe16f3893d3,
-    type: 3}
-  prefab: {fileID: 4831116586470567743, guid: 21c8853a0ef300a4fbbc89f6de196b01, type: 3}
-  hp: 23
+  prefab: {fileID: 4831116586470567743, guid: 0cedf567f21e70b44b0c4b7f8ce03caf, type: 3}
+  hp: 28
   speed: 1
   hand: 1
   energy: 1
@@ -33,11 +32,11 @@ MonoBehaviour:
   stats: []
   abilities: []
   cards:
-  - {fileID: 11400000, guid: 9f52b835a1d09534f893d4a0971a3ca6, type: 2}
-  - {fileID: 11400000, guid: 58a4339a1e62e134585b7d15e7429368, type: 2}
-  - {fileID: 11400000, guid: d53448197f50091448ddfed11a787c21, type: 2}
-  - {fileID: 11400000, guid: d53448197f50091448ddfed11a787c21, type: 2}
-  - {fileID: 11400000, guid: b4212e6e1e1521046bd2a0e5117ab99e, type: 2}
+  - {fileID: 11400000, guid: 9b3a45b403318a3429f66b804f480c07, type: 2}
+  - {fileID: 11400000, guid: 74dbd37fdb59fa44885e4b6efe6995d5, type: 2}
+  - {fileID: 11400000, guid: f6e2f8b7aa856f848b13cb5dee3b9745, type: 2}
+  - {fileID: 11400000, guid: 409a45b8db7637244881df502cf5d6e5, type: 2}
+  - {fileID: 11400000, guid: 9b3a45b403318a3429f66b804f480c07, type: 2}
   reward_gold: 3
   reward_xp: 0
   desc: 

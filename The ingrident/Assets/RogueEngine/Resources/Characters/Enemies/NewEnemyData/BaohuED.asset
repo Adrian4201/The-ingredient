@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
-  m_Name: SpearSnout
+  m_Name: BaohuED
   m_EditorClassIdentifier: 
-  id: SpearSnoutData
+  id: BaohuCD
   title: SpearSnout
-  art_full: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e, type: 3}
-  art_portrait: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e,
+  art_full: {fileID: -5741839500283447062, guid: c4b7766ff14c4174cbdb359386e8d4a9,
     type: 3}
-  prefab: {fileID: 4831116586470567743, guid: 0cedf567f21e70b44b0c4b7f8ce03caf, type: 3}
-  hp: 28
+  art_portrait: {fileID: -5741839500283447062, guid: c4b7766ff14c4174cbdb359386e8d4a9,
+    type: 3}
+  prefab: {fileID: 4831116586470567743, guid: 0835cd58fbebed041bb37e1a324342c4, type: 3}
+  hp: 41
   speed: 1
   hand: 1
   energy: 1
@@ -31,12 +32,7 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities: []
-  cards:
-  - {fileID: 11400000, guid: 9b3a45b403318a3429f66b804f480c07, type: 2}
-  - {fileID: 11400000, guid: 74dbd37fdb59fa44885e4b6efe6995d5, type: 2}
-  - {fileID: 11400000, guid: f6e2f8b7aa856f848b13cb5dee3b9745, type: 2}
-  - {fileID: 11400000, guid: 409a45b8db7637244881df502cf5d6e5, type: 2}
-  - {fileID: 11400000, guid: 9b3a45b403318a3429f66b804f480c07, type: 2}
+  cards: []
   reward_gold: 3
   reward_xp: 0
   desc: 

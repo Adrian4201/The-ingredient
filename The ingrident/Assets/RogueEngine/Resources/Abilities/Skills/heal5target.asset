@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
   m_Name: heal5target
   m_EditorClassIdentifier: 
-  id: heal5
+  id: heal5target
   trigger: 10
   conditions_trigger: []
   target: 7

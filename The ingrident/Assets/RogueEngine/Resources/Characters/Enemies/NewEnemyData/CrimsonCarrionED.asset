@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
-  m_Name: CrimsonCarrion
+  m_Name: CrimsonCarrionED
   m_EditorClassIdentifier: 
   id: CrimsonCarrion
   title: Crimson Carrion

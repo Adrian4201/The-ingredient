@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
-  m_Name: Asparagoon
+  m_Name: RagingRamenED
   m_EditorClassIdentifier: 
-  id: Asparagoons
-  title: Asparagoons
-  art_full: {fileID: 21300000, guid: 957e83188adb4ab468b14cfc675932c0, type: 3}
-  art_portrait: {fileID: 21300000, guid: 957e83188adb4ab468b14cfc675932c0, type: 3}
-  prefab: {fileID: 4831116586470567743, guid: 74cb88a40a78bab45876f5f3be141f82, type: 3}
-  hp: 21
+  id: RagingRamenED
+  title: SpearSnout
+  art_full: {fileID: -1478503723738108408, guid: 2db72e6323625e845a6570c4a1d32d8b,
+    type: 3}
+  art_portrait: {fileID: -1478503723738108408, guid: 2db72e6323625e845a6570c4a1d32d8b,
+    type: 3}
+  prefab: {fileID: 3315427549352430699, guid: 949aa34af923567459257ea5ab8bb9fb, type: 3}
+  hp: 25
   speed: 1
   hand: 1
   energy: 1
@@ -31,11 +33,10 @@ MonoBehaviour:
   stats: []
   abilities: []
   cards:
-  - {fileID: 11400000, guid: c16db80c0cb1d504583e2a748b35498e, type: 2}
-  - {fileID: 11400000, guid: d8fd0d7ad41d4fa4782bb683b8b116e0, type: 2}
-  - {fileID: 11400000, guid: d8fd0d7ad41d4fa4782bb683b8b116e0, type: 2}
-  - {fileID: 11400000, guid: fd2266cbe00b054439eb3381b356491c, type: 2}
-  - {fileID: 11400000, guid: eddd21640160a5c4d88a1459fa65d587, type: 2}
+  - {fileID: 11400000, guid: 076645ddd96a50a4aae2981555cb0d11, type: 2}
+  - {fileID: 11400000, guid: e0991198d033c724d8d3919928d6c8cd, type: 2}
+  - {fileID: 11400000, guid: e465831bd70104a488234e17b296a561, type: 2}
+  - {fileID: 11400000, guid: b4989bf5ec8e5444b8472331b2122996, type: 2}
   reward_gold: 3
   reward_xp: 0
   desc: 

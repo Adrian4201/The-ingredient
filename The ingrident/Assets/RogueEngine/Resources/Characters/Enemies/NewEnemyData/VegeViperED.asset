@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
-  m_Name: BaohuCD
+  m_Name: VegeViperED
   m_EditorClassIdentifier: 
-  id: BaohuCD
+  id: VegeViperED
   title: SpearSnout
-  art_full: {fileID: -5741839500283447062, guid: c4b7766ff14c4174cbdb359386e8d4a9,
+  art_full: {fileID: -2994783308144001416, guid: 50f373ef4eff25e489f24a73994afaca,
     type: 3}
-  art_portrait: {fileID: -5741839500283447062, guid: c4b7766ff14c4174cbdb359386e8d4a9,
+  art_portrait: {fileID: -2994783308144001416, guid: 50f373ef4eff25e489f24a73994afaca,
     type: 3}
-  prefab: {fileID: 4831116586470567743, guid: 0835cd58fbebed041bb37e1a324342c4, type: 3}
-  hp: 41
+  prefab: {fileID: 3315427549352430699, guid: 25817f27dc8280f4fa00f8b2d9ec1df2, type: 3}
+  hp: 31
   speed: 1
   hand: 1
   energy: 1
@@ -32,7 +32,12 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities: []
-  cards: []
+  cards:
+  - {fileID: 11400000, guid: 7267e8fed144782419303b1982bb108d, type: 2}
+  - {fileID: 11400000, guid: a531a16605d799c47aa963a27a7bed68, type: 2}
+  - {fileID: 11400000, guid: 793dfbde3bd9e2341a0c6e9b43b4a148, type: 2}
+  - {fileID: 11400000, guid: 793dfbde3bd9e2341a0c6e9b43b4a148, type: 2}
+  - {fileID: 11400000, guid: e7467d3b6698d9b49a17a1dc3a07cd45, type: 2}
   reward_gold: 3
   reward_xp: 0
   desc: 
