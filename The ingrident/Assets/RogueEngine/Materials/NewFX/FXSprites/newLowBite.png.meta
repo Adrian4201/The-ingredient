@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fe200dc2bbfd44b4ebda94213cbaee84
+guid: 7aa9396d15622f3439766ba3d3c72660
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5093459156912475754
-    second: lowerbite_0
+      213: -3436079711258359664
+    second: Untitled drawing (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lowerbite_0
+      name: Untitled drawing (1)_0
       rect:
         serializedVersion: 2
-        x: 437
-        y: 165
-        width: 1173
-        height: 578
+        x: 156
+        y: 327
+        width: 688
+        height: 338
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6e8abded1a9fa640800000000000000
-      internalID: 5093459156912475754
+      spriteID: 098c48e25b79050d0800000000000000
+      internalID: -3436079711258359664
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      lowerbite_0: 5093459156912475754
+      Untitled drawing (1)_0: -3436079711258359664
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
