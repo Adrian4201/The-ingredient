@@ -25,7 +25,7 @@ MonoBehaviour:
   reward_gold: 0
   reward_xp: 0
   reward_cards: 1
-  card_rarity: {fileID: 11400000, guid: 6597c7de1e17b814eab004e1ab1b40de, type: 2}
+  card_rarity: {fileID: 11400000, guid: 8993522e5cc7c824184a9aa2d2ac5b6f, type: 2}
   reward_items: 0
   item_rarity: {fileID: 0}
   item_team: {fileID: 0}

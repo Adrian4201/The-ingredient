@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: GyroDrakeED
   m_EditorClassIdentifier: 
   id: GyroDrakeED
-  title: SpearSnout
-  art_full: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e, type: 3}
-  art_portrait: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e,
-    type: 3}
+  title: GyroDrake
+  art_full: {fileID: 21300000, guid: 36832a7bddcbbfe4aa125f360aac9ba3, type: 3}
+  art_portrait: {fileID: 21300000, guid: 36832a7bddcbbfe4aa125f360aac9ba3, type: 3}
   prefab: {fileID: 3315427549352430699, guid: c2af7b8d6f78be542af4e314a92fdead, type: 3}
   hp: 28
   speed: 1
@@ -32,11 +31,10 @@ MonoBehaviour:
   stats: []
   abilities: []
   cards:
-  - {fileID: 11400000, guid: 9b3a45b403318a3429f66b804f480c07, type: 2}
-  - {fileID: 11400000, guid: 74dbd37fdb59fa44885e4b6efe6995d5, type: 2}
-  - {fileID: 11400000, guid: f6e2f8b7aa856f848b13cb5dee3b9745, type: 2}
-  - {fileID: 11400000, guid: 409a45b8db7637244881df502cf5d6e5, type: 2}
-  - {fileID: 11400000, guid: 9b3a45b403318a3429f66b804f480c07, type: 2}
+  - {fileID: 11400000, guid: 985851165020692479e124a1dbf8e372, type: 2}
+  - {fileID: 11400000, guid: 7388a091e35d5bb469b20a92c8252f76, type: 2}
+  - {fileID: 11400000, guid: da8b50e29b1fad64ead4038807029e9d, type: 2}
+  - {fileID: 11400000, guid: 120ceb119838c4e40a3c52a54a2e7da7, type: 2}
   reward_gold: 3
   reward_xp: 0
   desc: 

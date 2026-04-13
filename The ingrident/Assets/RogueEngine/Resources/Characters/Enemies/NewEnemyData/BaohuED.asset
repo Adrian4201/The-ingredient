@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BaohuED
   m_EditorClassIdentifier: 
   id: BaohuCD
-  title: SpearSnout
+  title: Baohu
   art_full: {fileID: -5741839500283447062, guid: c4b7766ff14c4174cbdb359386e8d4a9,
     type: 3}
   art_portrait: {fileID: -5741839500283447062, guid: c4b7766ff14c4174cbdb359386e8d4a9,
@@ -32,7 +32,11 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities: []
-  cards: []
+  cards:
+  - {fileID: 11400000, guid: c28316f9ff23a654fb9456390071b7fb, type: 2}
+  - {fileID: 11400000, guid: a5ceabd2924511040a641b4fa7233154, type: 2}
+  - {fileID: 11400000, guid: f8ef09e0a84ad9741adcff3ccc1bf3a0, type: 2}
+  - {fileID: 11400000, guid: d62315404f39a21468d9563ef558e013, type: 2}
   reward_gold: 3
   reward_xp: 0
   desc: 

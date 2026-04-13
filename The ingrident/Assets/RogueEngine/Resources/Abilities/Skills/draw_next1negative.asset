@@ -15,8 +15,9 @@ MonoBehaviour:
   id: draw_next1_negative
   trigger: 10
   conditions_trigger: []
-  target: 4
-  conditions_target: []
+  target: 7
+  conditions_target:
+  - {fileID: 11400000, guid: 41c58513071a53b4e9066a58c439760f, type: 2}
   filters_target: []
   effects:
   - {fileID: 11400000, guid: 3f1a844cd1cd4c744aed13bb77b7153b, type: 2}

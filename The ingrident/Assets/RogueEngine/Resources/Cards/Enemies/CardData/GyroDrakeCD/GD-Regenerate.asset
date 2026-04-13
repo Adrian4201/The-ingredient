@@ -15,8 +15,8 @@ MonoBehaviour:
   id: GD-Regenerate
   cardColor: 4
   title: Regenerate
-  art_icon: {fileID: 0}
-  art_full: {fileID: 0}
+  art_icon: {fileID: 21300000, guid: 581516c57b834e94aab17e7ab96790e7, type: 3}
+  art_full: {fileID: 21300000, guid: 581516c57b834e94aab17e7ab96790e7, type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
