@@ -38,7 +38,7 @@ MonoBehaviour:
   text: 'Deal 2 Damage, Stock 2. '
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: 478a2619bf9843e4598539bcfe1c875e, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

@@ -38,7 +38,7 @@ MonoBehaviour:
   text: Deal 7 Damage, take 3 Damage
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: eb732c6a92c224344aaabb7740a0288d, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

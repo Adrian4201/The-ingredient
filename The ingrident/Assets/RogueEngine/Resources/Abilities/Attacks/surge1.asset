@@ -32,7 +32,7 @@ MonoBehaviour:
   caster_fx: {fileID: 0}
   target_fx: {fileID: 0}
   projectile_fx: {fileID: 0}
-  cast_audio: {fileID: 0}
+  cast_audio: {fileID: 8300000, guid: d6ae2c1514042cd4280b93f6a996f225, type: 3}
   target_audio: {fileID: 0}
   caster_anim: 
   target_anim: 

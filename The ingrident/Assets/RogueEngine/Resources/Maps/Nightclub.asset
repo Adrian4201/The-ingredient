@@ -77,4 +77,8 @@ MonoBehaviour:
     index_min: 0
     index_max: 1
     evt: {fileID: 11400000, guid: dded8d48ea5339e478800778d65b9fdc, type: 2}
+  - depth: 3
+    index_min: 0
+    index_max: 3
+    evt: {fileID: 11400000, guid: 5cf0147f994151141bef45381d04cb62, type: 2}
   map_tutorial: {fileID: 0}

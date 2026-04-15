@@ -37,7 +37,7 @@ MonoBehaviour:
   text: Deal 1 Damage, Gain 3 Barrier
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: 0a555b105538fae4a9162a16f5b38ece, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

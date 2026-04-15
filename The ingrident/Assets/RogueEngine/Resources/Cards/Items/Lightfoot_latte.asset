@@ -31,7 +31,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6384bde21cfca0143ac1de572e2a1bcc, type: 2}
   level_max: 1
   upgrade_mana: 0
-  cost: 100
+  cost: 10
   intent: {fileID: 0}
   text: Upon playing a Blue or Purple card, gain 1 Barrier
   upg_text: 
