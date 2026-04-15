@@ -4774,7 +4774,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   start_audio: {fileID: 0}
-  game_music: []
+  game_music:
+  - {fileID: 8300000, guid: 0d4d196e7bbd5a345b3ac528ccaa61d1, type: 3}
   game_ambience: []
   volume_slider: {fileID: 0}
 --- !u!1 &1364417604
