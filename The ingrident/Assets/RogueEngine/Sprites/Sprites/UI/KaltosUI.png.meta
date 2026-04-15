@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 3e408271c39651645afc3a07fb25d168
+guid: c4f10bbb18386ea4f98d18a84825536c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1933958907274717438
-    second: sauce beam_0
+      213: 675581625811785764
+    second: KaltosUI_0
+  - first:
+      213: 1821637356018387829
+    second: KaltosUI_1
+  - first:
+      213: -5072700433623509917
+    second: KaltosUI_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sauce beam_0
+      name: KaltosUI_0
       rect:
         serializedVersion: 2
-        x: 512
-        y: 2154
-        width: 2681
-        height: 1959
+        x: 509
+        y: 37
+        width: 1126
+        height: 1967
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20710b1de923925e0800000000000000
-      internalID: -1933958907274717438
+      spriteID: 428da47c8e5206900800000000000000
+      internalID: 675581625811785764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaltosUI_1
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 913
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bce0b1681c74910800000000000000
+      internalID: 1821637356018387829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KaltosUI_2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 908
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36496e9f4d52a99b0800000000000000
+      internalID: -5072700433623509917
       vertices: []
       indices: 
       edges: []
@@ -125,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sauce beam_0: -1933958907274717438
+      KaltosUI_0: 675581625811785764
+      KaltosUI_1: 1821637356018387829
+      KaltosUI_2: -5072700433623509917
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

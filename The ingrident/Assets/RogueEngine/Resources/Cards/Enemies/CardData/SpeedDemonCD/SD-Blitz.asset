@@ -15,8 +15,10 @@ MonoBehaviour:
   id: SD-Blitz
   cardColor: 5
   title: Blitz
-  art_icon: {fileID: 21300000, guid: 5de63558f3ac2624d803311247bcd9a6, type: 3}
-  art_full: {fileID: 21300000, guid: 5de63558f3ac2624d803311247bcd9a6, type: 3}
+  art_icon: {fileID: 7469233648294227068, guid: 5de63558f3ac2624d803311247bcd9a6,
+    type: 3}
+  art_full: {fileID: 7469233648294227068, guid: 5de63558f3ac2624d803311247bcd9a6,
+    type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}

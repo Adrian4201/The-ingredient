@@ -3259,7 +3259,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 0
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &1324801105
 GameObject:
@@ -5922,7 +5922,7 @@ PrefabInstance:
     - target: {fileID: 4248004053616676679, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0003088587
+      value: 0.000023298668
       objectReference: {fileID: 0}
     - target: {fileID: 4315456365999050280, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
@@ -6120,6 +6120,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5548163083577216578, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5571684774520005130, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6230,6 +6235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MapUI
       objectReference: {fileID: 0}
+    - target: {fileID: 5571684774687539843, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 134.96643
+      objectReference: {fileID: 0}
     - target: {fileID: 5571684774711181359, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_Color.a
@@ -6250,6 +6260,16 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.3886792
       objectReference: {fileID: 0}
+    - target: {fileID: 5571684774711181359, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_Maskable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571684774711181359, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5571684774711181360, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -6257,8 +6277,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5571684774711181361, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
+      propertyPath: m_Name
+      value: MoneyUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571684774711181361, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571684775225005933, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 675581625811785764, guid: c4f10bbb18386ea4f98d18a84825536c,
+        type: 3}
+    - target: {fileID: 5571684775225005934, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 54.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571684775225005934, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 54.962
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571684775225005934, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 46.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5571684775225005934, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5.1244
       objectReference: {fileID: 0}
     - target: {fileID: 5628750606319024365, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
@@ -6799,7 +6850,7 @@ PrefabInstance:
     - target: {fileID: 9118511706246415433, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0002674146
+      value: -0.00003545514
       objectReference: {fileID: 0}
     - target: {fileID: 9130335222656968042, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
