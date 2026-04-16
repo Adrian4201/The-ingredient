@@ -15,7 +15,7 @@ MonoBehaviour:
   id: BaohuBattle
   depth_min: 1
   depth_max: 12
-  icon: {fileID: 4644523113532460279, guid: 90cedea65594af049b2cd7ae07ebb1a7, type: 3}
+  icon: {fileID: -2424553518018739129, guid: cacc3e1aebfff9f48bb328baf9a9daf7, type: 3}
   scene: 
   enemies_level: 1
   enemies:

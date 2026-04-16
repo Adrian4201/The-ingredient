@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 352676b4616ff8a45837071a2fc469a4, type: 3}
-  m_Name: QuickSnack
+  m_Name: gamble_set_win
   m_EditorClassIdentifier: 
-  id: QuickSnack
-  depth_min: 1
-  depth_max: 12
+  id: gamble_1_win
+  depth_min: 2
+  depth_max: 99
   icon: {fileID: 21300000, guid: fbfb192cd7dfe0e4eb7fe112ecc7d972, type: 3}
-  text: You come across a some leftover bao!
+  text: You see a group of workers playing dice, they look at you, eyeing the cash
+    at your hip.
   choices:
-  - text: Take a bite.
-    subtext: Heal 8
-    effect: {fileID: 11400000, guid: 5bd8a21bd7f38b3448bed2ddfc7d8ab4, type: 2}
-  - text: Ask for more.
-    subtext: Spend 4 Gold, Heal 16.
-    effect: {fileID: 11400000, guid: 5de622039aa878e48ab46ef0ab08ae7c, type: 2}
+  - text: Gamble
+    subtext: 50/50 chance to win 5 gold, or lose 5 gold.
+    effect: {fileID: 11400000, guid: fcf9b7050c7405d4ab00e3d79eee224b, type: 2}
+  - text: Not Today
+    subtext: Leave
+    effect: {fileID: 11400000, guid: 777e0b881c1878948b602d5cc7afc494, type: 2}

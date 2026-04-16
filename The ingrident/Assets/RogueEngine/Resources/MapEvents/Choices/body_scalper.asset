@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 352676b4616ff8a45837071a2fc469a4, type: 3}
-  m_Name: illegalwares
+  m_Name: body_scalper
   m_EditorClassIdentifier: 
   id: illegalwares
   depth_min: 1
   depth_max: 99
   icon: {fileID: 21300000, guid: fbfb192cd7dfe0e4eb7fe112ecc7d972, type: 3}
-  text: You see a shady women in sunglasses sitting at a table, flanked by guards.
-    She shows you an array of high-tech weaponry.
+  text: You come by a shady figure, lugging around a huge sack. The bag oozes purple
+    at the seems. He looks towards you, and offers his wares.
   choices:
-  - text: Take the Visor
-    subtext: Pay 6 Kaltos, gain Red Card
+  - text: Take the mottled arm.
+    subtext: Pay 3 Kaltos, Gain Yellow Card, Take 3 Damage
     effect: {fileID: 11400000, guid: c01c6b3cc6eb7964bb9aabf2edce0ea1, type: 2}
-  - text: Take the Glove
-    subtext: Pay 6 Kaltos, gain Orange card
+  - text: Take the tentacled chest wrap.
+    subtext: Pay 3 Kaltos, Gain Green Card, Take 3 Damage
     effect: {fileID: 11400000, guid: 1d38794949b9d184e877a0a8ad048bbe, type: 2}
-  - text: Take the booster rockets.
-    subtext: Pay 6 Kaltos, gain Purple Card.
+  - text: Take the dripping knee cap.
+    subtext: Pay 3 Kaltos, gain Purple Card, Take 3 Damage
     effect: {fileID: 11400000, guid: 784fd461d0120394c8ce72d9ffd5db68, type: 2}
   - text: Ignore her.
     subtext: 
