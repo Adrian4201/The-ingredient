@@ -25,6 +25,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a39b6f9bbb7d8b842af3c0965d50aa1c, type: 2}
   - {fileID: 11400000, guid: 09aa94a505feaba42ac4d63fcfa9c179, type: 2}
   - {fileID: 11400000, guid: b63552a7af35fdd4490f259e438ae4e8, type: 2}
+  - {fileID: 11400000, guid: 5cf0147f994151141bef45381d04cb62, type: 2}
   fixed_widths:
   - depth: 1
     width: 2
@@ -60,7 +61,7 @@ MonoBehaviour:
   - depth: 3
     index_min: 0
     index_max: 3
-    evt: {fileID: 11400000, guid: a39b6f9bbb7d8b842af3c0965d50aa1c, type: 2}
+    evt: {fileID: 11400000, guid: 5cf0147f994151141bef45381d04cb62, type: 2}
   - depth: 4
     index_min: 0
     index_max: 3

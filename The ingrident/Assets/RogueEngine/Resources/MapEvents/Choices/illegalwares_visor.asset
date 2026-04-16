@@ -15,7 +15,7 @@ MonoBehaviour:
   id: illegalwares_visor
   depth_min: 0
   depth_max: 0
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: fbfb192cd7dfe0e4eb7fe112ecc7d972, type: 3}
   target: 15
   spend_cards: []
   spend_items: []
