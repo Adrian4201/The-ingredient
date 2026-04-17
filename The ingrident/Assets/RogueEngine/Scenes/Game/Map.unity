@@ -5538,6 +5538,11 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2188132104913750544, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2214742566498054707, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_Alpha
@@ -6000,6 +6005,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4818032599465180212, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: value
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4829113769229630082, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_IsActive
@@ -6235,6 +6245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MapUI
       objectReference: {fileID: 0}
+    - target: {fileID: 5571684774520005134, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5571684774687539843, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -6304,7 +6319,7 @@ PrefabInstance:
     - target: {fileID: 5571684775225005934, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 46.7
+      value: 46.69995
       objectReference: {fileID: 0}
     - target: {fileID: 5571684775225005934, guid: ff4e228090638404ea1a9fdc5aaa8b9b,
         type: 3}
