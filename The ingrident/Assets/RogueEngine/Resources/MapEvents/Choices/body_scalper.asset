@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352676b4616ff8a45837071a2fc469a4, type: 3}
+  m_Name: body_scalper
+  m_EditorClassIdentifier: 
+  id: illegalwares
+  depth_min: 1
+  depth_max: 99
+  icon: {fileID: 21300000, guid: fbfb192cd7dfe0e4eb7fe112ecc7d972, type: 3}
+  text: You come by a shady figure, lugging around a huge sack. The bag oozes purple
+    at the seems. He looks towards you, and offers his wares.
+  choices:
+  - text: Take the mottled arm.
+    subtext: Pay 3 Kaltos, Gain Yellow Card, Take 3 Damage
+    effect: {fileID: 11400000, guid: c01c6b3cc6eb7964bb9aabf2edce0ea1, type: 2}
+  - text: Take the tentacled chest wrap.
+    subtext: Pay 3 Kaltos, Gain Green Card, Take 3 Damage
+    effect: {fileID: 11400000, guid: 1d38794949b9d184e877a0a8ad048bbe, type: 2}
+  - text: Take the dripping knee cap.
+    subtext: Pay 3 Kaltos, gain Purple Card, Take 3 Damage
+    effect: {fileID: 11400000, guid: 784fd461d0120394c8ce72d9ffd5db68, type: 2}
+  - text: Ignore her.
+    subtext: 
+    effect: {fileID: 11400000, guid: 777e0b881c1878948b602d5cc7afc494, type: 2}

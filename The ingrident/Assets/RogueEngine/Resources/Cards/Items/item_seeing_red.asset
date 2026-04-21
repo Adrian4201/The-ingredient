@@ -33,7 +33,7 @@ MonoBehaviour:
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 0}
-  text: Whenever you play a red card, gain 1 Strength and lose 1 Defense
+  text: Whenever you play a red card, gain 1 Fury and lose 1 Defense
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}

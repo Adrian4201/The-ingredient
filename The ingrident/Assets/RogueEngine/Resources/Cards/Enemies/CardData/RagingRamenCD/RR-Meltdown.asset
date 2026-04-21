@@ -15,8 +15,10 @@ MonoBehaviour:
   id: RR-Meltdown
   cardColor: 1
   title: Meltdown
-  art_icon: {fileID: 21300000, guid: bc7797fe7dd8126429f1b311c245a789, type: 3}
-  art_full: {fileID: 21300000, guid: bc7797fe7dd8126429f1b311c245a789, type: 3}
+  art_icon: {fileID: -2310616632412445582, guid: bc7797fe7dd8126429f1b311c245a789,
+    type: 3}
+  art_full: {fileID: -2310616632412445582, guid: bc7797fe7dd8126429f1b311c245a789,
+    type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}

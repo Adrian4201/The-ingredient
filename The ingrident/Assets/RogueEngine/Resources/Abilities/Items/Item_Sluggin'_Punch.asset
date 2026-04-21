@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Item_Sluggin'_Punch
   trigger: 12
-  conditions_trigger: []
+  conditions_trigger:
+  - {fileID: 11400000, guid: 5e4b61105e1ed674493923cd9a159ea6, type: 2}
   target: 7
   conditions_target:
   - {fileID: 11400000, guid: 41c58513071a53b4e9066a58c439760f, type: 2}

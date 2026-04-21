@@ -221,6 +221,7 @@ namespace RogueEngine.Server
             if (client != null)
             {
                 reader.ReadValueSafe(out ushort type);
+                Debug.Log(type);
                 SerializedData sdata = new SerializedData(reader);
                 if (!battle_logic.IsResolving())
                 {

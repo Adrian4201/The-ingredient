@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: VV-Constriction
   cardColor: 4
-  title: Verdant Overflow
-  art_icon: {fileID: 21300000, guid: bf36d9893f05f4b45b7b18ace61cbf16, type: 3}
-  art_full: {fileID: 21300000, guid: bf36d9893f05f4b45b7b18ace61cbf16, type: 3}
+  title: Constriction
+  art_icon: {fileID: 7366772700195490981, guid: 9647d922317b836469ebe23f44772d1b,
+    type: 3}
+  art_full: {fileID: 7366772700195490981, guid: 9647d922317b836469ebe23f44772d1b,
+    type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
@@ -27,16 +29,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 728d8652c79768d4d9766564790720f0, type: 2}
-  - {fileID: 11400000, guid: 3ec7a0bc3f74bcd4e9565e35d2e12590, type: 2}
+  - {fileID: 11400000, guid: 655baebc5e383544ebb4fbe439b6e690, type: 2}
+  - {fileID: 11400000, guid: 5b0f83c67acd2fa48ac4641d0ac4d8ef, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Heal 5, Heal Target 5
+  text: Apply 3 Stale
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: 0a555b105538fae4a9162a16f5b38ece, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

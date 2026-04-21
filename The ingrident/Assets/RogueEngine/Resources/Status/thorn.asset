@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: thorn
   effect: 55
-  duration: 10
+  duration: 0
   is_negative: 0
   title: Thorn
   icon: {fileID: 21300000, guid: 7b2b1a9b269c7eb4ca2c2fee659d4b42, type: 3}

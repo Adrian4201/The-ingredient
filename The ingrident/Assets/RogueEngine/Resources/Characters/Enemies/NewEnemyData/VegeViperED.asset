@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
+  m_Name: VegeViperED
+  m_EditorClassIdentifier: 
+  id: VegeViperED
+  title: SpearSnout
+  art_full: {fileID: -2994783308144001416, guid: 50f373ef4eff25e489f24a73994afaca,
+    type: 3}
+  art_portrait: {fileID: -2994783308144001416, guid: 50f373ef4eff25e489f24a73994afaca,
+    type: 3}
+  prefab: {fileID: 3315427549352430699, guid: 25817f27dc8280f4fa00f8b2d9ec1df2, type: 3}
+  hp: 31
+  speed: 1
+  hand: 1
+  energy: 1
+  level_max: 1
+  level_up_hp: 0
+  level_up_speed: 0
+  level_up_hand: 0
+  level_up_energy: 0
+  behavior: {fileID: 11400000, guid: 8d1ff12afa7a643478446471511e24ab, type: 2}
+  traits: []
+  stats: []
+  abilities: []
+  cards:
+  - {fileID: 11400000, guid: 7267e8fed144782419303b1982bb108d, type: 2}
+  - {fileID: 11400000, guid: a531a16605d799c47aa963a27a7bed68, type: 2}
+  - {fileID: 11400000, guid: 793dfbde3bd9e2341a0c6e9b43b4a148, type: 2}
+  - {fileID: 11400000, guid: 793dfbde3bd9e2341a0c6e9b43b4a148, type: 2}
+  - {fileID: 11400000, guid: e7467d3b6698d9b49a17a1dc3a07cd45, type: 2}
+  reward_gold: 3
+  reward_xp: 0
+  desc: 
+  spawn_fx: {fileID: 0}
+  death_fx: {fileID: 0}
+  spawn_audio: {fileID: 0}
+  death_audio: {fileID: 0}

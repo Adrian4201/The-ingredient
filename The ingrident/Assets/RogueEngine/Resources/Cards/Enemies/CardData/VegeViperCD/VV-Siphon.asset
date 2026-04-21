@@ -15,8 +15,10 @@ MonoBehaviour:
   id: VV-Siphon
   cardColor: 1
   title: Siphon
-  art_icon: {fileID: 21300000, guid: 87daed1a932cdde4ba6d69ccf27470bd, type: 3}
-  art_full: {fileID: 21300000, guid: 87daed1a932cdde4ba6d69ccf27470bd, type: 3}
+  art_icon: {fileID: -6599895244811192684, guid: 87daed1a932cdde4ba6d69ccf27470bd,
+    type: 3}
+  art_full: {fileID: -6599895244811192684, guid: 87daed1a932cdde4ba6d69ccf27470bd,
+    type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
@@ -37,7 +39,7 @@ MonoBehaviour:
   text: Deal 2 Damage, Heal 2, Gain 2 Barrier
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: eb732c6a92c224344aaabb7740a0288d, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

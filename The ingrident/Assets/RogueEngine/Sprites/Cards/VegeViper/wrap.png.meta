@@ -55,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -112,10 +112,10 @@ TextureImporter:
       name: wrap_0
       rect:
         serializedVersion: 2
-        x: 1090
-        y: 2106
-        width: 1542
-        height: 2037
+        x: 0
+        y: 0
+        width: 3750
+        height: 5250
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,72 +126,6 @@ TextureImporter:
       bones: []
       spriteID: 5ac82307db80c3660800000000000000
       internalID: 7366772700195490981
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wrap_1
-      rect:
-        serializedVersion: 2
-        x: 2619
-        y: 2989
-        width: 37
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2e9c090973e1c14e0800000000000000
-      internalID: -2009698109716641310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wrap_2
-      rect:
-        serializedVersion: 2
-        x: 2607
-        y: 2875
-        width: 27
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5ba9268dba9f3c80800000000000000
-      internalID: -8340777846076495013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wrap_3
-      rect:
-        serializedVersion: 2
-        x: 2398
-        y: 2104
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29cc5040c0a1ce300800000000000000
-      internalID: 282629515526917266
       vertices: []
       indices: 
       edges: []
@@ -211,9 +145,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       wrap_0: 7366772700195490981
-      wrap_1: -2009698109716641310
-      wrap_2: -8340777846076495013
-      wrap_3: 282629515526917266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

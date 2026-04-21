@@ -49,6 +49,7 @@ namespace RogueEngine
                 continueCG = continueButton.GetComponent<CanvasGroup>();
                 continueCG.alpha = 1;
                 continueCG.interactable = true;
+                continueCG.blocksRaycasts = true;
 
                 continueButton.onClick.AddListener(() =>
                 {
@@ -56,6 +57,7 @@ namespace RogueEngine
                     Destroy(cutsceneObject);
                     continueCG.alpha = 0;
                     continueCG.interactable = false;
+                    continueCG.blocksRaycasts = false;
                 });
             }
         }

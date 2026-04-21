@@ -38,7 +38,7 @@ MonoBehaviour:
   text: Deal 4 Damage, Apply 1 Poison.
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: 612935247c0ef2d41883712d96b5235a, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

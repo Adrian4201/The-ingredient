@@ -16,51 +16,36 @@ MonoBehaviour:
   title: RainCity_Fight
   map_scene: Map
   battle_scene: RainCity
-  depth: 7
-  width_min: 2
+  depth: 9
+  width_min: 1
   width_max: 3
-  fork_probability: 0.25
+  fork_probability: 0.2
   events:
-  - {fileID: 11400000, guid: 77c51ce04ebc37a468ac641ced358882, type: 2}
-  - {fileID: 11400000, guid: 9343d4cf371c3c4449ffe60fbc7f8f80, type: 2}
-  - {fileID: 11400000, guid: b63552a7af35fdd4490f259e438ae4e8, type: 2}
-  - {fileID: 11400000, guid: 4df37bd6b6c95854686ec2bedf8cd6d9, type: 2}
+  - {fileID: 11400000, guid: 9da47db8c85707943b065a4decf87ffd, type: 2}
+  - {fileID: 11400000, guid: 2fa31e8f793d91c49a0dded75fcf6e15, type: 2}
+  - {fileID: 11400000, guid: 3a94cd54757c2f14398b2f33eb5e1b90, type: 2}
+  - {fileID: 11400000, guid: fa1b2047332baae4f9371d4fd3c293dc, type: 2}
+  - {fileID: 11400000, guid: e0ab89de62a10694a8b29d68c31e9481, type: 2}
+  - {fileID: 11400000, guid: b2aaa7ac48574614a892f5b7761ac731, type: 2}
+  - {fileID: 11400000, guid: 9bfbdb2b4d5ffdd42aff6d95c180254f, type: 2}
   fixed_widths:
-  - depth: 0
-    width: 0
   - depth: 1
-    width: 0
-  - depth: 2
-    width: 0
-  - depth: 3
-    width: 0
-  - depth: 4
-    width: 0
-  - depth: 5
-    width: 0
-  - depth: 6
-    width: 1
-  - depth: 7
     width: 1
   - depth: 8
     width: 1
   - depth: 9
     width: 1
-  - depth: 10
-    width: 1
-  - depth: 11
-    width: 1
   fixed_events:
-  - depth: 7
-    index_min: 0
-    index_max: 1
-    evt: {fileID: 11400000, guid: 4f315f3a3af91b54f968990d1eb0f48a, type: 2}
-  - depth: 6
+  - depth: 8
     index_min: 0
     index_max: 1
     evt: {fileID: 11400000, guid: 865d313d62e694d499d131de9b3aaae5, type: 2}
-  - depth: 3
+  - depth: 9
     index_min: 0
     index_max: 1
-    evt: {fileID: 11400000, guid: b2aaa7ac48574614a892f5b7761ac731, type: 2}
+    evt: {fileID: 11400000, guid: 868b194239a771e449e5abc12fbd5f96, type: 2}
+  - depth: 1
+    index_min: 0
+    index_max: 1
+    evt: {fileID: 11400000, guid: d609d1cb9f7dbef4ea03c586250e4354, type: 2}
   map_tutorial: {fileID: 0}

@@ -29,7 +29,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: facd7a55ec5336c4ab9b0a7e59b913ee, type: 2}
+  - {fileID: 11400000, guid: 25f42eec66edee543bdd99d828c5854d, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
@@ -37,7 +37,7 @@ MonoBehaviour:
   text: Deal 4 Damage
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: 66b67ef05788890489e77f604ea7c6bd, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

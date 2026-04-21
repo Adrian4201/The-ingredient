@@ -18,14 +18,14 @@ MonoBehaviour:
   battle_scene: NightClub
   depth: 6
   width_min: 1
-  width_max: 2
+  width_max: 3
   fork_probability: 0.25
   events:
   - {fileID: 11400000, guid: aa01b4775cd197749afd940acb12712d, type: 2}
   - {fileID: 11400000, guid: a39b6f9bbb7d8b842af3c0965d50aa1c, type: 2}
   - {fileID: 11400000, guid: 09aa94a505feaba42ac4d63fcfa9c179, type: 2}
   - {fileID: 11400000, guid: b63552a7af35fdd4490f259e438ae4e8, type: 2}
-  - {fileID: 11400000, guid: d609d1cb9f7dbef4ea03c586250e4354, type: 2}
+  - {fileID: 11400000, guid: 5cf0147f994151141bef45381d04cb62, type: 2}
   fixed_widths:
   - depth: 1
     width: 2
@@ -61,7 +61,7 @@ MonoBehaviour:
   - depth: 3
     index_min: 0
     index_max: 3
-    evt: {fileID: 11400000, guid: a39b6f9bbb7d8b842af3c0965d50aa1c, type: 2}
+    evt: {fileID: 11400000, guid: 5cf0147f994151141bef45381d04cb62, type: 2}
   - depth: 4
     index_min: 0
     index_max: 3
@@ -78,8 +78,12 @@ MonoBehaviour:
     index_min: 0
     index_max: 1
     evt: {fileID: 11400000, guid: dded8d48ea5339e478800778d65b9fdc, type: 2}
+  - depth: 3
+    index_min: 0
+    index_max: 3
+    evt: {fileID: 11400000, guid: 5cf0147f994151141bef45381d04cb62, type: 2}
   - depth: 6
     index_min: 0
-    index_max: 1
-    evt: {fileID: 11400000, guid: d609d1cb9f7dbef4ea03c586250e4354, type: 2}
+    index_max: 3
+    evt: {fileID: 11400000, guid: b2aaa7ac48574614a892f5b7761ac731, type: 2}
   map_tutorial: {fileID: 0}
