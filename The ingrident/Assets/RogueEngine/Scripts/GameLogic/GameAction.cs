@@ -46,6 +46,7 @@ namespace RogueEngine
         public const ushort ShopSellCard = 341;
         public const ushort ShopBuyItem = 342;
         public const ushort ShopSellItem = 343;
+        public const ushort ShopHeal = 344;
 
         public const ushort GainChampion = 350;
         public const ushort RemoveChampion = 352;

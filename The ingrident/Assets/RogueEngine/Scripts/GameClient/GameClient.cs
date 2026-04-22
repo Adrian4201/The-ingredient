@@ -455,6 +455,14 @@ namespace RogueEngine.Client
             SendAction(GameAction.ShopSellItem, mdata);
         }
 
+        public void MapShopHeal(Champion champion)
+        {
+            MsgShop mdata = new MsgShop();
+            mdata.champion_uid = champion.uid;
+            mdata.item_id = "";
+            SendAction(GameAction.ShopHeal, mdata);
+        }
+
         public void UseItem(Champion character, ChampionCard item)
         {
             MsgUse mdata = new MsgUse();

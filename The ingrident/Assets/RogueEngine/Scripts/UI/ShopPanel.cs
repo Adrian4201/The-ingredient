@@ -200,15 +200,15 @@ namespace RogueEngine.UI
             Champion champion = world.GetChampion(champion_uid);
             Player aplayer = GameClient.Get().GetPlayer();
             int gold = aplayer.gold;
-            
 
-            if (gold >=5)
+            if (gold >= 5)
             {
                 // add health
-                champion.damage -= 10;
-                champion.damage = Mathf.Max(champion.damage, 0);
-                healClicked = true;
-                aplayer.gold -= 5;
+                //champion.damage -= 10;
+                //champion.damage = Mathf.Max(champion.damage, 0);
+                //healClicked = true;
+                //aplayer.gold -= 5;
+                GameClient.Get().MapShopHeal(champion);
             } else
             {
                 Debug.Log("haha brokie");

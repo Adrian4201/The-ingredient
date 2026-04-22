@@ -344,6 +344,7 @@ namespace RogueEngine.Gameplay
                 onMoved?.Invoke(champion, loc);
 
                 // Heal 3 HP between events for the moving champion
+                //erm ACTUALLY it's 5 now! also           yeah
                 champion.damage = Mathf.Max(0, champion.damage - 5);
 
                 TriggerMapEvent(champion, loc);
@@ -491,6 +492,22 @@ namespace RogueEngine.Gameplay
                     champion.AddItem(item);
                     RefreshWorld();
                     onBuyItem?.Invoke(champion, item);
+                }
+            }
+        }
+
+        public virtual void ShopHeal(Champion champion)
+        {
+            if(champion != null && world_data.state == WorldState.Shop)
+            {
+                Player player = world_data.GetPlayer(champion.player_id);
+                if(player.gold >= 5)
+                {
+                    champion.damage -= 10;
+                    champion.damage = Mathf.Max(champion.damage, 0);
+                    player.gold -= 5;
+                    RefreshWorld();
+                    Debug.Log("Got to World Logic");
                 }
             }
         }
