@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85e4018d1852d674fb87eb882c12be89, type: 3}
+  m_Name: SpeedDemonED
+  m_EditorClassIdentifier: 
+  id: SpeedDemonED
+  title: SpearSnout
+  art_full: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e, type: 3}
+  art_portrait: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e,
+    type: 3}
+  prefab: {fileID: 3315427549352430699, guid: 6a929f8026f4c5f4db5119feddd61357, type: 3}
+  hp: 19
+  speed: 20
+  hand: 1
+  energy: 1
+  level_max: 1
+  level_up_hp: 0
+  level_up_speed: 0
+  level_up_hand: 0
+  level_up_energy: 0
+  behavior: {fileID: 11400000, guid: 8d1ff12afa7a643478446471511e24ab, type: 2}
+  traits: []
+  stats: []
+  abilities: []
+  cards:
+  - {fileID: 11400000, guid: 7ffad0de634d7c84b960e91a047d42e8, type: 2}
+  - {fileID: 11400000, guid: a9cf8a12de21a9a49bb60cb7fabfb13e, type: 2}
+  - {fileID: 11400000, guid: 24fb6a40b94097d4ea9491c5e0bd9f24, type: 2}
+  - {fileID: 11400000, guid: 11d3a3fccb4222148a306fb4e08930c8, type: 2}
+  reward_gold: 3
+  reward_xp: 0
+  desc: 
+  spawn_fx: {fileID: 0}
+  death_fx: {fileID: 0}
+  spawn_audio: {fileID: 0}
+  death_audio: {fileID: 0}

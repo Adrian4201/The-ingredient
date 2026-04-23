@@ -27,7 +27,7 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 4bc795e832aa26c409d47745aec515ba, type: 2}
+  - {fileID: 11400000, guid: c0b1e458a8addf84f83f81ab402fb79f, type: 2}
   - {fileID: 11400000, guid: 232c0055e534b7c4da8dcce65fbc6dce, type: 2}
   level_max: 3
   upgrade_mana: 0
@@ -36,7 +36,7 @@ MonoBehaviour:
   text: Deal 4 Damage, Heal 2
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: eb732c6a92c224344aaabb7740a0288d, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352676b4616ff8a45837071a2fc469a4, type: 3}
+  m_Name: gamble_set_lose
+  m_EditorClassIdentifier: 
+  id: gamble_1_lose
+  depth_min: 2
+  depth_max: 99
+  icon: {fileID: 21300000, guid: fbfb192cd7dfe0e4eb7fe112ecc7d972, type: 3}
+  text: You see a group of workers playing dice, they look at you, eyeing the cash
+    at your hip.
+  choices:
+  - text: Gamble
+    subtext: 50/50 chance to win 5 gold, or lose 5 gold.
+    effect: {fileID: 11400000, guid: 065f247c87a2cd240aaef338cd631095, type: 2}
+  - text: Not Today
+    subtext: Leave
+    effect: {fileID: 11400000, guid: 777e0b881c1878948b602d5cc7afc494, type: 2}

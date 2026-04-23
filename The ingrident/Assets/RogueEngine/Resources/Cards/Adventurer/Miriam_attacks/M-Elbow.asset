@@ -28,8 +28,8 @@ MonoBehaviour:
   - trait: {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
     value: 2
   abilities:
-  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
-  - {fileID: 11400000, guid: a8445158bb3666e44aa0826d08e82fe6, type: 2}
+  - {fileID: 11400000, guid: ee7c5e3a670776a43819f55bdd3e72ab, type: 2}
+  - {fileID: 11400000, guid: 9887e43f3805ce54c824c57e242d5345, type: 2}
   level_max: 3
   upgrade_mana: 0
   cost: 1
@@ -37,7 +37,7 @@ MonoBehaviour:
   text: 'Deal 2 Damage. Drop: Deal 1 Damage'
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: 478a2619bf9843e4598539bcfe1c875e, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0

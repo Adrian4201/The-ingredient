@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace RogueEngine.Client
 {
@@ -14,13 +15,15 @@ namespace RogueEngine.Client
         public AudioClip[] game_music;
         public AudioClip[] game_ambience;
 
+        public Slider volume_slider;
+
         private static SceneSettings instance;
 
         private void Awake()
         {
             instance = this;
         }
-
+        
         void Start()
         {
             AudioTool.Get().PlaySFX("game_sfx", start_audio);

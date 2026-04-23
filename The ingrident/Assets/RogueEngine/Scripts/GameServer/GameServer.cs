@@ -72,6 +72,7 @@ namespace RogueEngine.Server
             RegisterAction(GameAction.ShopBuyCard, ReceiveBuyCard);
             RegisterAction(GameAction.ShopSellItem, ReceiveSellItem);
             RegisterAction(GameAction.UseItem, ReceiveUseItem);
+            RegisterAction(GameAction.ShopHeal, ReceiveShopHeal);
 
             //Battle Actions
             RegisterAction(GameAction.PlayCard, ReceivePlayCard);
@@ -537,6 +538,12 @@ namespace RogueEngine.Server
                         world_logic.UseItem(champion, item);
                 }
             }
+        }
+
+        public void ReceiveShopHeal(ClientData iclient, SerializedData sdata)
+        {
+            MsgUse msg = sdata.Get<MsgUse>();
+            world_logic.ShopHeal(world_data.GetChampion(msg.character_uid));
         }
 
         //----------------------

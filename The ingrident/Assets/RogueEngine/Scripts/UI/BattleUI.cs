@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using static UnityEditor.Experimental.GraphView.GraphView;
+//using static UnityEditor.Experimental.GraphView.GraphView;//
 
 namespace RogueEngine.UI
 {
@@ -20,6 +20,7 @@ namespace RogueEngine.UI
         public Canvas panel_canvas;
         public Canvas top_canvas;
         public UIPanel menu_panel;
+        public SettingsPanel setting_panel;
         public MapPanel Map_panel;
         public Text quit_btn;
         public ChampionUI[] champions_ui;
@@ -100,6 +101,11 @@ namespace RogueEngine.UI
             if (!GameClient.Get().IsReady())
                 return;
 
+            //Setting
+            if (KeyInput.IsKeyPress(Key.Tab))
+                setting_panel.Toggle();
+            if (!GameClient.Get().IsReady())
+                return;
             bool yourturn = GameClient.Get().IsYourTurn();
             BattleCharacter champion = data.GetActiveCharacter();
             mana_txt.text = champion != null ? champion.mana.ToString() : "";
@@ -243,7 +249,12 @@ namespace RogueEngine.UI
             StartCoroutine(QuitRoutine("Menu"));
             menu_panel.Hide();
         }
+        //place toggle here
+        public void OnclickSetting()
+        {
+            setting_panel.Show();
 
+        }
         private IEnumerator QuitRoutine(string scene)
         {
             BlackPanel.Get().Show();

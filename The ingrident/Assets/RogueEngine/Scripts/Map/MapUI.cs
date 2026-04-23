@@ -143,7 +143,7 @@ namespace RogueEngine.UI
         {
             GameMenuPanel.Get().Show();
         }
-
+            
         public void OnClickQuit()
         {
             GameClient.Get().Disconnect();
@@ -156,7 +156,11 @@ namespace RogueEngine.UI
             world.Save();
         }
 
-
+        public void OnclickSetting()
+        {
+            Debug.Log("iterator works");
+            SettingsPanel.Get().Show();
+        }
         public bool IsPanelOpen()
         {
             return ChampionPanel.Get().IsVisible() || DeckPanel.Get().IsVisible() || RewardPanel.Get().IsVisible();

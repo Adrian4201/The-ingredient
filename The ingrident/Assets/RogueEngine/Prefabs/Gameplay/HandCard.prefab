@@ -251,7 +251,7 @@ MonoBehaviour:
   level_icon: {fileID: 0}
   cost_icon: {fileID: 0}
   cost: {fileID: 0}
-  Damage_text: {fileID: 991272046963997797}
+  damage_text: {fileID: 991272046963997797}
   card_title: {fileID: 4912384072191600788}
   card_lvl: {fileID: 0}
   card_text: {fileID: 5213808413112878143}

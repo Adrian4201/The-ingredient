@@ -28,15 +28,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 727753a970cfda946a5522c854a5661e, type: 2}
+  - {fileID: 11400000, guid: 78b4c700e46739c4ab405ea408002530, type: 2}
+  - {fileID: 11400000, guid: e43d30dd08afdc54185770715c1dc27a, type: 2}
   level_max: 3
   upgrade_mana: 0
   cost: 6
   intent: {fileID: 0}
-  text: Deal 1 Damage, Gain 3 Barrier
+  text: Deal 6 Damage, Gain 2 expose
   upg_text: 
   spawn_fx: {fileID: 0}
-  spawn_audio: {fileID: 0}
+  spawn_audio: {fileID: 8300000, guid: 612935247c0ef2d41883712d96b5235a, type: 3}
   caster_anim: 
   target_anim: 
   availability: 0
