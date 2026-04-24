@@ -19,12 +19,12 @@ MonoBehaviour:
   buy_mult: 1
   sell_mult: 1
   cards:
+  - {fileID: 11400000, guid: f991a85d7448b2c43913b03d9f6e9cc1, type: 2}
   - {fileID: 11400000, guid: 5709ccd19dfa40148baba63802ae3b9f, type: 2}
+  - {fileID: 11400000, guid: 672fba70b8955f942b1f401b5100df86, type: 2}
   - {fileID: 11400000, guid: 08284b1b3dd4f4c4faf79fa13a858541, type: 2}
   - {fileID: 11400000, guid: 6ee3d440d4119c8479ed488c423efa57, type: 2}
   - {fileID: 11400000, guid: 4e39080bdb41d784a9a7edd4afb2bc41, type: 2}
-  - {fileID: 11400000, guid: f991a85d7448b2c43913b03d9f6e9cc1, type: 2}
-  - {fileID: 11400000, guid: 672fba70b8955f942b1f401b5100df86, type: 2}
   items:
   - {fileID: 11400000, guid: d6293d6edc98046418090e4252cae6ac, type: 2}
   - {fileID: 11400000, guid: eaddb1e85cf012d4ebdb47dae85c34e5, type: 2}
