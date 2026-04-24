@@ -21,13 +21,13 @@ MonoBehaviour:
   choices:
   - text: Take the mottled arm.
     subtext: Pay 3 Kaltos, Gain Yellow Card, Take 3 Damage
-    effect: {fileID: 11400000, guid: c01c6b3cc6eb7964bb9aabf2edce0ea1, type: 2}
+    effect: {fileID: 11400000, guid: c5d7d0fda62898b4da74391edfcc6909, type: 2}
   - text: Take the tentacled chest wrap.
     subtext: Pay 3 Kaltos, Gain Green Card, Take 3 Damage
-    effect: {fileID: 11400000, guid: 1d38794949b9d184e877a0a8ad048bbe, type: 2}
+    effect: {fileID: 11400000, guid: 7f5a9a1ef92588c4e9609cd76396bb50, type: 2}
   - text: Take the dripping knee cap.
     subtext: Pay 3 Kaltos, gain Purple Card, Take 3 Damage
-    effect: {fileID: 11400000, guid: 784fd461d0120394c8ce72d9ffd5db68, type: 2}
+    effect: {fileID: 11400000, guid: a3661a29096c7fc43afb44facc5a0b26, type: 2}
   - text: Ignore them.
     subtext: 
     effect: {fileID: 11400000, guid: 777e0b881c1878948b602d5cc7afc494, type: 2}

@@ -28,14 +28,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: aa57e4b709acc9842a87e39aad3f0dd7, type: 2}
   - {fileID: 11400000, guid: c76aa8e0fc4e9d444a6426e093fc6313, type: 2}
   - {fileID: 11400000, guid: c76aa8e0fc4e9d444a6426e093fc6313, type: 2}
   level_max: 3
   upgrade_mana: 0
   cost: 8
   intent: {fileID: 0}
-  text: 'Deal 8 Damage, Take 4 damage. '
+  text: 'Deal 8 Damage, Take 2 damage. '
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 8300000, guid: f381b52fed8f9ca4ea0a8fe97533c6e6, type: 3}
