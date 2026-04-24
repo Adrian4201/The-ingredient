@@ -436,6 +436,14 @@ namespace RogueEngine.Gameplay
         //End game with winner
         public virtual void EndBattle(int result)
         {
+            foreach (BattleCharacter character in battle_data.characters)
+            {
+                if(character.is_champion)
+                {
+                    character.damage = Mathf.Max(character.damage - 5, 0);
+                }
+            }
+
             if (battle_data.phase != BattlePhase.Ended)
             {
                 battle_data.phase = BattlePhase.Ended;
