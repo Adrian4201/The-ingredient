@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes(FakeMap)/RainCity.unity
     guid: 87ae1bfc6eabc2e49a5f78f79f063697
+  - enabled: 1
+    path: Assets/Scenes(FakeMap)/Credits.unity
+    guid: 872c01cb614ef7748aef3ecfab94c954
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
