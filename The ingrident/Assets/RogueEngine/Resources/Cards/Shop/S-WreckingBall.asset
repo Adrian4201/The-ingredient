@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: S-WreckingBall
   cardColor: 2
-  title: Tackle
+  title: Wrecking Ball
   art_icon: {fileID: 0}
   art_full: {fileID: -7087835730283240593, guid: 7102024269362e04193def5286abc6a3,
     type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
-  rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
+  rarity: {fileID: 11400000, guid: 1c9013edd045b68428dae182ce4807a1, type: 2}
   mana: 1
-  damage: 5
+  damage: 6
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []

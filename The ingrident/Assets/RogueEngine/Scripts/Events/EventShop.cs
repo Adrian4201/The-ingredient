@@ -9,6 +9,7 @@ namespace RogueEngine
     public class EventShop : EventData
     {
         [Header("Shop")]
+        public RarityData shopRarity;
         public float buy_mult = 1f;
         public float sell_mult = 1f;
         public CardData[] cards;
@@ -44,7 +45,7 @@ namespace RogueEngine
                     logic.WorldData.shop_cards.Add(card.id);
             }
 
-            List<CardData> unlock_cards = champion.ChampionData.GetRewardCards(player, null);
+            List<CardData> unlock_cards = CardData.GetRewardCards(null, null, shopRarity);
             if (unlock_cards.Count > 0)
             {
                 int max = Mathf.Min(unlock_cards.Count, cards_random_amount);

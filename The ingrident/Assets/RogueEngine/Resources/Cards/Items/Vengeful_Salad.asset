@@ -10,17 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
-  m_Name: Vengful_Salad
+  m_Name: Vengeful_Salad
   m_EditorClassIdentifier: 
-  id: Vengful_Salad
+  id: Vengeful_Salad
   cardColor: 0
   title: Vengeful Salad
-  art_icon: {fileID: 0}
-  art_full: {fileID: 0}
+  art_icon: {fileID: 7710693370743543852, guid: cf263c053e5c8ce4890034c0b131c95b,
+    type: 3}
+  art_full: {fileID: 7710693370743543852, guid: cf263c053e5c8ce4890034c0b131c95b,
+    type: 3}
   card_type: 0
   item_type: 26
   team: {fileID: 11400000, guid: 5c917eefa746ca24193d4308f5418128, type: 2}
-  rarity: {fileID: 11400000, guid: 80387c89b69729144b8397050270c574, type: 2}
+  rarity: {fileID: 11400000, guid: 1c9013edd045b68428dae182ce4807a1, type: 2}
   mana: 0
   damage: 0
   traits: []

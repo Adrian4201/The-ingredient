@@ -21,16 +21,16 @@ MonoBehaviour:
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
-  rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
+  rarity: {fileID: 11400000, guid: 1c9013edd045b68428dae182ce4807a1, type: 2}
   mana: 1
   damage: 4
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 4bc795e832aa26c409d47745aec515ba, type: 2}
+  - {fileID: 11400000, guid: 7c30e3c7cd9a3ca4bb3081991adf66bb, type: 2}
   - {fileID: 11400000, guid: cecfa8b74e68015478290151e3997b35, type: 2}
-  - {fileID: 11400000, guid: ff381b906ddf16a4a9279bfd10f58755, type: 2}
+  - {fileID: 11400000, guid: 4f7f0d0f59de6fa458e9651c01be29f8, type: 2}
   level_max: 3
   upgrade_mana: 0
   cost: 6

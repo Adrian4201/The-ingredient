@@ -15,9 +15,9 @@ MonoBehaviour:
   id: S-ElbowChop
   cardColor: 3
   title: Elbow Chop
-  art_icon: {fileID: -4453731983987894472, guid: 1f4dec3584883554a8706f4061cb0d8a,
+  art_icon: {fileID: 7030346285259593147, guid: 58eb367250abe164aae4733822072f23,
     type: 3}
-  art_full: {fileID: -4453731983987894472, guid: 1f4dec3584883554a8706f4061cb0d8a,
+  art_full: {fileID: 7030346285259593147, guid: 58eb367250abe164aae4733822072f23,
     type: 3}
   card_type: 20
   item_type: 0

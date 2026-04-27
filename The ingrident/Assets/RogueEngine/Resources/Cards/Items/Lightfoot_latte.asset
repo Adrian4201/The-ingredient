@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Lightfoot_latte
   cardColor: 0
-  title: Lightfoot_latte
+  title: Lightfoot Latte
   art_icon: {fileID: 1378415235168891324, guid: a177e85a98ae44a42a74b5a5e71be46e,
     type: 3}
   art_full: {fileID: 1378415235168891324, guid: a177e85a98ae44a42a74b5a5e71be46e,
@@ -22,7 +22,7 @@ MonoBehaviour:
   card_type: 0
   item_type: 26
   team: {fileID: 11400000, guid: 5c917eefa746ca24193d4308f5418128, type: 2}
-  rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}
+  rarity: {fileID: 11400000, guid: 1c9013edd045b68428dae182ce4807a1, type: 2}
   mana: 0
   damage: 0
   traits: []

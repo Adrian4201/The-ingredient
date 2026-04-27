@@ -365,7 +365,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3537791962289061777}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -742,7 +742,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5327624026483011411}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -876,7 +876,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6571235906587510490}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -1235,6 +1235,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: You might have noticed this down here. This represents your cards.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -1335,6 +1347,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1359,6 +1388,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: Each card is a body part, represented by a different color.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -1459,6 +1500,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1483,6 +1536,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: '"Drop" means the card has a different effect when it is discarded'
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -1583,6 +1648,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1607,6 +1684,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: Alright, that's about it here. Keep playing cards, and escape the lab!
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -1707,6 +1796,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1732,6 +1833,18 @@ PrefabInstance:
       value: Also, up here are your items. You always start with this one. Hover
         over it to see what it does!
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -1832,6 +1945,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1857,6 +1982,18 @@ PrefabInstance:
       value: You play the role of Miriam, trying to escape from the people doing
         experiments on you.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -1957,6 +2094,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0.6862745
+      objectReference: {fileID: 0}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1982,6 +2136,18 @@ PrefabInstance:
       value: Those icons below your health bar show buffs and debuffs. Hover over
         them to see what they do.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -2082,6 +2248,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2106,6 +2284,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: This scientist is one of them. You'll have to defeat him to escape.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -2206,6 +2396,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2231,6 +2433,18 @@ PrefabInstance:
       value: '"Stock" means that next turn, you''ll draw an extra card. Try playing
         this one!'
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -2331,6 +2545,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2355,6 +2581,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: Some cards have keywords that have different effects.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -2455,6 +2693,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2479,6 +2729,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: Every turn, you draw 2 cards. You can only play 1 of them.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -2579,6 +2841,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2603,6 +2877,18 @@ PrefabInstance:
       propertyPath: m_Text
       value: Try it out! Play one of the two cards you have.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -2703,6 +2989,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     - target: {fileID: 6955100361097189084, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2733,6 +3031,18 @@ PrefabInstance:
       value: Greyed out limbs are cards already played, while outlines mean the card
         is in your hand. Filled in means it hasn't been drawn yet.
       objectReference: {fileID: 0}
+    - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
+    - target: {fileID: 1905726284459649928, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5724908698889996755, guid: 1e20b2145e887b94bbd46419e277fe13,
+        type: 3}
     - target: {fileID: 1905726284459649930, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Name
@@ -2833,6 +3143,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2606950435563704246, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 9098888027488824463, guid: 9c643f1713e638546be7f0d131809d96,
+        type: 3}
+    - target: {fileID: 4725188602336712017, guid: 1a0d041573c9166469dfe057eb6be0ad,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e752eeb17afc95840a69ac4268745db8,
+        type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

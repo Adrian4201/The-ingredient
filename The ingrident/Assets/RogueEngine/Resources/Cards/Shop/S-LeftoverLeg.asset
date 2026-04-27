@@ -14,21 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: S-LeftoverLeg
   cardColor: 5
-  title: Tackle
+  title: Leftover Leg
   art_icon: {fileID: 0}
   art_full: {fileID: 8499969849815303527, guid: 0647a844309452e48bdfc11a99873c47,
     type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
-  rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
+  rarity: {fileID: 11400000, guid: 1c9013edd045b68428dae182ce4807a1, type: 2}
   mana: 1
   damage: 2
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: facb1fe4676c47747b52c731b2828499, type: 2}
+  - {fileID: 11400000, guid: a43e44c2616e78544a9dc4222c9ab473, type: 2}
   - {fileID: 11400000, guid: 2adc55f7ee0610944bcc1ba3b415511e, type: 2}
   level_max: 3
   upgrade_mana: 0
