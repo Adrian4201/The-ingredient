@@ -28,8 +28,8 @@ namespace RogueEngine.UI
         public Text mana_txt;
         public Button end_turn_button;
 
-        public GameObject deck_group;
-        public GameObject discard_group;
+        //public GameObject deck_group;
+        //public GameObject discard_group;
         public Text deck_value;
         public Text discard_value;
 
@@ -115,10 +115,6 @@ namespace RogueEngine.UI
 
             bool show_deck = champion != null && !champion.IsEnemy();
             bool show_discard = champion != null && !champion.IsEnemy();
-            if (show_deck != deck_group.activeSelf)
-                deck_group.SetActive(show_deck);
-            if (show_discard != discard_group.activeSelf)
-                discard_group.SetActive(show_discard);
 
             if (champion != null)
             {

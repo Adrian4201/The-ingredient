@@ -735,6 +735,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameClient
       objectReference: {fileID: 0}
+    - target: {fileID: 2227076200359729239, guid: 503a1e56052a26b438e5e3777d46fd56,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1013,6 +1018,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandsArea
       objectReference: {fileID: 0}
+    - target: {fileID: 3582334443217354805, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1150,6 +1160,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 280208197784402120, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 418074540258104165, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 911304513042429232, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1159,6 +1179,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BattleUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 962576084495618108, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1406441666130930823, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
@@ -1195,10 +1220,20 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1856999441296640916, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2080682652522559075, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302778448796382490, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2350362870040335461, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
@@ -1255,6 +1290,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2552983334774561115, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3885131145663484054, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1295,6 +1335,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 3073922849292977232}
+    - target: {fileID: 8718109411298182919, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3619,6 +3664,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BattleCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436565898657143312, guid: 2c87d762b743177489b6bd9351e425fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1436565898657143324, guid: 2c87d762b743177489b6bd9351e425fd,
         type: 3}
