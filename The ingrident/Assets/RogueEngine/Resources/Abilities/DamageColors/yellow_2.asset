@@ -37,4 +37,4 @@ MonoBehaviour:
   caster_anim: 
   target_anim: 
   title: 
-  desc: 
+  desc: Does 2 damage but yellow

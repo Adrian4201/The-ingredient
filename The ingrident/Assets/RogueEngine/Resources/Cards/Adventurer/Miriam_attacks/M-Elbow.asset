@@ -24,9 +24,7 @@ MonoBehaviour:
   mana: 1
   damage: 2
   traits: []
-  stats:
-  - trait: {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
-    value: 2
+  stats: []
   abilities:
   - {fileID: 11400000, guid: ee7c5e3a670776a43819f55bdd3e72ab, type: 2}
   - {fileID: 11400000, guid: 9887e43f3805ce54c824c57e242d5345, type: 2}

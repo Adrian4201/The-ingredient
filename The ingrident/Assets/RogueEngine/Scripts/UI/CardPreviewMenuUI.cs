@@ -23,7 +23,7 @@ namespace RogueEngine.UI
 
         private void Start()
         {
-            
+
         }
 
         void Update()
