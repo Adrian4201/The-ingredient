@@ -4092,7 +4092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -0.00007247925, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &441085352
@@ -33329,7 +33329,6 @@ MonoBehaviour:
   music_vol: {fileID: 9096108792348167782}
   sfx_vol: {fileID: 9096108792304480022}
   resolution: {fileID: 9096108791056107146}
-  windowed: {fileID: 8273677786714877076}
   master_vol_txt: {fileID: 9096108791882454222}
   music_vol_txt: {fileID: 9096108791315581963}
   sfx_vol_txt: {fileID: 9096108791719405774}

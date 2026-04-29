@@ -33,7 +33,7 @@ MonoBehaviour:
   upgrade_mana: 0
   cost: 10
   intent: {fileID: 0}
-  text: 
+  text: Gives you 1 Thorns
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}

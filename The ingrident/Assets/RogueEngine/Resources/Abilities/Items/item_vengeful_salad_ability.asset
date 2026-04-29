@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: item_vengeful_salad_ability
   m_EditorClassIdentifier: 
   id: Item_vengeful_salad_Ability
-  trigger: 42
+  trigger: 50
   conditions_trigger: []
   target: 7
   conditions_target:
-  - {fileID: 11400000, guid: 41c58513071a53b4e9066a58c439760f, type: 2}
+  - {fileID: 11400000, guid: 7463bf87d3794e249b7610c9de9c5327, type: 2}
   filters_target: []
-  effects:
-  - {fileID: 11400000, guid: 4369324687c62ca488c57afd73a2be36, type: 2}
-  status: []
+  effects: []
+  status:
+  - {fileID: 11400000, guid: d26369445718a5d4da56756f6a78a1d2, type: 2}
   value: 1
   upgrade_value: 0
   status_bonus: 0
