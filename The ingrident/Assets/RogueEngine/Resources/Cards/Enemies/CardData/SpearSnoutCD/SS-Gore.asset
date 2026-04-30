@@ -24,18 +24,18 @@ MonoBehaviour:
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
   rarity: {fileID: 11400000, guid: 6597c7de1e17b814eab004e1ab1b40de, type: 2}
   mana: 1
-  damage: 5
+  damage: 6
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: d4f15974d02c63d4e882c26c9b9029a4, type: 2}
+  - {fileID: 11400000, guid: 2750b7e9551bbf94a90ee91f79730b1a, type: 2}
   - {fileID: 11400000, guid: c76aa8e0fc4e9d444a6426e093fc6313, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 6
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 5 Damage, Take 2 Damage.
+  text: Deal 6 Damage, Take 2 Damage.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 8300000, guid: eb732c6a92c224344aaabb7740a0288d, type: 3}

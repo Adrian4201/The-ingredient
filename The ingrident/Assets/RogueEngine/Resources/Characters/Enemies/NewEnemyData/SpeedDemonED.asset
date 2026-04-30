@@ -18,7 +18,7 @@ MonoBehaviour:
   art_portrait: {fileID: 103293681496050073, guid: 38a565339f664d6409f081b63ca9715e,
     type: 3}
   prefab: {fileID: 3315427549352430699, guid: 6a929f8026f4c5f4db5119feddd61357, type: 3}
-  hp: 19
+  hp: 20
   speed: 20
   hand: 1
   energy: 1
@@ -32,6 +32,7 @@ MonoBehaviour:
   stats: []
   abilities: []
   cards:
+  - {fileID: 11400000, guid: 5c92f437d4eb68547924e7fb230ee270, type: 2}
   - {fileID: 11400000, guid: 7ffad0de634d7c84b960e91a047d42e8, type: 2}
   - {fileID: 11400000, guid: a9cf8a12de21a9a49bb60cb7fabfb13e, type: 2}
   - {fileID: 11400000, guid: 24fb6a40b94097d4ea9491c5e0bd9f24, type: 2}
