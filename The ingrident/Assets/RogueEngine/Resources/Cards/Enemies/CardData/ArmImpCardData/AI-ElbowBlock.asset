@@ -34,7 +34,7 @@ MonoBehaviour:
   level_max: 1
   upgrade_mana: 0
   cost: 3
-  intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
+  intent: {fileID: 11400000, guid: 7332246390264f74396b40d86b2bd615, type: 2}
   text: 'Gain 4 Barrier, Drop: Gain 1 Barrier'
   upg_text: 
   spawn_fx: {fileID: 0}
