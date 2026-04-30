@@ -27,6 +27,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b63552a7af35fdd4490f259e438ae4e8, type: 2}
   - {fileID: 11400000, guid: 5cf0147f994151141bef45381d04cb62, type: 2}
   - {fileID: 11400000, guid: 3083e6f38686ce447adf5f5485a8ca9e, type: 2}
+  - {fileID: 11400000, guid: 9bfbdb2b4d5ffdd42aff6d95c180254f, type: 2}
   fixed_widths:
   - depth: 1
     width: 2
