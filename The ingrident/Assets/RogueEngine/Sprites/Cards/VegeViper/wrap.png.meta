@@ -112,10 +112,10 @@ TextureImporter:
       name: wrap_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3750
-        height: 5250
+        x: 1089
+        y: 2106
+        width: 1543
+        height: 2038
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,6 +126,50 @@ TextureImporter:
       bones: []
       spriteID: 5ac82307db80c3660800000000000000
       internalID: 7366772700195490981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrap_1
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 2989
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19317c41e637d2d47a23dd5784c176b2
+      internalID: -173542088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrap_2
+      rect:
+        serializedVersion: 2
+        x: 2398
+        y: 2103
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373a323502d0dda42869903e6bf901f9
+      internalID: 825167939
       vertices: []
       indices: 
       edges: []
@@ -145,6 +189,8 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       wrap_0: 7366772700195490981
+      wrap_1: -173542088
+      wrap_2: 825167939
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

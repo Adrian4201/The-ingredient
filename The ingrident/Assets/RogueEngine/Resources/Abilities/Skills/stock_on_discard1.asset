@@ -10,18 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
-  m_Name: draw_next2
+  m_Name: stock_on_discard1
   m_EditorClassIdentifier: 
-  id: draw_next2
-  trigger: 10
+  id: stock_on_discard1
+  trigger: 13
   conditions_trigger: []
-  target: 4
-  conditions_target: []
+  target: 7
+  conditions_target:
+  - {fileID: 11400000, guid: 7463bf87d3794e249b7610c9de9c5327, type: 2}
   filters_target: []
   effects:
   - {fileID: 11400000, guid: 3f1a844cd1cd4c744aed13bb77b7153b, type: 2}
-  status: []
-  value: 2
+  status:
+  - {fileID: 11400000, guid: 6bb4d16a6533f684c8e8a66798b51698, type: 2}
+  value: 1
   upgrade_value: 0
   status_bonus: 0
   chain_abilities: []

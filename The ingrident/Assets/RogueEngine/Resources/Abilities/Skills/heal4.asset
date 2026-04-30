@@ -10,24 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
-  m_Name: draw_next2
+  m_Name: heal4
   m_EditorClassIdentifier: 
-  id: draw_next2
+  id: heal4
   trigger: 10
   conditions_trigger: []
   target: 4
   conditions_target: []
   filters_target: []
   effects:
-  - {fileID: 11400000, guid: 3f1a844cd1cd4c744aed13bb77b7153b, type: 2}
+  - {fileID: 11400000, guid: 5e489970bbb948c409125b3ab22f2aac, type: 2}
   status: []
-  value: 2
+  value: 4
   upgrade_value: 0
   status_bonus: 0
   chain_abilities: []
   board_fx: {fileID: 0}
   caster_fx: {fileID: 0}
-  target_fx: {fileID: 4205541059165542595, guid: 1d4c749ec61e83c42bc064bcc07d0030,
+  target_fx: {fileID: 5988812109917292199, guid: be19380a491c8c245afe0dd96e02ba78,
     type: 3}
   projectile_fx: {fileID: 0}
   cast_audio: {fileID: 0}

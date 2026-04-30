@@ -56,9 +56,9 @@ namespace RogueEngine.UI
             string desc = card.GetTips();
             string cdesc = card.GetText(level);
             if(!string.IsNullOrWhiteSpace(cdesc))
-                this.desc.text = cdesc + "\n\n" + "<size=16>" + desc + "</size>";
+                this.desc.text = cdesc + "\n\n" + "<size=32>" + desc + "</size>";
             else
-                this.desc.text = "<size=16>" + desc + "</size>";
+                this.desc.text = "<size=32" + desc + "</size>";
 
             foreach (LevelTab tab in level_tabs)
             {
