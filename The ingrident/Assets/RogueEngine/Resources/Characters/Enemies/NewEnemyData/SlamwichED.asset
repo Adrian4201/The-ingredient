@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SlamwichED
   m_EditorClassIdentifier: 
   id: Slamwich
-  title: Asparagoons
+  title: Slamwich
   art_full: {fileID: 2372208985456779730, guid: b4f4617e9418356439bbfbe16f3893d3,
     type: 3}
   art_portrait: {fileID: 2372208985456779730, guid: b4f4617e9418356439bbfbe16f3893d3,
@@ -34,9 +34,8 @@ MonoBehaviour:
   abilities: []
   cards:
   - {fileID: 11400000, guid: 9f52b835a1d09534f893d4a0971a3ca6, type: 2}
+  - {fileID: 11400000, guid: d53448197f50091448ddfed11a787c21, type: 2}
   - {fileID: 11400000, guid: 58a4339a1e62e134585b7d15e7429368, type: 2}
-  - {fileID: 11400000, guid: d53448197f50091448ddfed11a787c21, type: 2}
-  - {fileID: 11400000, guid: d53448197f50091448ddfed11a787c21, type: 2}
   - {fileID: 11400000, guid: b4212e6e1e1521046bd2a0e5117ab99e, type: 2}
   reward_gold: 3
   reward_xp: 0

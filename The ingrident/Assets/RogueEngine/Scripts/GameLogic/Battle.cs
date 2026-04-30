@@ -213,6 +213,7 @@ namespace RogueEngine
 
             foreach (AbilityData ability in card.GetAbilities())
             {
+                Debug.Log(ability.id);
                 if (ability.trigger == AbilityTrigger.OnPlay && ability.AreTriggerConditionsMet(this, caster, card))
                     return true;
             }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
   m_Name: target_fearful2
   m_EditorClassIdentifier: 
-  id: target_fearful2
+  id: target_fearful2_new
   trigger: 10
   conditions_trigger: []
   target: 7
@@ -23,8 +23,8 @@ MonoBehaviour:
   effects: []
   status:
   - {fileID: 11400000, guid: 770ee36d5431df442a594af12b84209b, type: 2}
-  value: 2
-  upgrade_value: 1
+  value: 1
+  upgrade_value: 2
   status_bonus: 0
   chain_abilities: []
   board_fx: {fileID: 0}

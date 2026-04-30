@@ -14,8 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: gain_courageous2
   trigger: 10
-  conditions_trigger:
-  - {fileID: 11400000, guid: bdd844bbb161dfa4bbeaed358aee12c5, type: 2}
+  conditions_trigger: []
   target: 4
   conditions_target: []
   filters_target: []

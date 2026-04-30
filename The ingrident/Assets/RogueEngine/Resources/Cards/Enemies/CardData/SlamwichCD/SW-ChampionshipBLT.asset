@@ -29,10 +29,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 80c480f3efb0f05479aef27cdeda00ba, type: 2}
   - {fileID: 11400000, guid: 3583ac9da9075514d89d0757fa9ba937, type: 2}
-  - {fileID: 11400000, guid: 655baebc5e383544ebb4fbe439b6e690, type: 2}
+  - {fileID: 11400000, guid: 5b0f83c67acd2fa48ac4641d0ac4d8ef, type: 2}
   - {fileID: 11400000, guid: 7e8c32ceb1fde5b43be735636bc4a5c5, type: 2}
+  - {fileID: 11400000, guid: 09aeae3fcf0d7834ba48dce4042c0ef0, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 10
