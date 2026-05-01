@@ -16,19 +16,15 @@ MonoBehaviour:
   depth_min: 2
   depth_max: 99
   icon: {fileID: 6840857970483876212, guid: 85dad94a37e4f4c40bdfa7e9aae4fec0, type: 3}
+  shopRarity: {fileID: 11400000, guid: 1c9013edd045b68428dae182ce4807a1, type: 2}
   buy_mult: 1
   sell_mult: 1
-  cards:
-  - {fileID: 11400000, guid: 5709ccd19dfa40148baba63802ae3b9f, type: 2}
-  - {fileID: 11400000, guid: 08284b1b3dd4f4c4faf79fa13a858541, type: 2}
-  - {fileID: 11400000, guid: 6ee3d440d4119c8479ed488c423efa57, type: 2}
-  - {fileID: 11400000, guid: 4e39080bdb41d784a9a7edd4afb2bc41, type: 2}
-  - {fileID: 11400000, guid: f991a85d7448b2c43913b03d9f6e9cc1, type: 2}
-  - {fileID: 11400000, guid: 672fba70b8955f942b1f401b5100df86, type: 2}
-  items:
-  - {fileID: 11400000, guid: d6293d6edc98046418090e4252cae6ac, type: 2}
-  - {fileID: 11400000, guid: eaddb1e85cf012d4ebdb47dae85c34e5, type: 2}
-  - {fileID: 11400000, guid: b113a80c63852844a8ecefdf8dab25d6, type: 2}
+  cards: []
+  items: []
   cards_random_amount: 3
-  items_random_amount: 1
-  items_random: []
+  items_random_amount: 3
+  items_random:
+  - {fileID: 11400000, guid: b63122bcae6eb41419d873d3bc7584cf, type: 2}
+  - {fileID: 11400000, guid: b113a80c63852844a8ecefdf8dab25d6, type: 2}
+  - {fileID: 11400000, guid: eaddb1e85cf012d4ebdb47dae85c34e5, type: 2}
+  - {fileID: 11400000, guid: d6293d6edc98046418090e4252cae6ac, type: 2}

@@ -802,7 +802,7 @@ PrefabInstance:
     - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 61.32373
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3582334442735989256, guid: 4f5d06d57a8cd5f42b526a96b940dca7,
         type: 3}
@@ -1155,9 +1155,9 @@ Transform:
   - {fileID: 1180539390}
   - {fileID: 48535959}
   - {fileID: 731416284}
+  - {fileID: 18904436}
   - {fileID: 1457084874}
   - {fileID: 1026375786}
-  - {fileID: 18904436}
   m_Father: {fileID: 197020797}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &908367061
@@ -1187,6 +1187,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1731873689050626443, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 1856999441296640916, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
@@ -1298,6 +1303,11 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 3073922849292977232}
+    - target: {fileID: 8189768821662746241, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 18
+      objectReference: {fileID: 0}
     - target: {fileID: 8602402450329033153, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_Camera
@@ -2704,9 +2714,9 @@ Transform:
   - {fileID: 764611042}
   - {fileID: 1368544166}
   - {fileID: 1880808890}
+  - {fileID: 1165170936}
   - {fileID: 1037144390}
   - {fileID: 972563533}
-  - {fileID: 1165170936}
   m_Father: {fileID: 197020797}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1457084873

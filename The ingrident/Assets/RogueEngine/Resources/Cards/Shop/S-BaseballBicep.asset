@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: S-BaseballBicep
   cardColor: 3
-  title: Tackle
+  title: Baseball Bicep
   art_icon: {fileID: 0}
   art_full: {fileID: 1872733832961527827, guid: 04282675d5d78f5449c1fbbe187268a0,
     type: 3}
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: 6bbb96863ece0314fb318c0fce569afc, type: 2}
-  rarity: {fileID: 11400000, guid: 72248f07232412e4db2f6864dbb4e271, type: 2}
+  rarity: {fileID: 11400000, guid: 1c9013edd045b68428dae182ce4807a1, type: 2}
   mana: 1
   damage: 3
   traits:

@@ -24,7 +24,7 @@ MonoBehaviour:
   extra_enemies: []
   reward_gold: 0
   reward_xp: 0
-  reward_cards: 1
+  reward_cards: 0
   card_rarity: {fileID: 11400000, guid: 8993522e5cc7c824184a9aa2d2ac5b6f, type: 2}
   reward_items: 0
   item_rarity: {fileID: 0}

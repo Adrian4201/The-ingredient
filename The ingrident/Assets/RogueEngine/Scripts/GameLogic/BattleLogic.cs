@@ -436,6 +436,14 @@ namespace RogueEngine.Gameplay
         //End game with winner
         public virtual void EndBattle(int result)
         {
+            foreach (BattleCharacter character in battle_data.characters)
+            {
+                if(character.is_champion)
+                {
+                    character.damage = Mathf.Max(character.damage - 5, 0);
+                }
+            }
+
             if (battle_data.phase != BattlePhase.Ended)
             {
                 battle_data.phase = BattlePhase.Ended;
@@ -981,9 +989,14 @@ namespace RogueEngine.Gameplay
             if (target.GetHP() <= 0)
                 KillCharacter(target);
 
-            onCharacterDamaged?.Invoke(target, value);
+            TriggerOnCharacterDamaged(target, value);
 
             TriggerCharacterAbilityType(AbilityTrigger.OnDamaged, target);
+        }
+
+        public void TriggerOnCharacterDamaged(BattleCharacter target, int value)
+        {
+            onCharacterDamaged?.Invoke(target, value);
         }
 
         public virtual void DamageShield(BattleCharacter target, int value)

@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: rest
   m_EditorClassIdentifier: 
   id: rest
-  depth_min: 0
-  depth_max: 0
-  icon: {fileID: 21300000, guid: 1175d40bce4781c40a67063dfb929e27, type: 3}
+  depth_min: 4
+  depth_max: 12
+  icon: {fileID: 21300000, guid: bd06e9c4892c78e4996395dcb6c4b324, type: 3}
   conditions_trigger: []
   target: 15
   effects:
   - {fileID: 11400000, guid: 5e489970bbb948c409125b3ab22f2aac, type: 2}
-  value: 20
+  value: 25
   chain_event: {fileID: 0}
   text: 

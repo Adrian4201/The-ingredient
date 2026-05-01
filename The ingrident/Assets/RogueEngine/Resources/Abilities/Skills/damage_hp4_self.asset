@@ -19,7 +19,7 @@ MonoBehaviour:
   conditions_target: []
   filters_target: []
   effects:
-  - {fileID: 11400000, guid: 57c405f3261879f48b02748301d44bd2, type: 2}
+  - {fileID: 11400000, guid: f8e7213e9255696448112b8fa8151a67, type: 2}
   status: []
   value: 4
   upgrade_value: 0
@@ -27,8 +27,7 @@ MonoBehaviour:
   chain_abilities: []
   board_fx: {fileID: 0}
   caster_fx: {fileID: 0}
-  target_fx: {fileID: 9125387663047351618, guid: 41fadefc745008f47949f1cc29aa66aa,
-    type: 3}
+  target_fx: {fileID: 0}
   projectile_fx: {fileID: 0}
   cast_audio: {fileID: 0}
   target_audio: {fileID: 0}

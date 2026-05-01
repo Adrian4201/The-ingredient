@@ -16,8 +16,8 @@ MonoBehaviour:
   effect: 8
   duration: 0
   is_negative: 0
-  title: Hand +
+  title: Drop
   icon: {fileID: 21300000, guid: 87df2ea95ae895543a3637bda0d89256, type: 3}
-  desc: Extra cards in hand each turn.
+  desc: Gain +X hand size next turn.
   status_fx: {fileID: 0}
   animation: 

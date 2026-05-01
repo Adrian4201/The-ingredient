@@ -16,8 +16,8 @@ MonoBehaviour:
   effect: 70
   duration: 0
   is_negative: 0
-  title: 
+  title: Surge
   icon: {fileID: 0}
-  desc: 
+  desc: Move Again.
   status_fx: {fileID: 0}
   animation: 

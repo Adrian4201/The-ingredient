@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e70bbd412bc8fd45a50f8559468e3cb, type: 3}
+  m_Name: TutorialBattle
+  m_EditorClassIdentifier: 
+  id: TutorialBattle
+  depth_min: 0
+  depth_max: 0
+  icon: {fileID: 0}
+  scene: 
+  enemies_level: 1
+  enemies:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: fdc94976e275e664c90b4c0f23614a10, type: 2}
+  extra_enemies: []
+  reward_gold: 0
+  reward_xp: 0
+  reward_cards: 1
+  card_rarity: {fileID: 11400000, guid: 27688da19d2eda4488ee51dc90f140ef, type: 2}
+  reward_items: 0
+  item_rarity: {fileID: 0}
+  item_team: {fileID: 0}
+  tutorial: {fileID: 871187647601492094, guid: 3cf697f10bed5be4eb6fd00d6ecea33e, type: 3}
+  win_event: {fileID: 0}
+  cards:
+  - {fileID: 11400000, guid: c877f6b642d781f43b50ff4a6c09a2b0, type: 2}
+  - {fileID: 11400000, guid: 7faac1ff512f8144aaae365a901731de, type: 2}
+  - {fileID: 11400000, guid: 5165874c78a5e94498aa5527410dd2ab, type: 2}
+  - {fileID: 11400000, guid: 4f00f18950ee6ee46811ed64d9b4e98c, type: 2}
+  - {fileID: 11400000, guid: 6345857f12d114845aaa4f00ab3b4ec4, type: 2}
+  - {fileID: 11400000, guid: 97357b2131830ed43a0b2fa976001f95, type: 2}
+  items:
+  - {fileID: 11400000, guid: 41bc47694f239144cbd95672250e2c86, type: 2}
+  dont_shuffle: 1

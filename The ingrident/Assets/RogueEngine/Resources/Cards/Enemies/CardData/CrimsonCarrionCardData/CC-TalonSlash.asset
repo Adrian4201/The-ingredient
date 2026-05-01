@@ -21,19 +21,20 @@ MonoBehaviour:
   card_type: 20
   item_type: 0
   team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
-  rarity: {fileID: 11400000, guid: 80387c89b69729144b8397050270c574, type: 2}
+  rarity: {fileID: 11400000, guid: 4cd1732e4331b1e4ab766593e388c8d0, type: 2}
   mana: 1
-  damage: 4
+  damage: 3
   traits:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: bd6344d55998eed49a8ba65ec0af1334, type: 2}
+  - {fileID: 11400000, guid: 872f8fdc904f4634592a888b73d050d0, type: 2}
+  - {fileID: 11400000, guid: ebdf4bb18fe04bd4e81aaff06fc98c17, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 4 Damage
+  text: 'Deal 3 Damage, Drop: Deal 1 Damage.'
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 8300000, guid: eb732c6a92c224344aaabb7740a0288d, type: 3}

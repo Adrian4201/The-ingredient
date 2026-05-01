@@ -20,16 +20,20 @@ MonoBehaviour:
   filters_target: []
   effects:
   - {fileID: 11400000, guid: 3f1a844cd1cd4c744aed13bb77b7153b, type: 2}
-  status: []
+  status:
+  - {fileID: 11400000, guid: 6bb4d16a6533f684c8e8a66798b51698, type: 2}
   value: 1
   upgrade_value: 0
-  bonus_value: 0
+  status_bonus: 0
   chain_abilities: []
   board_fx: {fileID: 0}
   caster_fx: {fileID: 0}
-  target_fx: {fileID: 0}
+  target_fx: {fileID: 4205541059165542595, guid: 1d4c749ec61e83c42bc064bcc07d0030,
+    type: 3}
+  projectile_fx: {fileID: 0}
   cast_audio: {fileID: 0}
   target_audio: {fileID: 0}
-  charge_target: 0
+  caster_anim: 
+  target_anim: 
   title: 
   desc: 

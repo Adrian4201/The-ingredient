@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
+  m_Name: S-PushAttack
+  m_EditorClassIdentifier: 
+  id: S-PushAttack
+  cardColor: 4
+  title: Push Attack
+  art_icon: {fileID: -3080117017310766954, guid: 5e29b2044e74a6e4cb46590d94f5b626,
+    type: 3}
+  art_full: {fileID: -3080117017310766954, guid: 5e29b2044e74a6e4cb46590d94f5b626,
+    type: 3}
+  card_type: 20
+  item_type: 0
+  team: {fileID: 11400000, guid: ef8de2f0b71a9c043b9e001a206686ff, type: 2}
+  rarity: {fileID: 11400000, guid: 27688da19d2eda4488ee51dc90f140ef, type: 2}
+  mana: 1
+  damage: 1
+  traits:
+  - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
+  stats: []
+  abilities:
+  - {fileID: 11400000, guid: 945ac6ed0f19d0b44988b78489f5fb20, type: 2}
+  - {fileID: 11400000, guid: e7e2c1535e109254c95d9d47c14ffaf8, type: 2}
+  level_max: 1
+  upgrade_mana: 0
+  cost: 100
+  intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
+  text: Deal 1 Damage and Gain 1 Barrier
+  upg_text: 
+  spawn_fx: {fileID: 0}
+  spawn_audio: {fileID: 0}
+  caster_anim: 
+  target_anim: 
+  availability: 0

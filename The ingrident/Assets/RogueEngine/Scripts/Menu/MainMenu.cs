@@ -198,7 +198,7 @@ namespace RogueEngine.UI
             BlackPanel.Get().Show();
             AudioTool.Get().FadeOutMusic("music");
             yield return new WaitForSeconds(1f);
-            SceneNav.GoToMap();
+            SceneNav.GoTo("TutorialScene");
         }
 
         public void OnClickLogout()

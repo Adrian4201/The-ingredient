@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: gamble_set_win
   m_EditorClassIdentifier: 
   id: gamble_1_win
-  depth_min: 2
+  depth_min: 4
   depth_max: 99
   icon: {fileID: 21300000, guid: fbfb192cd7dfe0e4eb7fe112ecc7d972, type: 3}
   text: You see a group of workers playing dice, they look at you, eyeing the cash

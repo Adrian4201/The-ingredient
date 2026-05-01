@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: Sluggin'_Punch
   cardColor: 0
-  title: Sluggin'_Punch
+  title: Sluggin' Punch
   art_icon: {fileID: -1407784258628624427, guid: 4fb465289085d1445abfdb761b7fc8de,
     type: 3}
   art_full: {fileID: -1407784258628624427, guid: 4fb465289085d1445abfdb761b7fc8de,
@@ -22,7 +22,7 @@ MonoBehaviour:
   card_type: 0
   item_type: 26
   team: {fileID: 11400000, guid: 5c917eefa746ca24193d4308f5418128, type: 2}
-  rarity: {fileID: 11400000, guid: 80387c89b69729144b8397050270c574, type: 2}
+  rarity: {fileID: 11400000, guid: 1c9013edd045b68428dae182ce4807a1, type: 2}
   mana: 0
   damage: 0
   traits: []

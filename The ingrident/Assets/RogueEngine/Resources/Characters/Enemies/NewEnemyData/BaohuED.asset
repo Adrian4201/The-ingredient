@@ -19,7 +19,7 @@ MonoBehaviour:
   art_portrait: {fileID: -5741839500283447062, guid: c4b7766ff14c4174cbdb359386e8d4a9,
     type: 3}
   prefab: {fileID: 4831116586470567743, guid: 0835cd58fbebed041bb37e1a324342c4, type: 3}
-  hp: 41
+  hp: 50
   speed: 1
   hand: 1
   energy: 1
@@ -37,6 +37,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a5ceabd2924511040a641b4fa7233154, type: 2}
   - {fileID: 11400000, guid: f8ef09e0a84ad9741adcff3ccc1bf3a0, type: 2}
   - {fileID: 11400000, guid: d62315404f39a21468d9563ef558e013, type: 2}
+  - {fileID: 11400000, guid: 63043b9acd00e5048aef239b318a2649, type: 2}
+  - {fileID: 11400000, guid: c1e84b641b48b6942bdd604d3bbab011, type: 2}
   reward_gold: 3
   reward_xp: 0
   desc: 

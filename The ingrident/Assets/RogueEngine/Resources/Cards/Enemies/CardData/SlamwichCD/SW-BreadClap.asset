@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: SW-BreadClap
   cardColor: 2
-  title: Bash
+  title: Bread Clap
   art_icon: {fileID: 445879812897582955, guid: 746887a09710edf46855736ddd315c21, type: 3}
   art_full: {fileID: 445879812897582955, guid: 746887a09710edf46855736ddd315c21, type: 3}
   card_type: 20

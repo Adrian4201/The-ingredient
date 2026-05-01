@@ -13,7 +13,7 @@ namespace RogueEngine.UI
         public SliderDrag sfx_vol;
         //public SliderDrag quality;
         public SliderDrag resolution;
-        public Toggle windowed;
+        //public Toggle windowed;
 
         public Text master_vol_txt;
         public Text music_vol_txt;
@@ -58,7 +58,7 @@ namespace RogueEngine.UI
             sfx_vol.onEndDrag += OnChangeAudio;
             //quality.onEndDrag += OnChangeQuality;
             resolution.onEndDrag += OnChangeResolution;
-            windowed.onValueChanged.AddListener(OnChangeWindowed);
+            //windowed.onValueChanged.AddListener(OnChangeWindowed);
 
             foreach (Resolution reso in Screen.resolutions)
             {
@@ -90,7 +90,7 @@ namespace RogueEngine.UI
 
             //quality.value = quality_value;
             resolution.value = reso_value;
-            windowed.isOn = windowed_value;
+            //windowed.isOn = windowed_value;
             refreshing = false;
 
             RefreshText();
@@ -146,7 +146,7 @@ namespace RogueEngine.UI
             {
                 int reso_value = Mathf.RoundToInt(resolution.value);
                 Resolution resolu = resolutions[reso_value];
-                Screen.SetResolution(resolu.width, resolu.height, !windowed.isOn);
+                Screen.SetResolution(resolu.width, resolu.height, false);
                 RefreshText();
             }
         }

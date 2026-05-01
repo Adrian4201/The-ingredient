@@ -72,6 +72,7 @@ namespace RogueEngine.Server
             RegisterAction(GameAction.ShopBuyCard, ReceiveBuyCard);
             RegisterAction(GameAction.ShopSellItem, ReceiveSellItem);
             RegisterAction(GameAction.UseItem, ReceiveUseItem);
+            RegisterAction(GameAction.ShopHeal, ReceiveShopHeal);
 
             //Battle Actions
             RegisterAction(GameAction.PlayCard, ReceivePlayCard);
@@ -221,7 +222,6 @@ namespace RogueEngine.Server
             if (client != null)
             {
                 reader.ReadValueSafe(out ushort type);
-                Debug.Log(type);
                 SerializedData sdata = new SerializedData(reader);
                 if (!battle_logic.IsResolving())
                 {
@@ -538,6 +538,12 @@ namespace RogueEngine.Server
                         world_logic.UseItem(champion, item);
                 }
             }
+        }
+
+        public void ReceiveShopHeal(ClientData iclient, SerializedData sdata)
+        {
+            MsgUse msg = sdata.Get<MsgUse>();
+            world_logic.ShopHeal(world_data.GetChampion(msg.character_uid));
         }
 
         //----------------------

@@ -34,7 +34,7 @@ MonoBehaviour:
   upgrade_mana: 0
   cost: 100
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 3 Damage. If the target is below 50% hp, surge.
+  text: Deal 3 Damage. If the target is below 50% hp, Surge.
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 8300000, guid: eb732c6a92c224344aaabb7740a0288d, type: 3}

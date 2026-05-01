@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: words_terror
   m_EditorClassIdentifier: 
   id: words_terror
+  cardColor: 0
   title: Words of Terror
   art_icon: {fileID: 0}
   art_full: {fileID: 21300000, guid: 0abdd39077a6b904b9a0afe69227858a, type: 3}
@@ -21,11 +22,11 @@ MonoBehaviour:
   team: {fileID: 11400000, guid: 7bc636fc5705f6143ac7676532f19540, type: 2}
   rarity: {fileID: 11400000, guid: fab1a52f5a36cc942985dea95be18ac9, type: 2}
   mana: 1
+  damage: 0
   traits:
   - {fileID: 11400000, guid: 17ea253e5ca2e81409b0944ff29bfed9, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 655baebc5e383544ebb4fbe439b6e690, type: 2}
   - {fileID: 11400000, guid: d08b7db8bf7a49e449420a1ed9e4b571, type: 2}
   - {fileID: 11400000, guid: 41f7fb56ee579e641a1dd074a1bcf728, type: 2}
   level_max: 3
@@ -41,4 +42,4 @@ MonoBehaviour:
   spawn_audio: {fileID: 0}
   caster_anim: action
   target_anim: 
-  show_collection: 1
+  availability: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: DR-Bash
   cardColor: 4
-  title: Bash
+  title: Brisk Bash
   art_icon: {fileID: -4245223599292887834, guid: fa1f0922af65c5045b9adbd84511e0f5,
     type: 3}
   art_full: {fileID: 21300000, guid: 34a4c82b438050549ae0d46802c34c61, type: 3}
@@ -29,11 +29,12 @@ MonoBehaviour:
   stats: []
   abilities:
   - {fileID: 11400000, guid: fb35a0143d17ed344811c9baa5c402f6, type: 2}
+  - {fileID: 11400000, guid: 94cc0fbd97d46844c8e742bf8d4cbcff, type: 2}
   level_max: 1
   upgrade_mana: 0
-  cost: 100
+  cost: 3
   intent: {fileID: 11400000, guid: f11863a308a2e0c4eb747215627e1735, type: 2}
-  text: Deal 3 Damage
+  text: 'Deal 3 Damage, Drop: Stock 1'
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 8300000, guid: 0a555b105538fae4a9162a16f5b38ece, type: 3}

@@ -106,10 +106,10 @@ TextureImporter:
       name: heat up_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3750
-        height: 5250
+        x: 1076
+        y: 4044
+        width: 18
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,6 +120,28 @@ TextureImporter:
       bones: []
       spriteID: 1ff9a730098d6bd00800000000000000
       internalID: 988215281299660785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heat up_1
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 2148
+        width: 2341
+        height: 1847
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b3b1d348b042e41a9529f0214b06bd
+      internalID: 1664748105
       vertices: []
       indices: 
       edges: []
@@ -139,6 +161,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       heat up_0: 988215281299660785
+      heat up_1: 1664748105
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
