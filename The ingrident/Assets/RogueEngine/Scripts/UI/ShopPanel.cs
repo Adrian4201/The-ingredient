@@ -22,6 +22,9 @@ namespace RogueEngine.UI
         public Text info_quantity;
         public Text info_price;
         public Button buy_button;
+        public UIPanel replace_card_panel;
+        public CardUI old_card;
+        public CardUI new_card;
 
         private string champion_uid;
         private CardData selected_item;
@@ -179,9 +182,30 @@ namespace RogueEngine.UI
             Champion champion = world.GetChampion(champion_uid);
 
             if (selected_card != null)
-                GameClient.Get().MapBuyCard(champion, selected_card);
-            else if (selected_item != null)
+            {
+                replace_card_panel.Show();
+
+                old_card.SetCard(champion.GetCard(selected_card.cardColor).CardData, 0);
+                new_card.SetCard(selected_card, 0);
+            }
+            else if(selected_item != null)
+            {
                 GameClient.Get().MapBuyItem(champion, selected_item);
+                RefreshInfo();
+            }
+        }
+
+        public void BuyCard()
+        {
+            World world = GameClient.Get().GetWorld();
+            Champion champion = world.GetChampion(champion_uid);
+
+            if (selected_card != null)
+            {
+                GameClient.Get().MapBuyCard(champion, selected_card);
+                RefreshInfo();
+                replace_card_panel.Hide();
+            }
         }
 
         public void OnClickQuit()
