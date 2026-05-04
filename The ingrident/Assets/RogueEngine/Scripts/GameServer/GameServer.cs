@@ -86,6 +86,7 @@ namespace RogueEngine.Server
             RegisterAction(GameAction.CancelSelect, ReceiveCancelSelection);
             RegisterAction(GameAction.EndTurn, ReceiveEndTurn);
             RegisterAction(GameAction.Resign, ReceiveResign);
+            RegisterAction(GameAction.SkipTutorial, ReceiveSkipTutorial);
             RegisterAction(GameAction.ChatMessage, ReceiveChat);
 
             //Map events
@@ -665,6 +666,11 @@ namespace RogueEngine.Server
             {
                 world_logic.FleeBattle(player.player_id);
             }
+        }
+
+        public void ReceiveSkipTutorial(ClientData iclient, SerializedData sdata)
+        {
+            battle_logic.EndBattle(1);
         }
 
         public void ReceiveChat(ClientData iclient, SerializedData sdata)

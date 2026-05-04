@@ -569,6 +569,11 @@ namespace RogueEngine.Client
             SendAction(GameAction.Resign);
         }
 
+        public void SkipTutorial()
+        {
+            SendAction(GameAction.SkipTutorial);
+        }
+
         public void SendAction<T>(ushort type, T data, NetworkDelivery delivery = NetworkDelivery.Reliable) where T : INetworkSerializable
         {
             FastBufferWriter writer = new FastBufferWriter(128, Unity.Collections.Allocator.Temp, TcgNetwork.MsgSizeMax);
