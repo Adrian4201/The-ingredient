@@ -19,7 +19,6 @@ MonoBehaviour:
   conditions_target:
   - {fileID: 11400000, guid: d2f9d6b736bdb1044904ed93f710b5ed, type: 2}
   - {fileID: 11400000, guid: 41c58513071a53b4e9066a58c439760f, type: 2}
-  - {fileID: 11400000, guid: 5cf6b15886db7e749b0217dbc060613b, type: 2}
   filters_target: []
   effects:
   - {fileID: 11400000, guid: 4369324687c62ca488c57afd73a2be36, type: 2}

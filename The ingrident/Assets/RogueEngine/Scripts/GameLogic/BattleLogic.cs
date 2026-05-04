@@ -627,7 +627,7 @@ namespace RogueEngine.Gameplay
                 RefreshBattle();
 
                 resolve_queue.AddCard(card, AfterPlayCardResolved);
-                resolve_queue.ResolveAll(0.3f);
+                resolve_queue.ResolveAll(0.1f);
 
                 if(owner.is_champion)
                 {
@@ -1293,7 +1293,7 @@ namespace RogueEngine.Gameplay
                 CheckForWinner();
 
             onAbilityEnd?.Invoke(iability, card);
-            resolve_queue.ResolveAll(0.5f);
+            resolve_queue.ResolveAll(0.3f);
             RefreshBattle();
         }
 

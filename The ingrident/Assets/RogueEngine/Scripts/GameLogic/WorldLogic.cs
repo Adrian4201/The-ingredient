@@ -693,8 +693,8 @@ namespace RogueEngine.Gameplay
             {
                 MapData map = scenario.maps[world_data.map_index];
                 world_data.map_id = map.id;
-                world_data.map_location_id = 0;
                 world_data.state = WorldState.Map;
+                world_data.map_location_id = 0;
 
                 RefreshWorld();
             }
