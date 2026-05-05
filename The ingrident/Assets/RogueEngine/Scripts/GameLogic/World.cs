@@ -764,7 +764,6 @@ namespace RogueEngine
 
         Map = 10,
         Cutscene = 11,
-        LoadingMap = 12,
         Battle = 20,
         EventChoice = 30,
         EventText = 32,

@@ -13,6 +13,7 @@ namespace RogueEngine.Client
         private TutoMapStep current_step;
         private bool locked = false;
         private WorldState prev_state = WorldState.None;
+        private bool seenRewards = false;
 
         private static TutorialMap instance;
 
@@ -62,10 +63,11 @@ namespace RogueEngine.Client
         {
             World world = GameClient.Get().GetWorld();
 
-            if (world.state == WorldState.Map)
+            if (world.state == WorldState.Map && seenRewards)
             {
                 TutoMapStepGroup group = TutoMapStepGroup.Get(TutoMapStartTrigger.MapView, world.GetCurrentLocationDepth());
                 ShowGroup(group);
+                seenRewards = false;
             }
 
             if (world.state == WorldState.Reward)
@@ -73,6 +75,7 @@ namespace RogueEngine.Client
                 Champion champion = world.GetFirstChampion(GameClient.Get().GetPlayerID());
                 TutoMapStepGroup group = TutoMapStepGroup.Get(TutoMapStartTrigger.CardReward, world.GetCurrentLocationDepth(), champion);
                 ShowGroup(group);
+                seenRewards = true;
             }
 
             if (world.state == WorldState.EventChoice || world.state == WorldState.EventText)
