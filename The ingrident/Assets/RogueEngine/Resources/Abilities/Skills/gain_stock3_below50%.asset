@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
-  m_Name: gain_surge_below_50%
+  m_Name: gain_stock3_below50%
   m_EditorClassIdentifier: 
-  id: surge_lessthan_50
+  id: stock3_below50
   trigger: 10
   conditions_trigger: []
   target: 7
@@ -21,10 +21,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ebeb8382d4cdddf40a8c6f62fe7e3325, type: 2}
   filters_target: []
   effects:
-  - {fileID: 11400000, guid: 35c795063e040f8479b6de94c006d7c3, type: 2}
+  - {fileID: 11400000, guid: 3f1a844cd1cd4c744aed13bb77b7153b, type: 2}
   status:
-  - {fileID: 11400000, guid: 64f588e8ad94c714284a6e4f0f10611b, type: 2}
-  value: 0
+  - {fileID: 11400000, guid: 6bb4d16a6533f684c8e8a66798b51698, type: 2}
+  value: 3
   upgrade_value: 0
   status_bonus: 0
   chain_abilities: []

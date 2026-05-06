@@ -15,7 +15,7 @@ MonoBehaviour:
   id: Cutscene4
   depth_min: 10
   depth_max: 10
-  icon: {fileID: 21300000, guid: 7fb7cf43dfffa9d408fc0f4a32f869d5, type: 3}
+  icon: {fileID: 2238395088599490266, guid: 546c43a12c73a184c87b5b726bf1eeab, type: 3}
   cutscene: {fileID: 7453507744045275156, guid: 110d703337aa7284d8c854adccf1a51a,
     type: 3}
   Text: 
