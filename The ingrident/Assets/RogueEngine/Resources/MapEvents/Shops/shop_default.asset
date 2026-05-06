@@ -25,7 +25,6 @@ MonoBehaviour:
   items_random_amount: 3
   items_random:
   - {fileID: 11400000, guid: b63122bcae6eb41419d873d3bc7584cf, type: 2}
-  - {fileID: 11400000, guid: b113a80c63852844a8ecefdf8dab25d6, type: 2}
   - {fileID: 11400000, guid: eaddb1e85cf012d4ebdb47dae85c34e5, type: 2}
   - {fileID: 11400000, guid: d6293d6edc98046418090e4252cae6ac, type: 2}
   - {fileID: 11400000, guid: 7151acc75814d8b449ddf8a461708a4a, type: 2}

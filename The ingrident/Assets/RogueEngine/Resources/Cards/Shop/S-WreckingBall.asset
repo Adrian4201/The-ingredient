@@ -32,7 +32,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e43d30dd08afdc54185770715c1dc27a, type: 2}
   level_max: 3
   upgrade_mana: 0
-  cost: 6
+  cost: 4
   intent: {fileID: 0}
   text: Deal 6 Damage, Gain 1 Expose.
   upg_text: 

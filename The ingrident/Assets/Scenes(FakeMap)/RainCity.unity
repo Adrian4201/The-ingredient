@@ -1300,6 +1300,11 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2871680794636936655, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3885131145663484054, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -2571,7 +2576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start_audio: {fileID: 0}
   game_music:
-  - {fileID: 8300000, guid: 0d4d196e7bbd5a345b3ac528ccaa61d1, type: 3}
+  - {fileID: 8300000, guid: 294191da43e31a64d85f1fb598423da4, type: 3}
   game_ambience: []
   volume_slider: {fileID: 0}
 --- !u!1 &1424785879

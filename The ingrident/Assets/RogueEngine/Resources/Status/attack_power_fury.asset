@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7edf116efdfa73646a6de43812f81a4a, type: 3}
-  m_Name: attack_power
+  m_Name: attack_power_fury
   m_EditorClassIdentifier: 
   id: attack_power
   effect: 10

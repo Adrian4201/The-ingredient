@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 843a21f7f6f205741a0a7341aec8e84d, type: 3}
-  m_Name: Resentful_Ravoli
+  m_Name: Barricade_Burrito
   m_EditorClassIdentifier: 
-  id: Resentful_Ravoli
+  id: Barricade_Burrito
   cardColor: 0
-  title: Resentful Ravioli
-  art_icon: {fileID: 3653387713496167355, guid: 1302284c08b1c34448fa0ed786e3688d,
+  title: Barricade Burrito
+  art_icon: {fileID: -3427332452855026627, guid: e09ebce34cd036a4fbd15832799464fd,
     type: 3}
-  art_full: {fileID: 3653387713496167355, guid: 1302284c08b1c34448fa0ed786e3688d,
+  art_full: {fileID: -3427332452855026627, guid: e09ebce34cd036a4fbd15832799464fd,
     type: 3}
   card_type: 0
   item_type: 26
@@ -28,12 +28,12 @@ MonoBehaviour:
   traits: []
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 2f8590f5d753e9b4fb746427eea1ae5b, type: 2}
+  - {fileID: 11400000, guid: c459da0942095a841bb6f08caa62f5e5, type: 2}
   level_max: 1
   upgrade_mana: 0
   cost: 10
   intent: {fileID: 0}
-  text: Whenever you don't play your red card, gain 1 heated.
+  text: After playing a Green card, gain 1 barrier and heal 1
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 0}
