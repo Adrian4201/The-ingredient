@@ -695,8 +695,8 @@ PrefabInstance:
     - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Text
-      value: Start by clicking the white flag to see the aftermath of your escape
-        from the lab.
+      value: Start by clicking the flag to see the aftermath of your escape from
+        the lab.
       objectReference: {fileID: 0}
     - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}

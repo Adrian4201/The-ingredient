@@ -16,7 +16,7 @@ MonoBehaviour:
   cardColor: 6
   title: Decadent Dash
   art_icon: {fileID: 0}
-  art_full: {fileID: -3476274221663193235, guid: 6129dd2f317d04542b01c4caaf8270e5,
+  art_full: {fileID: 9124926595221228852, guid: 619d048550eb1bd438c9d7b0efb212a9,
     type: 3}
   card_type: 20
   item_type: 0
