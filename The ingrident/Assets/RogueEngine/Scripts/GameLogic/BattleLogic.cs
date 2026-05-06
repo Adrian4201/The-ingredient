@@ -9,6 +9,7 @@ using UnityEngine.Events;
 using UnityEngine.Profiling;
 using UnityEngine.TextCore.Text;
 using static UnityEngine.GraphicsBuffer;
+using Unity.VisualScripting;
 
 namespace RogueEngine.Gameplay
 {
@@ -91,7 +92,6 @@ namespace RogueEngine.Gameplay
         }
 
         //----- Turn Phases ----------
-
         public virtual void StartBattle(World world, EventBattle battle)
         {
             //Champions
@@ -305,6 +305,18 @@ namespace RogueEngine.Gameplay
 
         public virtual void StartTurn()
         {
+            if (battle_data.turn_count == 0)
+            {
+                if (battle_data.is_boss)
+                {
+                    SceneSettings.Get().PlayBossMusic();
+                }
+                else
+                {
+                    SceneSettings.Get().PlayBattleMusic();
+                }
+            }
+
             ClearTurnData();
             CheckForWinner();
 

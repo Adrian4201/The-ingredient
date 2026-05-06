@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ce5f81e5cc37f547af6923758602c8c, type: 3}
-  m_Name: damage_hp3_self
+  m_Name: damage_hp1_self
   m_EditorClassIdentifier: 
-  id: damage_hp3_self
+  id: damage_hp1_self
   trigger: 10
   conditions_trigger: []
   target: 4
@@ -21,7 +21,7 @@ MonoBehaviour:
   effects:
   - {fileID: 11400000, guid: f8e7213e9255696448112b8fa8151a67, type: 2}
   status: []
-  value: 3
+  value: 1
   upgrade_value: 0
   status_bonus: 0
   chain_abilities: []

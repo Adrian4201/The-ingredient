@@ -27,7 +27,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
-  - {fileID: 11400000, guid: 9887e43f3805ce54c824c57e242d5345, type: 2}
+  - {fileID: 11400000, guid: 24615d863aa90d141b28176034f9b272, type: 2}
+  - {fileID: 11400000, guid: 24615d863aa90d141b28176034f9b272, type: 2}
+  - {fileID: 11400000, guid: 24615d863aa90d141b28176034f9b272, type: 2}
+  - {fileID: 11400000, guid: 24615d863aa90d141b28176034f9b272, type: 2}
   - {fileID: 11400000, guid: 9887e43f3805ce54c824c57e242d5345, type: 2}
   - {fileID: 11400000, guid: 9887e43f3805ce54c824c57e242d5345, type: 2}
   level_max: 3

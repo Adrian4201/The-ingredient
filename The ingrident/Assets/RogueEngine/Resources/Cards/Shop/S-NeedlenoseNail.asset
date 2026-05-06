@@ -30,11 +30,12 @@ MonoBehaviour:
   abilities:
   - {fileID: 11400000, guid: d4f15974d02c63d4e882c26c9b9029a4, type: 2}
   - {fileID: 11400000, guid: c287d0cd96b76954cba0ba0f45e0e89e, type: 2}
+  - {fileID: 11400000, guid: 69c0739197eb21041a197a4bbd3d516e, type: 2}
   level_max: 3
   upgrade_mana: 0
   cost: 4
   intent: {fileID: 0}
-  text: 'Drop: Deal 3 damage, take 1 damage.'
+  text: 'Deal 5 Damage. Drop: Deal 3 damage, take 1 damage.'
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 8300000, guid: eb732c6a92c224344aaabb7740a0288d, type: 3}

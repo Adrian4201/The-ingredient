@@ -2581,8 +2581,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   start_audio: {fileID: 0}
   game_music:
-  - {fileID: 8300000, guid: 294191da43e31a64d85f1fb598423da4, type: 3}
+  - {fileID: 8300000, guid: 0d4d196e7bbd5a345b3ac528ccaa61d1, type: 3}
   game_ambience: []
+  boss_music: {fileID: 0}
+  map: 0
   volume_slider: {fileID: 0}
 --- !u!1 &1424785879
 GameObject:

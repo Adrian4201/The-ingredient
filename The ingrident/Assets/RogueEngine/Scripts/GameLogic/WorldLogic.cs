@@ -714,7 +714,7 @@ namespace RogueEngine.Gameplay
         public virtual void StartBattle(EventBattle battle)
         {
             world_data.state = WorldState.Battle;
-            world_data.battle = new Battle(battle.id, world_data);
+            world_data.battle = new Battle(battle.id, world_data, battle.isBoss);
             world_data.event_id = battle.id;
             RefreshWorld();
 

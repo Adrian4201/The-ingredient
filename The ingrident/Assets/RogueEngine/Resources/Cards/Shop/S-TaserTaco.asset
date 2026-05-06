@@ -28,6 +28,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 038a229020abf73438635230f0cb3d39, type: 2}
   stats: []
   abilities:
+  - {fileID: 11400000, guid: e89b2e30f29574a49a8720272502c838, type: 2}
   - {fileID: 11400000, guid: 1bc0d200f2279f449bbf25b4ed1c07b6, type: 2}
   - {fileID: 11400000, guid: f80d23116ae4ffa458a53e5c01d737e3, type: 2}
   level_max: 3

@@ -2196,8 +2196,8 @@ PrefabInstance:
     - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}
       propertyPath: m_Text
-      value: You play the role of Miriam, trying to escape from the people doing
-        experiments on you.
+      value: You play the role of Miriam, trying to escape from the people experimenting
+        on you.
       objectReference: {fileID: 0}
     - target: {fileID: 1905726284227907966, guid: 1a0d041573c9166469dfe057eb6be0ad,
         type: 3}

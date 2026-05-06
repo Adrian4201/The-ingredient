@@ -11,6 +11,7 @@ namespace RogueEngine
         [Header("Battle")]
         public string scene;
         public int enemies_level = 1;
+        public bool isBoss = false;
         public CharacterData[] enemies;
 
         [Header("Extra Enemies")]

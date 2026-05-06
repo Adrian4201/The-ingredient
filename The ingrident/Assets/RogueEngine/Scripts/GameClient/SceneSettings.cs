@@ -14,6 +14,8 @@ namespace RogueEngine.Client
         public AudioClip start_audio;
         public AudioClip[] game_music;
         public AudioClip[] game_ambience;
+        public AudioClip boss_music;
+        public bool map;
 
         public Slider volume_slider;
 
@@ -27,7 +29,7 @@ namespace RogueEngine.Client
         void Start()
         {
             AudioTool.Get().PlaySFX("game_sfx", start_audio);
-            if (game_music.Length > 0)
+            if (game_music.Length > 0 && map)
                 AudioTool.Get().PlayMusic("music", game_music[Random.Range(0, game_music.Length)]);
             if (game_ambience.Length > 0)
                 AudioTool.Get().PlaySFX("ambience", game_ambience[Random.Range(0, game_ambience.Length)], 0.5f, true);
@@ -36,6 +38,17 @@ namespace RogueEngine.Client
         void Update()
         {
 
+        }
+
+        public void PlayBossMusic()
+        {
+            AudioTool.Get().PlayMusic("music", boss_music);
+        }
+
+        public void PlayBattleMusic()
+        {
+            if (game_music.Length > 0)
+                AudioTool.Get().PlayMusic("music", game_music[Random.Range(0, game_music.Length)]);
         }
 
         public static SceneSettings Get()

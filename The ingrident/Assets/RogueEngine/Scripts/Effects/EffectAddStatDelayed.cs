@@ -13,9 +13,12 @@ namespace RogueEngine
     public class EffectAddStatDelayed : EffectData
     {
         public EffectDelayedStatType type;
+        public bool isSelf = false;
 
         public override void DoEffect(BattleLogic logic, AbilityData ability, BattleCharacter caster, Card card, BattleCharacter target)
         {
+            if (isSelf) target = caster;
+
             if (type == EffectDelayedStatType.Shield)
             {
                 target.delayed_shield += ability.GetValue(caster, card);
