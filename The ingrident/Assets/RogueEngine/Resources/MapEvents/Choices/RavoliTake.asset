@@ -26,7 +26,7 @@ MonoBehaviour:
   gain_items:
   - {fileID: 11400000, guid: b113a80c63852844a8ecefdf8dab25d6, type: 2}
   gain_ally: []
-  gain_gold: 5
+  gain_gold: 0
   gain_xp: 0
   hp_heal: 0
   text: You dish some gold out to the waiter, who returns with a hot dish of angry

@@ -35,7 +35,7 @@ MonoBehaviour:
   upgrade_mana: 0
   cost: 4
   intent: {fileID: 0}
-  text: 'Heal 4, Gain 4 barrier, and Gain 2 stale. '
+  text: 'Heal 4, Gain 4 Barrier, and Gain 2 Stale. '
   upg_text: 
   spawn_fx: {fileID: 0}
   spawn_audio: {fileID: 8300000, guid: eb732c6a92c224344aaabb7740a0288d, type: 3}
