@@ -683,7 +683,6 @@ namespace RogueEngine.Gameplay
         }
 
 
-
         public virtual void GoToNextMap()
         {
             world_data.map_index++;
@@ -693,8 +692,8 @@ namespace RogueEngine.Gameplay
             {
                 MapData map = scenario.maps[world_data.map_index];
                 world_data.map_id = map.id;
-                world_data.map_location_id = 0;
                 world_data.state = WorldState.Map;
+                world_data.map_location_id = 0;
 
                 RefreshWorld();
             }
@@ -715,7 +714,7 @@ namespace RogueEngine.Gameplay
         public virtual void StartBattle(EventBattle battle)
         {
             world_data.state = WorldState.Battle;
-            world_data.battle = new Battle(battle.id, world_data);
+            world_data.battle = new Battle(battle.id, world_data, battle.isBoss);
             world_data.event_id = battle.id;
             RefreshWorld();
 

@@ -117,8 +117,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.5, y: -2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 3886660705336385944}
   - {fileID: 7300907507950458009}
@@ -144,8 +144,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.5, z: 1}
-  m_Center: {x: 0, y: 0.5, z: 0}
+  m_Size: {x: 3.066224, y: 4.135656, z: 1}
+  m_Center: {x: -0.23590755, y: 1.8178275, z: 0}
 --- !u!114 &3315427549352430693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,6 +439,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 3.326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866321447212291964, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 14.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3866321447212291964, guid: 116ffb266e823be4b93c803237e08123,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -191.6
       objectReference: {fileID: 0}
     - target: {fileID: 4379898357094487008, guid: 116ffb266e823be4b93c803237e08123,
         type: 3}

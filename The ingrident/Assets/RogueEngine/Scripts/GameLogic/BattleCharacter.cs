@@ -10,6 +10,7 @@ namespace RogueEngine
     public class BattleCharacter
     {
         public string character_id;
+        public string title;
         public int player_id;
         public string uid;
         public bool is_champion;
@@ -94,6 +95,7 @@ namespace RogueEngine
             cdata = null;
             edata = charact;
             character_id = charact.id;
+            title = charact.title;
             hp = charact.GetHP(level);
             speed = charact.GetSpeed(level);
             hand = charact.GetHand(level);

@@ -20,7 +20,6 @@ namespace RogueEngine
 
         public override void DoEffect(BattleLogic logic, AbilityData ability, BattleCharacter caster, Card card, BattleCharacter target)
         {
-            Debug.Log(add_status.effect);
             caster.AddStatus(add_status, ability.value);
         }
     }

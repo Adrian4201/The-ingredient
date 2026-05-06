@@ -20,7 +20,8 @@ MonoBehaviour:
   filters_target: []
   effects:
   - {fileID: 11400000, guid: 3f1a844cd1cd4c744aed13bb77b7153b, type: 2}
-  status: []
+  status:
+  - {fileID: 11400000, guid: 6bb4d16a6533f684c8e8a66798b51698, type: 2}
   value: 5
   upgrade_value: 0
   status_bonus: 0

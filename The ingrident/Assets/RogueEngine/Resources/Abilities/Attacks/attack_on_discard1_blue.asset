@@ -25,7 +25,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 379c53f3bbf587a4c8122ce66c67222f, type: 2}
   value: 1
   upgrade_value: 0
-  status_bonus: 0
+  status_bonus: 10
   chain_abilities: []
   board_fx: {fileID: 0}
   caster_fx: {fileID: 0}

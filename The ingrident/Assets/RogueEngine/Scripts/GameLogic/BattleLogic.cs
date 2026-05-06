@@ -9,6 +9,7 @@ using UnityEngine.Events;
 using UnityEngine.Profiling;
 using UnityEngine.TextCore.Text;
 using static UnityEngine.GraphicsBuffer;
+using Unity.VisualScripting;
 
 namespace RogueEngine.Gameplay
 {
@@ -91,7 +92,6 @@ namespace RogueEngine.Gameplay
         }
 
         //----- Turn Phases ----------
-
         public virtual void StartBattle(World world, EventBattle battle)
         {
             //Champions
@@ -305,6 +305,18 @@ namespace RogueEngine.Gameplay
 
         public virtual void StartTurn()
         {
+            if (battle_data.turn_count == 0)
+            {
+                if (battle_data.is_boss)
+                {
+                    SceneSettings.Get().PlayBossMusic();
+                }
+                else
+                {
+                    SceneSettings.Get().PlayBattleMusic();
+                }
+            }
+
             ClearTurnData();
             CheckForWinner();
 
@@ -627,7 +639,7 @@ namespace RogueEngine.Gameplay
                 RefreshBattle();
 
                 resolve_queue.AddCard(card, AfterPlayCardResolved);
-                resolve_queue.ResolveAll(0.3f);
+                resolve_queue.ResolveAll(0.1f);
 
                 if(owner.is_champion)
                 {
@@ -1293,7 +1305,7 @@ namespace RogueEngine.Gameplay
                 CheckForWinner();
 
             onAbilityEnd?.Invoke(iability, card);
-            resolve_queue.ResolveAll(0.5f);
+            resolve_queue.ResolveAll(0.3f);
             RefreshBattle();
         }
 

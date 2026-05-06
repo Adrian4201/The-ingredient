@@ -16,7 +16,7 @@ MonoBehaviour:
   title: NightClub_fight
   map_scene: Map
   battle_scene: NightClub
-  depth: 6
+  depth: 8
   width_min: 1
   width_max: 3
   fork_probability: 0.25
@@ -27,7 +27,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b63552a7af35fdd4490f259e438ae4e8, type: 2}
   - {fileID: 11400000, guid: 5cf0147f994151141bef45381d04cb62, type: 2}
   - {fileID: 11400000, guid: 3083e6f38686ce447adf5f5485a8ca9e, type: 2}
-  - {fileID: 11400000, guid: 9bfbdb2b4d5ffdd42aff6d95c180254f, type: 2}
   fixed_widths:
   - depth: 1
     width: 1
@@ -37,11 +36,21 @@ MonoBehaviour:
     width: 2
   - depth: 4
     width: 3
-  - depth: 5
+  - depth: 7
+    width: 1
+  - depth: 8
     width: 1
   fixed_events:
-  - depth: 6
+  - depth: 7
     index_min: 0
     index_max: 1
     evt: {fileID: 11400000, guid: dded8d48ea5339e478800778d65b9fdc, type: 2}
+  - depth: 8
+    index_min: 0
+    index_max: 1
+    evt: {fileID: 11400000, guid: b2aaa7ac48574614a892f5b7761ac731, type: 2}
+  - depth: 1
+    index_min: 0
+    index_max: 1
+    evt: {fileID: 11400000, guid: 1519042925263264489c4cc121fcfcca, type: 2}
   map_tutorial: {fileID: 0}

@@ -14,6 +14,7 @@ namespace RogueEngine
         public string active_character;
         public int turn_count = 0;
         public float turn_timer = 0f;
+        public bool is_boss;
 
         public BattlePhase phase = BattlePhase.None;
         public int win_result = 0;
@@ -54,7 +55,7 @@ namespace RogueEngine
         public System.Random rand = new System.Random();
 
         public Battle() { }
-        public Battle(string id, World world) { battle_id = id; world_data = world; }
+        public Battle(string id, World world, bool isBoss) { battle_id = id; world_data = world; is_boss = isBoss; }
 
         public virtual bool IsAllyTurn()
         {
@@ -213,7 +214,6 @@ namespace RogueEngine
 
             foreach (AbilityData ability in card.GetAbilities())
             {
-                Debug.Log(ability.id);
                 if (ability.trigger == AbilityTrigger.OnPlay && ability.AreTriggerConditionsMet(this, caster, card))
                     return true;
             }

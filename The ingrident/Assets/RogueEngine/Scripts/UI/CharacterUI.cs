@@ -16,6 +16,7 @@ namespace RogueEngine.UI
         public ProgressBar hp_bar;
         public GameObject shield_group;
         public Text shield;
+        public Text characterName;
 
         public IntentIcon intent_icon;
         public StatusIcon[] status_icons;
@@ -32,6 +33,7 @@ namespace RogueEngine.UI
             turn_glow.enabled = false;
             select_glow.enabled = false;
             shield.text = "";
+            characterName.text = "";
             shield_group.SetActive(false);
             hp_bar.value = 100;
             hp_bar.value_max = 100;
@@ -92,6 +94,11 @@ namespace RogueEngine.UI
         public void SetHP(int hp_value)
         {
             hp_bar.value = hp_value;
+        }
+
+        public void SetName(string newName)
+        {
+            characterName.text = newName;
         }
 
         public void SetIntent(BattleCharacter character)

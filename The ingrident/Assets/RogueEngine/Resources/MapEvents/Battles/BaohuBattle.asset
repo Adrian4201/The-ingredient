@@ -18,6 +18,7 @@ MonoBehaviour:
   icon: {fileID: -2424553518018739129, guid: cacc3e1aebfff9f48bb328baf9a9daf7, type: 3}
   scene: 
   enemies_level: 1
+  isBoss: 1
   enemies:
   - {fileID: 0}
   - {fileID: 11400000, guid: 04fea67c341122444be84a82afe6a1e7, type: 2}

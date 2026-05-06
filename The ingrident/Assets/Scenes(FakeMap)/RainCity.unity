@@ -1300,6 +1300,11 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2871680794636936655, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3885131145663484054, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1318,6 +1323,11 @@ PrefabInstance:
     - target: {fileID: 5710484167577571925, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5943732181576208257, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6998234637461408072, guid: b2cda006105c05b428bace831c06c984,
@@ -2573,6 +2583,8 @@ MonoBehaviour:
   game_music:
   - {fileID: 8300000, guid: 0d4d196e7bbd5a345b3ac528ccaa61d1, type: 3}
   game_ambience: []
+  boss_music: {fileID: 0}
+  map: 0
   volume_slider: {fileID: 0}
 --- !u!1 &1424785879
 GameObject:

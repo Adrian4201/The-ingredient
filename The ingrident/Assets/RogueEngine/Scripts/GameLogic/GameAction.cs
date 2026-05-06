@@ -80,6 +80,7 @@ namespace RogueEngine
         public const ushort CancelSelect = 1039;
         public const ushort EndTurn = 1040;
         public const ushort Resign = 1050;
+        public const ushort SkipTutorial = 1060;
         public const ushort ChatMessage = 1090;
 
         //Battle Refresh (server to client)

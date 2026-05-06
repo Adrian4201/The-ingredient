@@ -240,11 +240,22 @@ namespace RogueEngine.UI
             }
         }
 
+        public void OnClickSkip()
+        {
+            World world = GameClient.Get().GetWorld();
+            EventBattle battle = EventBattle.Get(world.battle.battle_id);
+            if (battle != null)
+            {
+                GameClient.Get().SkipTutorial();
+            }
+        }
+
         public void OnClickQuit()
         {
             StartCoroutine(QuitRoutine("Menu"));
             menu_panel.Hide();
         }
+
         //place toggle here
         public void OnclickSetting()
         {

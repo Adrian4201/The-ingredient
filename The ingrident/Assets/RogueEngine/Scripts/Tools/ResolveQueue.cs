@@ -41,6 +41,7 @@ namespace RogueEngine
 
         public virtual void Update(float delta)
         {
+            
             if (resolve_delay > 0f)
             {
                 resolve_delay -= delta;

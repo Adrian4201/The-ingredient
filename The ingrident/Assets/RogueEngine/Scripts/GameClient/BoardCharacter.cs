@@ -21,6 +21,7 @@ namespace RogueEngine
 
         private string uid;
         private string character_id;
+        private string character_name;
         private bool killed = false;
         private bool focus = false;
 
@@ -124,6 +125,7 @@ namespace RogueEngine
         {
             uid = character.uid;
             character_id = character.character_id;
+            character_name = character.title;
             prev_hp = character.GetHP();
 
             BoardSlot bslot = BoardSlot.Get(character.slot);
@@ -222,11 +224,13 @@ namespace RogueEngine
 
         private void OnPointerEnter(PointerEventData eventData)
         {
+            ui.SetName(character_name);
             focus = true;
         }
 
         private void OnPointerExit(PointerEventData eventData)
         {
+            ui.SetName("");
             focus = false;
         }
 

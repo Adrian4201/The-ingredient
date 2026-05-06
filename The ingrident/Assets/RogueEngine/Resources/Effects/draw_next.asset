@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: draw_next
   m_EditorClassIdentifier: 
   type: 24
+  isSelf: 0
