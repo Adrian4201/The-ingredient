@@ -102,8 +102,9 @@ namespace RogueEngine.UI
                 return;
 
             //Setting
-            if (KeyInput.IsKeyPress(Key.Tab))
-                setting_panel.Toggle();
+            //no setting >:(
+            //if (KeyInput.IsKeyPress(Key.Tab))
+            //    setting_panel.Toggle();
             if (!GameClient.Get().IsReady())
                 return;
             bool yourturn = GameClient.Get().IsYourTurn();

@@ -1278,6 +1278,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5943732181576208257, guid: b2cda006105c05b428bace831c06c984,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6619320846244898011, guid: b2cda006105c05b428bace831c06c984,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2569,7 +2574,7 @@ MonoBehaviour:
   game_music:
   - {fileID: 8300000, guid: 294191da43e31a64d85f1fb598423da4, type: 3}
   game_ambience: []
-  boss_music: {fileID: 8300000, guid: 0d4d196e7bbd5a345b3ac528ccaa61d1, type: 3}
+  boss_music: {fileID: 8300000, guid: 4628b6a51614cad428f8025bf43a32d8, type: 3}
   map: 0
   volume_slider: {fileID: 0}
 --- !u!1 &1368544165
