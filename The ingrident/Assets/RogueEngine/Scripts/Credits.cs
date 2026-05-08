@@ -6,18 +6,24 @@ using UnityEngine.InputSystem;
 public class Credits : MonoBehaviour
 {
     [SerializeField] private GameObject textHolder;
+    [SerializeField] private GameObject leftButton, rightButton;
 
     private bool isMoving = false;
     private float duration = 0.5f;
 
+    private void Start()
+    {
+        leftButton.SetActive(false);
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if(KeyInput.IsKeyPress(Key.RightArrow))
+        if(KeyInput.IsKeyPress(Key.RightArrow) && textHolder.transform.position.x > -1)
         {
             MoveToSecond();
         }
-        else if (KeyInput.IsKeyPress(Key.LeftArrow))
+        else if (KeyInput.IsKeyPress(Key.LeftArrow) && textHolder.transform.position.x < -15)
         {
             MoveToFirst();
         }
@@ -25,7 +31,7 @@ public class Credits : MonoBehaviour
 
     public void MoveToSecond()
     {
-        if(!isMoving && textHolder.transform.position.x > -1)
+        if(!isMoving)
         {
             StartCoroutine(LerpPos(Vector3.left * 16));
         }
@@ -33,7 +39,7 @@ public class Credits : MonoBehaviour
 
     public void MoveToFirst()
     {
-        if(!isMoving && textHolder.transform.position.x < -15)
+        if(!isMoving)
         {
             StartCoroutine(LerpPos(Vector3.zero));
         }
@@ -46,6 +52,9 @@ public class Credits : MonoBehaviour
 
     private IEnumerator LerpPos(Vector3 target)
     {
+        rightButton.SetActive(false);
+        leftButton.SetActive(false);
+
         isMoving = true;
         Vector3 startPos = textHolder.transform.position;
         float elapsedTime = 0;
@@ -60,5 +69,8 @@ public class Credits : MonoBehaviour
 
         textHolder.transform.position = target;
         isMoving = false;
+
+        if (textHolder.transform.position.x == 0) rightButton.SetActive(true);
+        if(textHolder.transform.position.x == -16) leftButton.SetActive(true);
     }
 }
