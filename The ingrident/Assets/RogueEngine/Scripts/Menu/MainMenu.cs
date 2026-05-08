@@ -193,6 +193,11 @@ namespace RogueEngine.UI
             SettingsPanel.Get().Show();
         }
 
+        public void OnClickCredits()
+        {
+            SceneNav.GoTo("Credits");
+        }
+
         private IEnumerator FadeToGame()
         {
             BlackPanel.Get().Show();
