@@ -150,6 +150,14 @@ namespace RogueEngine.UI
                 slot.SetSelected(false);
         }
 
+        public void UnselectAndUpdate()
+        {
+            UnselectAll();
+            selected_card = null;
+            selected_item = null;
+            RefreshPanel();
+        }
+
         public void OnClickSlot(BoxUI slot)
         {
             UnselectAll();
@@ -210,6 +218,12 @@ namespace RogueEngine.UI
 
         public void OnClickQuit()
         {
+            if(selected_card != null || selected_item != null)
+            {
+                UnselectAndUpdate();
+                return;
+            }
+
             Debug.Log("Exited shop");
             GameClient.Get().MapEventContinue();
         }
@@ -241,6 +255,7 @@ namespace RogueEngine.UI
 
             //if already healed cant heal
             //costs money?
+            //GUH?
         }
 
         public override void Show(bool instant = false)
