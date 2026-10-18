@@ -23,6 +23,12 @@ namespace RogueEngine.Client
 
         void Awake()
         {
+            if (SceneNav.CurrentActiveScenes() > 0)
+            {
+                Destroy(gameObject);
+                DestroyImmediate(GameObject.Find("EventSystem"));
+            }
+
             instance = this;
             start_pos = transform.position;
             cam = GetComponent<Camera>();

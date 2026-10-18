@@ -215,6 +215,13 @@ namespace RogueEngine.UI
             }
         }
 
+        public void OnClickMap()
+        {
+            SceneManager.LoadScene("Map", LoadSceneMode.Additive);
+
+            Time.timeScale = SceneNav.CurrentActiveScenes() == 1 ? 1 : 0;
+        }
+
         public void OnClickRestart()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);

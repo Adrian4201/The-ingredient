@@ -49,7 +49,10 @@ namespace RogueEngine
             if (!GameClient.Get().IsReady())
                 return;
 
-            SwitchScene();
+            if(SceneNav.CurrentActiveScenes() == 1)
+            {
+                SwitchScene();
+            }
         }
 
         private void SwitchScene()

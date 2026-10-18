@@ -59,5 +59,10 @@ namespace RogueEngine
         {
             return Application.CanStreamedLevelBeLoaded(scene);
         }
+
+        public static int CurrentActiveScenes()
+        {
+            return SceneManager.loadedSceneCount;
+        }
     }
 }
