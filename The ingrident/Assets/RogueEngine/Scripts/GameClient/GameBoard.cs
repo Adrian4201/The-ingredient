@@ -68,7 +68,7 @@ namespace RogueEngine.Client
 
         private void SpawnNewCharacter(BattleCharacter character)
         {
-            GameObject obj = Instantiate(character.GetPrefab(), Vector3.zero, Quaternion.identity);
+            GameObject obj = Instantiate(character.GetPrefab(), Vector3.zero, Quaternion.identity, GameObject.Find("MapHandler").transform);
             obj.SetActive(true);
             obj.GetComponent<BoardCharacter>().SetCharacter(character);
             onCharacterSpawned?.Invoke(obj.GetComponent<BoardCharacter>());

@@ -21,18 +21,22 @@ namespace RogueEngine.Client
 
         private static GameCamera instance;
 
+        [SerializeField] private GameObject eventSystem;
+
         void Awake()
         {
             if (SceneNav.CurrentActiveScenes() > 0)
             {
                 Destroy(gameObject);
-                DestroyImmediate(GameObject.Find("EventSystem"));
+                DestroyImmediate(eventSystem);
             }
-
-            instance = this;
-            start_pos = transform.position;
-            cam = GetComponent<Camera>();
-            cam_ui = cam.transform.GetChild(0).GetComponent<Camera>();
+            else
+            {
+                instance = this;
+                start_pos = transform.position;
+                cam = GetComponent<Camera>();
+                cam_ui = cam.transform.GetChild(0).GetComponent<Camera>();
+            }
         }
 
         void Update()

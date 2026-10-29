@@ -17,6 +17,11 @@ namespace RogueEngine.UI
 
         void Awake()
         {
+            if(SceneNav.CurrentActiveScenes() == 1)
+            {
+                gameObject.SetActive(false);
+            }
+
             instance = this;
             gold_txt.text = "";
 

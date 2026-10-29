@@ -28,6 +28,8 @@ namespace RogueEngine.UI
         public Text mana_txt;
         public Button end_turn_button;
 
+        public GameObject mapHandler;
+
         //public GameObject deck_group;
         //public GameObject discard_group;
         public Text deck_value;
@@ -217,9 +219,18 @@ namespace RogueEngine.UI
 
         public void OnClickMap()
         {
-            SceneManager.LoadScene("Map", LoadSceneMode.Additive);
-
-            Time.timeScale = SceneNav.CurrentActiveScenes() == 1 ? 1 : 0;
+            if(SceneNav.CurrentActiveScenes() == 1)
+            {
+                Time.timeScale = 0;
+                SceneManager.LoadScene("Map", LoadSceneMode.Additive);
+                mapHandler.SetActive(false);
+            }
+            else
+            {
+                Time.timeScale = 1;
+                mapHandler.SetActive(true);
+                SceneManager.UnloadSceneAsync("Map");
+            }
         }
 
         public void OnClickRestart()
